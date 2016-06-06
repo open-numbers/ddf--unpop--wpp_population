@@ -1,64 +1,65 @@
-concept,name,concept_type
-variant,Variant,string
-name,Name,string
-major_area_region_country_or_area,"Major area, region, country or area *",string
-country_code,Country code,entity_domain
-year,Reference date (as of 1 July),time
-alive_between_birth_and_age_1,Alive between birth and age 1,measure
-population_under_age_2,Population under age 2,measure
-population_under_age_5,Population under age 5,measure
-population_under_age_15,Population under age 15,measure
-population_under_age_18,Population under age 18,measure
-population_under_age_20,Population under age 20,measure
-population_under_age_25,Population under age 25,measure
-population_aged_3_4,Population aged 3-4,measure
-population_aged_3_5,Population aged 3-5,measure
-population_aged_3_6,Population aged 3-6,measure
-population_aged_4_5,Population aged 4-5,measure
-population_aged_4_6,Population aged 4-6,measure
-population_aged_5_14,Population aged 5-14,measure
-population_aged_5_10,Population aged 5-10,measure
-population_aged_5_11,Population aged 5-11,measure
-population_aged_6_9,Population aged 6-9,measure
-population_aged_6_10,Population aged 6-10,measure
-population_aged_6_11,Population aged 6-11,measure
-population_aged_6_12,Population aged 6-12,measure
-population_aged_7_10,Population aged 7-10,measure
-population_aged_7_12,Population aged 7-12,measure
-population_aged_11_16,Population aged 11-16,measure
-population_aged_11_17,Population aged 11-17,measure
-population_aged_11_18,Population aged 11-18,measure
-population_aged_12_14,Population aged 12-14,measure
-population_aged_12_16,Population aged 12-16,measure
-population_aged_12_17,Population aged 12-17,measure
-population_aged_12_18,Population aged 12-18,measure
-population_aged_13_17,Population aged 13-17,measure
-population_aged_13_18,Population aged 13-18,measure
-population_aged_13_19,Population aged 13-19,measure
-population_aged_15_17,Population aged 15-17,measure
-population_aged_18_23,Population aged 18-23,measure
-population_aged_15_24,Population aged 15-24,measure
-population_aged_15_49,Population aged 15-49,measure
-population_aged_15_59,Population aged 15-59,measure
-population_aged_15_64,Population aged 15-64,measure
-population_aged_20_64,Population aged 20-64,measure
-population_aged_20_69,Population aged 20-69,measure
-population_aged_25_49,Population aged 25-49,measure
-population_aged_25_64,Population aged 25-64,measure
-population_aged_25_69,Population aged 25-69,measure
-population_aged_15_or_over,Population aged 15 or over,measure
-population_aged_16_or_over,Population aged 16 or over,measure
-population_aged_17_or_over,Population aged 17 or over,measure
-population_aged_18_or_over,Population aged 18 or over,measure
-population_aged_20_or_over,Population aged 20 or over,measure
-population_aged_21_or_over,Population aged 21 or over,measure
-population_aged_25_or_over,Population aged 25 or over,measure
-population_aged_50_or_over,Population aged 50 or over,measure
-population_aged_60_or_over,Population aged 60 or over,measure
-population_aged_65_or_over,Population aged 65 or over,measure
-population_aged_70_or_over,Population aged 70 or over,measure
-population_aged_75_or_over,Population aged 75 or over,measure
-population_aged_80_or_over,Population aged 80 or over,measure
-population_aged_85_or_over,Population aged 85 or over,measure
-population_aged_90_or_over,Population aged 90 or over,measure
-total,Total,measure
+concept,name,concept_type,unit
+variant,Variant,string,
+unit,Unit,string,
+name,Name,string,
+major_area_region_country_or_area,"Major area, region, country or area *",string,
+country_code,Country code,entity_domain,
+year,Reference date (as of 1 July),time,
+alive_between_birth_and_age_1_number,Alive between birth and age 1 (Number),measure,thousands
+population_under_age_2_number,Population under age 2 (Number),measure,thousands
+population_under_age_5_number,Population under age 5 (Number),measure,thousands
+population_under_age_15_number,Population under age 15 (Number),measure,thousands
+population_under_age_18_number,Population under age 18 (Number),measure,thousands
+population_under_age_20_number,Population under age 20 (Number),measure,thousands
+population_under_age_25_number,Population under age 25 (Number),measure,thousands
+population_aged_3_4_number,Population aged 3-4 (Number),measure,thousands
+population_aged_3_5_number,Population aged 3-5 (Number),measure,thousands
+population_aged_3_6_number,Population aged 3-6 (Number),measure,thousands
+population_aged_4_5_number,Population aged 4-5 (Number),measure,thousands
+population_aged_4_6_number,Population aged 4-6 (Number),measure,thousands
+population_aged_5_14_number,Population aged 5-14 (Number),measure,thousands
+population_aged_5_10_number,Population aged 5-10 (Number),measure,thousands
+population_aged_5_11_number,Population aged 5-11 (Number),measure,thousands
+population_aged_6_9_number,Population aged 6-9 (Number),measure,thousands
+population_aged_6_10_number,Population aged 6-10 (Number),measure,thousands
+population_aged_6_11_number,Population aged 6-11 (Number),measure,thousands
+population_aged_6_12_number,Population aged 6-12 (Number),measure,thousands
+population_aged_7_10_number,Population aged 7-10 (Number),measure,thousands
+population_aged_7_12_number,Population aged 7-12 (Number),measure,thousands
+population_aged_11_16_number,Population aged 11-16 (Number),measure,thousands
+population_aged_11_17_number,Population aged 11-17 (Number),measure,thousands
+population_aged_11_18_number,Population aged 11-18 (Number),measure,thousands
+population_aged_12_14_number,Population aged 12-14 (Number),measure,thousands
+population_aged_12_16_number,Population aged 12-16 (Number),measure,thousands
+population_aged_12_17_number,Population aged 12-17 (Number),measure,thousands
+population_aged_12_18_number,Population aged 12-18 (Number),measure,thousands
+population_aged_13_17_number,Population aged 13-17 (Number),measure,thousands
+population_aged_13_18_number,Population aged 13-18 (Number),measure,thousands
+population_aged_13_19_number,Population aged 13-19 (Number),measure,thousands
+population_aged_15_17_number,Population aged 15-17 (Number),measure,thousands
+population_aged_18_23_number,Population aged 18-23 (Number),measure,thousands
+population_aged_15_24_number,Population aged 15-24 (Number),measure,thousands
+population_aged_15_49_number,Population aged 15-49 (Number),measure,thousands
+population_aged_15_59_number,Population aged 15-59 (Number),measure,thousands
+population_aged_15_64_number,Population aged 15-64 (Number),measure,thousands
+population_aged_20_64_number,Population aged 20-64 (Number),measure,thousands
+population_aged_20_69_number,Population aged 20-69 (Number),measure,thousands
+population_aged_25_49_number,Population aged 25-49 (Number),measure,thousands
+population_aged_25_64_number,Population aged 25-64 (Number),measure,thousands
+population_aged_25_69_number,Population aged 25-69 (Number),measure,thousands
+population_aged_15_or_over_number,Population aged 15 or over (Number),measure,thousands
+population_aged_16_or_over_number,Population aged 16 or over (Number),measure,thousands
+population_aged_17_or_over_number,Population aged 17 or over (Number),measure,thousands
+population_aged_18_or_over_number,Population aged 18 or over (Number),measure,thousands
+population_aged_20_or_over_number,Population aged 20 or over (Number),measure,thousands
+population_aged_21_or_over_number,Population aged 21 or over (Number),measure,thousands
+population_aged_25_or_over_number,Population aged 25 or over (Number),measure,thousands
+population_aged_50_or_over_number,Population aged 50 or over (Number),measure,thousands
+population_aged_60_or_over_number,Population aged 60 or over (Number),measure,thousands
+population_aged_65_or_over_number,Population aged 65 or over (Number),measure,thousands
+population_aged_70_or_over_number,Population aged 70 or over (Number),measure,thousands
+population_aged_75_or_over_number,Population aged 75 or over (Number),measure,thousands
+population_aged_80_or_over_number,Population aged 80 or over (Number),measure,thousands
+population_aged_85_or_over_number,Population aged 85 or over (Number),measure,thousands
+population_aged_90_or_over_number,Population aged 90 or over (Number),measure,thousands
+total_number,Total (Number),measure,thousands
