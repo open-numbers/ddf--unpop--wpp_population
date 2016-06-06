@@ -1,0 +1,5785 @@
+country_code,year,variant,total_population_aged_100_number
+4,1990,Estimates,0.01
+4,1995,Estimates,0.012
+4,2000,Estimates,0.011
+4,2005,Estimates,0.01
+4,2010,Estimates,0.019
+4,2015,Estimates,0.028
+4,2015,Medium variant,0.028
+4,2020,Medium variant,0.036
+4,2025,Medium variant,0.046
+4,2030,Medium variant,0.056
+4,2035,Medium variant,0.068
+4,2040,Medium variant,0.088
+4,2045,Medium variant,0.112
+4,2050,Medium variant,0.156
+4,2055,Medium variant,0.183
+4,2060,Medium variant,0.227
+4,2065,Medium variant,0.286
+4,2070,Medium variant,0.374
+4,2075,Medium variant,0.504
+4,2080,Medium variant,0.704
+4,2085,Medium variant,0.977
+4,2090,Medium variant,1.333
+4,2095,Medium variant,1.923
+4,2100,Medium variant,2.865
+8,1990,Estimates,0.02
+8,1995,Estimates,0.016
+8,2000,Estimates,0.018
+8,2005,Estimates,0.024
+8,2010,Estimates,0.049
+8,2015,Estimates,0.083
+8,2015,Medium variant,0.083
+8,2020,Medium variant,0.13
+8,2025,Medium variant,0.191
+8,2030,Medium variant,0.309
+8,2035,Medium variant,0.454
+8,2040,Medium variant,0.699
+8,2045,Medium variant,0.932
+8,2050,Medium variant,1.287
+8,2055,Medium variant,1.989
+8,2060,Medium variant,2.964
+8,2065,Medium variant,3.922
+8,2070,Medium variant,4.436
+8,2075,Medium variant,4.91
+8,2080,Medium variant,5.183
+8,2085,Medium variant,6.299
+8,2090,Medium variant,8.935
+8,2095,Medium variant,12.13
+8,2100,Medium variant,13.608
+12,1990,Estimates,0.017
+12,1995,Estimates,0.026
+12,2000,Estimates,0.07
+12,2005,Estimates,0.156
+12,2010,Estimates,0.412
+12,2015,Estimates,0.742
+12,2015,Medium variant,0.742
+12,2020,Medium variant,1.344
+12,2025,Medium variant,1.975
+12,2030,Medium variant,3.106
+12,2035,Medium variant,4.564
+12,2040,Medium variant,5.929
+12,2045,Medium variant,7.307
+12,2050,Medium variant,9.708
+12,2055,Medium variant,15.646
+12,2060,Medium variant,21.686
+12,2065,Medium variant,30.972
+12,2070,Medium variant,43.011
+12,2075,Medium variant,59.49
+12,2080,Medium variant,85.494
+12,2085,Medium variant,117.57
+12,2090,Medium variant,145.371
+12,2095,Medium variant,162.618
+12,2100,Medium variant,162.236
+24,1990,Estimates,0.005
+24,1995,Estimates,0.008
+24,2000,Estimates,0.01
+24,2005,Estimates,0.014
+24,2010,Estimates,0.02
+24,2015,Estimates,0.028
+24,2015,Medium variant,0.028
+24,2020,Medium variant,0.039
+24,2025,Medium variant,0.053
+24,2030,Medium variant,0.073
+24,2035,Medium variant,0.097
+24,2040,Medium variant,0.13
+24,2045,Medium variant,0.169
+24,2050,Medium variant,0.218
+24,2055,Medium variant,0.323
+24,2060,Medium variant,0.429
+24,2065,Medium variant,0.562
+24,2070,Medium variant,0.755
+24,2075,Medium variant,1.067
+24,2080,Medium variant,1.561
+24,2085,Medium variant,2.287
+24,2090,Medium variant,3.374
+24,2095,Medium variant,4.986
+24,2100,Medium variant,7.456
+28,1990,Estimates,0.001
+28,1995,Estimates,0.001
+28,2000,Estimates,0.001
+28,2005,Estimates,0.002
+28,2010,Estimates,0.003
+28,2015,Estimates,0.006
+28,2015,Medium variant,0.006
+28,2020,Medium variant,0.006
+28,2025,Medium variant,0.009
+28,2030,Medium variant,0.009
+28,2035,Medium variant,0.01
+28,2040,Medium variant,0.015
+28,2045,Medium variant,0.019
+28,2050,Medium variant,0.021
+28,2055,Medium variant,0.037
+28,2060,Medium variant,0.06
+28,2065,Medium variant,0.092
+28,2070,Medium variant,0.148
+28,2075,Medium variant,0.16
+28,2080,Medium variant,0.147
+28,2085,Medium variant,0.188
+28,2090,Medium variant,0.236
+28,2095,Medium variant,0.306
+28,2100,Medium variant,0.362
+31,1990,Estimates,0.585
+31,1995,Estimates,0.263
+31,2000,Estimates,0.186
+31,2005,Estimates,0.144
+31,2010,Estimates,0.02
+31,2015,Estimates,0.11
+31,2015,Medium variant,0.11
+31,2020,Medium variant,0.099
+31,2025,Medium variant,0.184
+31,2030,Medium variant,0.304
+31,2035,Medium variant,0.425
+31,2040,Medium variant,0.587
+31,2045,Medium variant,0.458
+31,2050,Medium variant,0.396
+31,2055,Medium variant,1.137
+31,2060,Medium variant,1.567
+31,2065,Medium variant,2.389
+31,2070,Medium variant,2.377
+31,2075,Medium variant,2.672
+31,2080,Medium variant,3.03
+31,2085,Medium variant,4.567
+31,2090,Medium variant,6.012
+31,2095,Medium variant,6.559
+31,2100,Medium variant,5.939
+32,1990,Estimates,0.633
+32,1995,Estimates,1.044
+32,2000,Estimates,1.875
+32,2005,Estimates,3.439
+32,2010,Estimates,4.375
+32,2015,Estimates,5.956
+32,2015,Medium variant,5.956
+32,2020,Medium variant,8.862
+32,2025,Medium variant,12.617
+32,2030,Medium variant,16.456
+32,2035,Medium variant,19.444
+32,2040,Medium variant,22.68
+32,2045,Medium variant,27.809
+32,2050,Medium variant,35.389
+32,2055,Medium variant,44.857
+32,2060,Medium variant,54.862
+32,2065,Medium variant,65.774
+32,2070,Medium variant,78.824
+32,2075,Medium variant,99.613
+32,2080,Medium variant,132.044
+32,2085,Medium variant,152.249
+32,2090,Medium variant,178.224
+32,2095,Medium variant,207.705
+32,2100,Medium variant,234.865
+36,1990,Estimates,0.89
+36,1995,Estimates,1.295
+36,2000,Estimates,1.525
+36,2005,Estimates,1.97
+36,2010,Estimates,2.792
+36,2015,Estimates,3.739
+36,2015,Medium variant,3.739
+36,2020,Medium variant,4.708
+36,2025,Medium variant,7.354
+36,2030,Medium variant,9.876
+36,2035,Medium variant,12.526
+36,2040,Medium variant,16.53
+36,2045,Medium variant,23.645
+36,2050,Medium variant,36.628
+36,2055,Medium variant,47.219
+36,2060,Medium variant,62.579
+36,2065,Medium variant,80.827
+36,2070,Medium variant,94.037
+36,2075,Medium variant,120.358
+36,2080,Medium variant,135.398
+36,2085,Medium variant,176.962
+36,2090,Medium variant,218.476
+36,2095,Medium variant,253.879
+36,2100,Medium variant,283.311
+40,1990,Estimates,0.207
+40,1995,Estimates,0.295
+40,2000,Estimates,0.448
+40,2005,Estimates,0.681
+40,2010,Estimates,1.062
+40,2015,Estimates,1.446
+40,2015,Medium variant,1.446
+40,2020,Medium variant,1.579
+40,2025,Medium variant,3.141
+40,2030,Medium variant,4.022
+40,2035,Medium variant,4.737
+40,2040,Medium variant,6.703
+40,2045,Medium variant,9.896
+40,2050,Medium variant,11.84
+40,2055,Medium variant,14.625
+40,2060,Medium variant,20.909
+40,2065,Medium variant,28.924
+40,2070,Medium variant,36.381
+40,2075,Medium variant,39.096
+40,2080,Medium variant,41.424
+40,2085,Medium variant,49.546
+40,2090,Medium variant,57.368
+40,2095,Medium variant,66.51
+40,2100,Medium variant,71.356
+44,1990,Estimates,0.004
+44,1995,Estimates,0.005
+44,2000,Estimates,0.006
+44,2005,Estimates,0.007
+44,2010,Estimates,0.012
+44,2015,Estimates,0.018
+44,2015,Medium variant,0.018
+44,2020,Medium variant,0.031
+44,2025,Medium variant,0.043
+44,2030,Medium variant,0.057
+44,2035,Medium variant,0.085
+44,2040,Medium variant,0.126
+44,2045,Medium variant,0.163
+44,2050,Medium variant,0.237
+44,2055,Medium variant,0.346
+44,2060,Medium variant,0.484
+44,2065,Medium variant,0.657
+44,2070,Medium variant,0.756
+44,2075,Medium variant,0.916
+44,2080,Medium variant,1.004
+44,2085,Medium variant,1.291
+44,2090,Medium variant,1.556
+44,2095,Medium variant,1.879
+44,2100,Medium variant,2.032
+48,1990,Estimates,0.001
+48,1995,Estimates,0.001
+48,2000,Estimates,0.002
+48,2005,Estimates,0.004
+48,2010,Estimates,0.006
+48,2015,Estimates,0.007
+48,2015,Medium variant,0.007
+48,2020,Medium variant,0.007
+48,2025,Medium variant,0.009
+48,2030,Medium variant,0.018
+48,2035,Medium variant,0.022
+48,2040,Medium variant,0.04
+48,2045,Medium variant,0.054
+48,2050,Medium variant,0.08
+48,2055,Medium variant,0.13
+48,2060,Medium variant,0.33
+48,2065,Medium variant,0.569
+48,2070,Medium variant,0.852
+48,2075,Medium variant,1.293
+48,2080,Medium variant,1.717
+48,2085,Medium variant,2.536
+48,2090,Medium variant,3.153
+48,2095,Medium variant,3.822
+48,2100,Medium variant,4.368
+50,1990,Estimates,0.024
+50,1995,Estimates,0.044
+50,2000,Estimates,0.143
+50,2005,Estimates,0.547
+50,2010,Estimates,1.855
+50,2015,Estimates,5.733
+50,2015,Medium variant,5.733
+50,2020,Medium variant,13.29
+50,2025,Medium variant,24.972
+50,2030,Medium variant,39.269
+50,2035,Medium variant,54.657
+50,2040,Medium variant,71.355
+50,2045,Medium variant,92.686
+50,2050,Medium variant,112.637
+50,2055,Medium variant,127.497
+50,2060,Medium variant,188.312
+50,2065,Medium variant,291.297
+50,2070,Medium variant,402.732
+50,2075,Medium variant,500.791
+50,2080,Medium variant,647.083
+50,2085,Medium variant,810.363
+50,2090,Medium variant,963.092
+50,2095,Medium variant,1109.204
+50,2100,Medium variant,1264.145
+51,1990,Estimates,0.277
+51,1995,Estimates,0.193
+51,2000,Estimates,0.191
+51,2005,Estimates,0.275
+51,2010,Estimates,0.347
+51,2015,Estimates,0.357
+51,2015,Medium variant,0.357
+51,2020,Medium variant,0.278
+51,2025,Medium variant,0.413
+51,2030,Medium variant,0.518
+51,2035,Medium variant,0.779
+51,2040,Medium variant,1.049
+51,2045,Medium variant,0.658
+51,2050,Medium variant,0.965
+51,2055,Medium variant,1.754
+51,2060,Medium variant,2.577
+51,2065,Medium variant,3.172
+51,2070,Medium variant,2.832
+51,2075,Medium variant,3.015
+51,2080,Medium variant,3.865
+51,2085,Medium variant,5.355
+51,2090,Medium variant,6.959
+51,2095,Medium variant,7.453
+51,2100,Medium variant,6.021
+52,1990,Estimates,0.004
+52,1995,Estimates,0.004
+52,2000,Estimates,0.009
+52,2005,Estimates,0.009
+52,2010,Estimates,0.011
+52,2015,Estimates,0.015
+52,2015,Medium variant,0.015
+52,2020,Medium variant,0.019
+52,2025,Medium variant,0.023
+52,2030,Medium variant,0.031
+52,2035,Medium variant,0.04
+52,2040,Medium variant,0.053
+52,2045,Medium variant,0.072
+52,2050,Medium variant,0.107
+52,2055,Medium variant,0.154
+52,2060,Medium variant,0.217
+52,2065,Medium variant,0.28
+52,2070,Medium variant,0.327
+52,2075,Medium variant,0.399
+52,2080,Medium variant,0.454
+52,2085,Medium variant,0.545
+52,2090,Medium variant,0.62
+52,2095,Medium variant,0.723
+52,2100,Medium variant,0.822
+56,1990,Estimates,0.394
+56,1995,Estimates,0.54
+56,2000,Estimates,0.825
+56,2005,Estimates,1.108
+56,2010,Estimates,1.425
+56,2015,Estimates,1.755
+56,2015,Medium variant,1.755
+56,2020,Medium variant,1.882
+56,2025,Medium variant,3.811
+56,2030,Medium variant,4.953
+56,2035,Medium variant,6.444
+56,2040,Medium variant,7.634
+56,2045,Medium variant,9.045
+56,2050,Medium variant,13.967
+56,2055,Medium variant,17.888
+56,2060,Medium variant,23.559
+56,2065,Medium variant,30.024
+56,2070,Medium variant,35.382
+56,2075,Medium variant,39.968
+56,2080,Medium variant,45.617
+56,2085,Medium variant,53.467
+56,2090,Medium variant,61.944
+56,2095,Medium variant,71.008
+56,2100,Medium variant,76.877
+64,1990,Estimates,0.002
+64,1995,Estimates,0.003
+64,2000,Estimates,0.006
+64,2005,Estimates,0.01
+64,2010,Estimates,0.019
+64,2015,Estimates,0.034
+64,2015,Medium variant,0.034
+64,2020,Medium variant,0.059
+64,2025,Medium variant,0.097
+64,2030,Medium variant,0.15
+64,2035,Medium variant,0.218
+64,2040,Medium variant,0.283
+64,2045,Medium variant,0.368
+64,2050,Medium variant,0.481
+64,2055,Medium variant,0.618
+64,2060,Medium variant,0.882
+64,2065,Medium variant,1.115
+64,2070,Medium variant,1.563
+64,2075,Medium variant,2.039
+64,2080,Medium variant,2.895
+64,2085,Medium variant,3.944
+64,2090,Medium variant,4.863
+64,2095,Medium variant,5.435
+64,2100,Medium variant,5.806
+68,1990,Estimates,0
+68,1995,Estimates,0.002
+68,2000,Estimates,0.008
+68,2005,Estimates,0.032
+68,2010,Estimates,0.115
+68,2015,Estimates,0.339
+68,2015,Medium variant,0.339
+68,2020,Medium variant,0.774
+68,2025,Medium variant,1.344
+68,2030,Medium variant,2
+68,2035,Medium variant,2.479
+68,2040,Medium variant,2.9
+68,2045,Medium variant,3.583
+68,2050,Medium variant,4.107
+68,2055,Medium variant,5.227
+68,2060,Medium variant,6.159
+68,2065,Medium variant,7.351
+68,2070,Medium variant,9.038
+68,2075,Medium variant,11.332
+68,2080,Medium variant,14.396
+68,2085,Medium variant,17.8
+68,2090,Medium variant,21.393
+68,2095,Medium variant,25.626
+68,2100,Medium variant,30.619
+70,1990,Estimates,0.065
+70,1995,Estimates,0.08
+70,2000,Estimates,0.125
+70,2005,Estimates,0.165
+70,2010,Estimates,0.216
+70,2015,Estimates,0.235
+70,2015,Medium variant,0.235
+70,2020,Medium variant,0.248
+70,2025,Medium variant,0.48
+70,2030,Medium variant,0.827
+70,2035,Medium variant,1.188
+70,2040,Medium variant,1.548
+70,2045,Medium variant,1.467
+70,2050,Medium variant,2.374
+70,2055,Medium variant,3.36
+70,2060,Medium variant,4.246
+70,2065,Medium variant,5.27
+70,2070,Medium variant,5.526
+70,2075,Medium variant,6.647
+70,2080,Medium variant,7.637
+70,2085,Medium variant,9.782
+70,2090,Medium variant,10.852
+70,2095,Medium variant,10.386
+70,2100,Medium variant,11.049
+72,1990,Estimates,0.002
+72,1995,Estimates,0.003
+72,2000,Estimates,0.003
+72,2005,Estimates,0.004
+72,2010,Estimates,0.004
+72,2015,Estimates,0.004
+72,2015,Medium variant,0.004
+72,2020,Medium variant,0.006
+72,2025,Medium variant,0.009
+72,2030,Medium variant,0.011
+72,2035,Medium variant,0.016
+72,2040,Medium variant,0.023
+72,2045,Medium variant,0.031
+72,2050,Medium variant,0.043
+72,2055,Medium variant,0.072
+72,2060,Medium variant,0.1
+72,2065,Medium variant,0.141
+72,2070,Medium variant,0.201
+72,2075,Medium variant,0.306
+72,2080,Medium variant,0.49
+72,2085,Medium variant,0.715
+72,2090,Medium variant,0.912
+72,2095,Medium variant,1.084
+72,2100,Medium variant,1.273
+76,1990,Estimates,0.234
+76,1995,Estimates,0.336
+76,2000,Estimates,0.648
+76,2005,Estimates,1.282
+76,2010,Estimates,2.811
+76,2015,Estimates,6.077
+76,2015,Medium variant,6.077
+76,2020,Medium variant,11.01
+76,2025,Medium variant,18.852
+76,2030,Medium variant,30.537
+76,2035,Medium variant,42.78
+76,2040,Medium variant,62.874
+76,2045,Medium variant,85.014
+76,2050,Medium variant,124.564
+76,2055,Medium variant,183.186
+76,2060,Medium variant,256.513
+76,2065,Medium variant,353.446
+76,2070,Medium variant,436.46
+76,2075,Medium variant,533.446
+76,2080,Medium variant,675.655
+76,2085,Medium variant,835.936
+76,2090,Medium variant,943.367
+76,2095,Medium variant,1026.345
+76,2100,Medium variant,1180.74
+84,1990,Estimates,0.004
+84,1995,Estimates,0.005
+84,2000,Estimates,0.005
+84,2005,Estimates,0.003
+84,2010,Estimates,0.002
+84,2015,Estimates,0.002
+84,2015,Medium variant,0.002
+84,2020,Medium variant,0.002
+84,2025,Medium variant,0.001
+84,2030,Medium variant,0.003
+84,2035,Medium variant,0.003
+84,2040,Medium variant,0.003
+84,2045,Medium variant,0.004
+84,2050,Medium variant,0.006
+84,2055,Medium variant,0.01
+84,2060,Medium variant,0.014
+84,2065,Medium variant,0.023
+84,2070,Medium variant,0.034
+84,2075,Medium variant,0.05
+84,2080,Medium variant,0.068
+84,2085,Medium variant,0.099
+84,2090,Medium variant,0.141
+84,2095,Medium variant,0.196
+84,2100,Medium variant,0.263
+90,1990,Estimates,0
+90,1995,Estimates,0
+90,2000,Estimates,0
+90,2005,Estimates,0
+90,2010,Estimates,0
+90,2015,Estimates,0.001
+90,2015,Medium variant,0.001
+90,2020,Medium variant,0.001
+90,2025,Medium variant,0.002
+90,2030,Medium variant,0.002
+90,2035,Medium variant,0.003
+90,2040,Medium variant,0.003
+90,2045,Medium variant,0.004
+90,2050,Medium variant,0.006
+90,2055,Medium variant,0.009
+90,2060,Medium variant,0.013
+90,2065,Medium variant,0.02
+90,2070,Medium variant,0.032
+90,2075,Medium variant,0.056
+90,2080,Medium variant,0.084
+90,2085,Medium variant,0.111
+90,2090,Medium variant,0.145
+90,2095,Medium variant,0.21
+90,2100,Medium variant,0.314
+96,1990,Estimates,0
+96,1995,Estimates,0.001
+96,2000,Estimates,0.002
+96,2005,Estimates,0.002
+96,2010,Estimates,0.003
+96,2015,Estimates,0.004
+96,2015,Medium variant,0.004
+96,2020,Medium variant,0.005
+96,2025,Medium variant,0.008
+96,2030,Medium variant,0.011
+96,2035,Medium variant,0.017
+96,2040,Medium variant,0.026
+96,2045,Medium variant,0.037
+96,2050,Medium variant,0.071
+96,2055,Medium variant,0.136
+96,2060,Medium variant,0.231
+96,2065,Medium variant,0.348
+96,2070,Medium variant,0.514
+96,2075,Medium variant,0.694
+96,2080,Medium variant,0.902
+96,2085,Medium variant,1.135
+96,2090,Medium variant,1.329
+96,2095,Medium variant,1.463
+96,2100,Medium variant,1.704
+100,1990,Estimates,0.199
+100,1995,Estimates,0.157
+100,2000,Estimates,0.145
+100,2005,Estimates,0.162
+100,2010,Estimates,0.224
+100,2015,Estimates,0.232
+100,2015,Medium variant,0.232
+100,2020,Medium variant,0.205
+100,2025,Medium variant,0.361
+100,2030,Medium variant,0.447
+100,2035,Medium variant,0.546
+100,2040,Medium variant,0.595
+100,2045,Medium variant,0.724
+100,2050,Medium variant,0.999
+100,2055,Medium variant,1.15
+100,2060,Medium variant,1.313
+100,2065,Medium variant,1.469
+100,2070,Medium variant,1.803
+100,2075,Medium variant,2.294
+100,2080,Medium variant,2.701
+100,2085,Medium variant,3.054
+100,2090,Medium variant,3.587
+100,2095,Medium variant,3.389
+100,2100,Medium variant,3.303
+104,1990,Estimates,0.071
+104,1995,Estimates,0.09
+104,2000,Estimates,0.115
+104,2005,Estimates,0.146
+104,2010,Estimates,0.175
+104,2015,Estimates,0.209
+104,2015,Medium variant,0.209
+104,2020,Medium variant,0.259
+104,2025,Medium variant,0.298
+104,2030,Medium variant,0.365
+104,2035,Medium variant,0.405
+104,2040,Medium variant,0.443
+104,2045,Medium variant,0.497
+104,2050,Medium variant,0.62
+104,2055,Medium variant,0.977
+104,2060,Medium variant,1.256
+104,2065,Medium variant,1.587
+104,2070,Medium variant,2.074
+104,2075,Medium variant,2.668
+104,2080,Medium variant,3.426
+104,2085,Medium variant,4.261
+104,2090,Medium variant,5.279
+104,2095,Medium variant,6.83
+104,2100,Medium variant,8.984
+108,1990,Estimates,0.007
+108,1995,Estimates,0.009
+108,2000,Estimates,0.013
+108,2005,Estimates,0.015
+108,2010,Estimates,0.019
+108,2015,Estimates,0.022
+108,2015,Medium variant,0.022
+108,2020,Medium variant,0.028
+108,2025,Medium variant,0.04
+108,2030,Medium variant,0.048
+108,2035,Medium variant,0.056
+108,2040,Medium variant,0.066
+108,2045,Medium variant,0.081
+108,2050,Medium variant,0.105
+108,2055,Medium variant,0.172
+108,2060,Medium variant,0.25
+108,2065,Medium variant,0.323
+108,2070,Medium variant,0.432
+108,2075,Medium variant,0.583
+108,2080,Medium variant,0.946
+108,2085,Medium variant,1.605
+108,2090,Medium variant,2.511
+108,2095,Medium variant,3.421
+108,2100,Medium variant,4.403
+112,1990,Estimates,0.567
+112,1995,Estimates,0.725
+112,2000,Estimates,0.532
+112,2005,Estimates,0.472
+112,2010,Estimates,0.452
+112,2015,Estimates,0.425
+112,2015,Medium variant,0.425
+112,2020,Medium variant,0.407
+112,2025,Medium variant,0.735
+112,2030,Medium variant,1.191
+112,2035,Medium variant,1.321
+112,2040,Medium variant,1.567
+112,2045,Medium variant,1.297
+112,2050,Medium variant,1.544
+112,2055,Medium variant,2.427
+112,2060,Medium variant,3.155
+112,2065,Medium variant,3.633
+112,2070,Medium variant,3.443
+112,2075,Medium variant,3.925
+112,2080,Medium variant,4.589
+112,2085,Medium variant,5.783
+112,2090,Medium variant,7.102
+112,2095,Medium variant,6.908
+112,2100,Medium variant,5.77
+116,1990,Estimates,0.006
+116,1995,Estimates,0.01
+116,2000,Estimates,0.013
+116,2005,Estimates,0.017
+116,2010,Estimates,0.022
+116,2015,Estimates,0.03
+116,2015,Medium variant,0.03
+116,2020,Medium variant,0.049
+116,2025,Medium variant,0.087
+116,2030,Medium variant,0.15
+116,2035,Medium variant,0.268
+116,2040,Medium variant,0.432
+116,2045,Medium variant,0.713
+116,2050,Medium variant,1.208
+116,2055,Medium variant,2.235
+116,2060,Medium variant,3.428
+116,2065,Medium variant,5.664
+116,2070,Medium variant,7.89
+116,2075,Medium variant,10.498
+116,2080,Medium variant,10.468
+116,2085,Medium variant,28.137
+116,2090,Medium variant,28.727
+116,2095,Medium variant,39.359
+116,2100,Medium variant,44.836
+120,1990,Estimates,0.021
+120,1995,Estimates,0.028
+120,2000,Estimates,0.036
+120,2005,Estimates,0.045
+120,2010,Estimates,0.056
+120,2015,Estimates,0.068
+120,2015,Medium variant,0.068
+120,2020,Medium variant,0.083
+120,2025,Medium variant,0.103
+120,2030,Medium variant,0.128
+120,2035,Medium variant,0.16
+120,2040,Medium variant,0.199
+120,2045,Medium variant,0.249
+120,2050,Medium variant,0.311
+120,2055,Medium variant,0.395
+120,2060,Medium variant,0.522
+120,2065,Medium variant,0.732
+120,2070,Medium variant,1.06
+120,2075,Medium variant,1.572
+120,2080,Medium variant,2.386
+120,2085,Medium variant,3.722
+120,2090,Medium variant,5.572
+120,2095,Medium variant,7.896
+120,2100,Medium variant,10.871
+124,1990,Estimates,2.476
+124,1995,Estimates,3.012
+124,2000,Estimates,3.334
+124,2005,Estimates,4.008
+124,2010,Estimates,5.544
+124,2015,Estimates,7.739
+124,2015,Medium variant,7.739
+124,2020,Medium variant,10.432
+124,2025,Medium variant,15.359
+124,2030,Medium variant,20.333
+124,2035,Medium variant,24.901
+124,2040,Medium variant,31.449
+124,2045,Medium variant,44.456
+124,2050,Medium variant,66.99
+124,2055,Medium variant,88.169
+124,2060,Medium variant,117.512
+124,2065,Medium variant,146.042
+124,2070,Medium variant,153.601
+124,2075,Medium variant,170.78
+124,2080,Medium variant,199.989
+124,2085,Medium variant,243.666
+124,2090,Medium variant,282.943
+124,2095,Medium variant,334.83
+124,2100,Medium variant,359.435
+132,1990,Estimates,0.001
+132,1995,Estimates,0.001
+132,2000,Estimates,0.001
+132,2005,Estimates,0.001
+132,2010,Estimates,0.003
+132,2015,Estimates,0.004
+132,2015,Medium variant,0.004
+132,2020,Medium variant,0.004
+132,2025,Medium variant,0.005
+132,2030,Medium variant,0.012
+132,2035,Medium variant,0.02
+132,2040,Medium variant,0.026
+132,2045,Medium variant,0.026
+132,2050,Medium variant,0.025
+132,2055,Medium variant,0.059
+132,2060,Medium variant,0.112
+132,2065,Medium variant,0.202
+132,2070,Medium variant,0.27
+132,2075,Medium variant,0.355
+132,2080,Medium variant,0.534
+132,2085,Medium variant,0.879
+132,2090,Medium variant,1.323
+132,2095,Medium variant,1.741
+132,2100,Medium variant,1.982
+140,1990,Estimates,0.006
+140,1995,Estimates,0.007
+140,2000,Estimates,0.01
+140,2005,Estimates,0.011
+140,2010,Estimates,0.012
+140,2015,Estimates,0.015
+140,2015,Medium variant,0.015
+140,2020,Medium variant,0.017
+140,2025,Medium variant,0.022
+140,2030,Medium variant,0.028
+140,2035,Medium variant,0.034
+140,2040,Medium variant,0.044
+140,2045,Medium variant,0.055
+140,2050,Medium variant,0.068
+140,2055,Medium variant,0.093
+140,2060,Medium variant,0.13
+140,2065,Medium variant,0.182
+140,2070,Medium variant,0.265
+140,2075,Medium variant,0.416
+140,2080,Medium variant,0.695
+140,2085,Medium variant,1.166
+140,2090,Medium variant,1.814
+140,2095,Medium variant,2.578
+140,2100,Medium variant,3.592
+144,1990,Estimates,0.148
+144,1995,Estimates,0.331
+144,2000,Estimates,0.467
+144,2005,Estimates,0.902
+144,2010,Estimates,0.747
+144,2015,Estimates,1.01
+144,2015,Medium variant,1.01
+144,2020,Medium variant,1.464
+144,2025,Medium variant,2.048
+144,2030,Medium variant,2.804
+144,2035,Medium variant,3.429
+144,2040,Medium variant,4.252
+144,2045,Medium variant,6.806
+144,2050,Medium variant,10.966
+144,2055,Medium variant,14.133
+144,2060,Medium variant,18.737
+144,2065,Medium variant,23.391
+144,2070,Medium variant,28.379
+144,2075,Medium variant,33.822
+144,2080,Medium variant,43.197
+144,2085,Medium variant,49.13
+144,2090,Medium variant,51.997
+144,2095,Medium variant,57.334
+144,2100,Medium variant,63.583
+148,1990,Estimates,0.007
+148,1995,Estimates,0.009
+148,2000,Estimates,0.011
+148,2005,Estimates,0.015
+148,2010,Estimates,0.018
+148,2015,Estimates,0.022
+148,2015,Medium variant,0.022
+148,2020,Medium variant,0.027
+148,2025,Medium variant,0.032
+148,2030,Medium variant,0.038
+148,2035,Medium variant,0.044
+148,2040,Medium variant,0.052
+148,2045,Medium variant,0.062
+148,2050,Medium variant,0.073
+148,2055,Medium variant,0.1
+148,2060,Medium variant,0.123
+148,2065,Medium variant,0.149
+148,2070,Medium variant,0.188
+148,2075,Medium variant,0.256
+148,2080,Medium variant,0.362
+148,2085,Medium variant,0.525
+148,2090,Medium variant,0.801
+148,2095,Medium variant,1.294
+148,2100,Medium variant,2.155
+152,1990,Estimates,0.515
+152,1995,Estimates,0.813
+152,2000,Estimates,1.258
+152,2005,Estimates,1.998
+152,2010,Estimates,3.42
+152,2015,Estimates,5.586
+152,2015,Medium variant,5.586
+152,2020,Medium variant,8.882
+152,2025,Medium variant,13.123
+152,2030,Medium variant,19.048
+152,2035,Medium variant,25.707
+152,2040,Medium variant,33.28
+152,2045,Medium variant,45.841
+152,2050,Medium variant,61.152
+152,2055,Medium variant,84.332
+152,2060,Medium variant,111.445
+152,2065,Medium variant,141.818
+152,2070,Medium variant,173.001
+152,2075,Medium variant,193.925
+152,2080,Medium variant,213.205
+152,2085,Medium variant,242.896
+152,2090,Medium variant,285.452
+152,2095,Medium variant,316.565
+152,2100,Medium variant,335.173
+156,1990,Estimates,3.167
+156,1995,Estimates,5.471
+156,2000,Estimates,8.792
+156,2005,Estimates,16.155
+156,2010,Estimates,27.899
+156,2015,Estimates,47.657
+156,2015,Medium variant,47.657
+156,2020,Medium variant,73.405
+156,2025,Medium variant,97.681
+156,2030,Medium variant,140.41
+156,2035,Medium variant,206.115
+156,2040,Medium variant,281.587
+156,2045,Medium variant,382.334
+156,2050,Medium variant,620.393
+156,2055,Medium variant,1088.396
+156,2060,Medium variant,1405.385
+156,2065,Medium variant,2106.991
+156,2070,Medium variant,3207.212
+156,2075,Medium variant,3934.549
+156,2080,Medium variant,4001.322
+156,2085,Medium variant,4732.194
+156,2090,Medium variant,6844.079
+156,2095,Medium variant,7215.963
+156,2100,Medium variant,6624.307
+158,1990,Estimates,0.137
+158,1995,Estimates,0.2
+158,2000,Estimates,0.341
+158,2005,Estimates,0.619
+158,2010,Estimates,1.223
+158,2015,Estimates,2.507
+158,2015,Medium variant,2.507
+158,2020,Medium variant,4.207
+158,2025,Medium variant,7.688
+158,2030,Medium variant,12.975
+158,2035,Medium variant,17.631
+158,2040,Medium variant,23.341
+158,2045,Medium variant,31.068
+158,2050,Medium variant,41.651
+158,2055,Medium variant,75.096
+158,2060,Medium variant,102.928
+158,2065,Medium variant,129.104
+158,2070,Medium variant,147.079
+158,2075,Medium variant,162.372
+158,2080,Medium variant,196.367
+158,2085,Medium variant,221.283
+158,2090,Medium variant,214.13
+158,2095,Medium variant,233.266
+158,2100,Medium variant,245.843
+170,1990,Estimates,0.622
+170,1995,Estimates,0.751
+170,2000,Estimates,1.045
+170,2005,Estimates,1.565
+170,2010,Estimates,1.928
+170,2015,Estimates,2.682
+170,2015,Medium variant,2.682
+170,2020,Medium variant,4.083
+170,2025,Medium variant,6.166
+170,2030,Medium variant,8.169
+170,2035,Medium variant,10.509
+170,2040,Medium variant,13.529
+170,2045,Medium variant,18.186
+170,2050,Medium variant,26.682
+170,2055,Medium variant,38.427
+170,2060,Medium variant,51.792
+170,2065,Medium variant,69.386
+170,2070,Medium variant,88.414
+170,2075,Medium variant,100.099
+170,2080,Medium variant,122.689
+170,2085,Medium variant,150.506
+170,2090,Medium variant,175.3
+170,2095,Medium variant,199.063
+170,2100,Medium variant,215.762
+174,1990,Estimates,0
+174,1995,Estimates,0
+174,2000,Estimates,0.001
+174,2005,Estimates,0.001
+174,2010,Estimates,0.001
+174,2015,Estimates,0.001
+174,2015,Medium variant,0.001
+174,2020,Medium variant,0.001
+174,2025,Medium variant,0.001
+174,2030,Medium variant,0.003
+174,2035,Medium variant,0.003
+174,2040,Medium variant,0.003
+174,2045,Medium variant,0.004
+174,2050,Medium variant,0.004
+174,2055,Medium variant,0.005
+174,2060,Medium variant,0.008
+174,2065,Medium variant,0.012
+174,2070,Medium variant,0.016
+174,2075,Medium variant,0.024
+174,2080,Medium variant,0.038
+174,2085,Medium variant,0.059
+174,2090,Medium variant,0.089
+174,2095,Medium variant,0.13
+174,2100,Medium variant,0.193
+175,1990,Estimates,0.001
+175,1995,Estimates,0.002
+175,2000,Estimates,0.003
+175,2005,Estimates,0.006
+175,2010,Estimates,0.009
+175,2015,Estimates,0.013
+175,2015,Medium variant,0.013
+175,2020,Medium variant,0.018
+175,2025,Medium variant,0.026
+175,2030,Medium variant,0.036
+175,2035,Medium variant,0.052
+175,2040,Medium variant,0.075
+175,2045,Medium variant,0.113
+175,2050,Medium variant,0.16
+175,2055,Medium variant,0.236
+175,2060,Medium variant,0.334
+175,2065,Medium variant,0.481
+175,2070,Medium variant,0.699
+175,2075,Medium variant,1.023
+175,2080,Medium variant,1.438
+175,2085,Medium variant,1.837
+175,2090,Medium variant,2.249
+175,2095,Medium variant,2.659
+175,2100,Medium variant,3.584
+178,1990,Estimates,0.007
+178,1995,Estimates,0.008
+178,2000,Estimates,0.01
+178,2005,Estimates,0.012
+178,2010,Estimates,0.015
+178,2015,Estimates,0.019
+178,2015,Medium variant,0.019
+178,2020,Medium variant,0.023
+178,2025,Medium variant,0.03
+178,2030,Medium variant,0.039
+178,2035,Medium variant,0.05
+178,2040,Medium variant,0.066
+178,2045,Medium variant,0.091
+178,2050,Medium variant,0.124
+178,2055,Medium variant,0.175
+178,2060,Medium variant,0.248
+178,2065,Medium variant,0.355
+178,2070,Medium variant,0.525
+178,2075,Medium variant,0.796
+178,2080,Medium variant,1.177
+178,2085,Medium variant,1.62
+178,2090,Medium variant,2.143
+178,2095,Medium variant,2.823
+178,2100,Medium variant,3.837
+180,1990,Estimates,0.038
+180,1995,Estimates,0.051
+180,2000,Estimates,0.062
+180,2005,Estimates,0.077
+180,2010,Estimates,0.099
+180,2015,Estimates,0.132
+180,2015,Medium variant,0.132
+180,2020,Medium variant,0.177
+180,2025,Medium variant,0.239
+180,2030,Medium variant,0.322
+180,2035,Medium variant,0.43
+180,2040,Medium variant,0.571
+180,2045,Medium variant,0.754
+180,2050,Medium variant,0.985
+180,2055,Medium variant,1.248
+180,2060,Medium variant,1.712
+180,2065,Medium variant,2.424
+180,2070,Medium variant,3.536
+180,2075,Medium variant,5.222
+180,2080,Medium variant,7.733
+180,2085,Medium variant,11.705
+180,2090,Medium variant,17.674
+180,2095,Medium variant,26.385
+180,2100,Medium variant,38.656
+188,1990,Estimates,0.035
+188,1995,Estimates,0.064
+188,2000,Estimates,0.108
+188,2005,Estimates,0.175
+188,2010,Estimates,0.277
+188,2015,Estimates,0.434
+188,2015,Medium variant,0.434
+188,2020,Medium variant,0.629
+188,2025,Medium variant,0.926
+188,2030,Medium variant,1.348
+188,2035,Medium variant,1.858
+188,2040,Medium variant,2.562
+188,2045,Medium variant,3.576
+188,2050,Medium variant,5.234
+188,2055,Medium variant,6.897
+188,2060,Medium variant,9.828
+188,2065,Medium variant,13.234
+188,2070,Medium variant,15.788
+188,2075,Medium variant,17.522
+188,2080,Medium variant,21.399
+188,2085,Medium variant,26.559
+188,2090,Medium variant,31.59
+188,2095,Medium variant,35.526
+188,2100,Medium variant,38.448
+191,1990,Estimates,0.074
+191,1995,Estimates,0.094
+191,2000,Estimates,0.144
+191,2005,Estimates,0.208
+191,2010,Estimates,0.393
+191,2015,Estimates,0.532
+191,2015,Medium variant,0.532
+191,2020,Medium variant,0.547
+191,2025,Medium variant,1.074
+191,2030,Medium variant,1.586
+191,2035,Medium variant,2.208
+191,2040,Medium variant,2.741
+191,2045,Medium variant,2.727
+191,2050,Medium variant,3.875
+191,2055,Medium variant,5.185
+191,2060,Medium variant,6.34
+191,2065,Medium variant,7.396
+191,2070,Medium variant,7.964
+191,2075,Medium variant,9.428
+191,2080,Medium variant,10.995
+191,2085,Medium variant,12.592
+191,2090,Medium variant,13.587
+191,2095,Medium variant,13.812
+191,2100,Medium variant,15.596
+192,1990,Estimates,0.596
+192,1995,Estimates,0.824
+192,2000,Estimates,1.293
+192,2005,Estimates,2.067
+192,2010,Estimates,2.505
+192,2015,Estimates,3.463
+192,2015,Medium variant,3.463
+192,2020,Medium variant,5.197
+192,2025,Medium variant,7.334
+192,2030,Medium variant,9.618
+192,2035,Medium variant,12.303
+192,2040,Medium variant,16.34
+192,2045,Medium variant,20.617
+192,2050,Medium variant,25.482
+192,2055,Medium variant,34.449
+192,2060,Medium variant,41.32
+192,2065,Medium variant,64.16
+192,2070,Medium variant,77.795
+192,2075,Medium variant,84.168
+192,2080,Medium variant,71.369
+192,2085,Medium variant,71.562
+192,2090,Medium variant,85.199
+192,2095,Medium variant,88.079
+192,2100,Medium variant,90.361
+196,1990,Estimates,0.016
+196,1995,Estimates,0.016
+196,2000,Estimates,0.021
+196,2005,Estimates,0.03
+196,2010,Estimates,0.049
+196,2015,Estimates,0.077
+196,2015,Medium variant,0.077
+196,2020,Medium variant,0.103
+196,2025,Medium variant,0.143
+196,2030,Medium variant,0.219
+196,2035,Medium variant,0.302
+196,2040,Medium variant,0.428
+196,2045,Medium variant,0.616
+196,2050,Medium variant,0.892
+196,2055,Medium variant,1.241
+196,2060,Medium variant,1.715
+196,2065,Medium variant,2.181
+196,2070,Medium variant,2.726
+196,2075,Medium variant,3.467
+196,2080,Medium variant,4.518
+196,2085,Medium variant,5.96
+196,2090,Medium variant,6.758
+196,2095,Medium variant,8.036
+196,2100,Medium variant,8.705
+203,1990,Estimates,0.099
+203,1995,Estimates,0.127
+203,2000,Estimates,0.193
+203,2005,Estimates,0.301
+203,2010,Estimates,0.463
+203,2015,Estimates,0.839
+203,2015,Medium variant,0.839
+203,2020,Medium variant,0.86
+203,2025,Medium variant,2.286
+203,2030,Medium variant,3.024
+203,2035,Medium variant,3.764
+203,2040,Medium variant,4.401
+203,2045,Medium variant,6.76
+203,2050,Medium variant,10.121
+203,2055,Medium variant,12.505
+203,2060,Medium variant,13.628
+203,2065,Medium variant,15.712
+203,2070,Medium variant,18.985
+203,2075,Medium variant,26.603
+203,2080,Medium variant,33.721
+203,2085,Medium variant,34.073
+203,2090,Medium variant,36.585
+203,2095,Medium variant,38.241
+203,2100,Medium variant,35.589
+204,1990,Estimates,0.001
+204,1995,Estimates,0.001
+204,2000,Estimates,0.002
+204,2005,Estimates,0.003
+204,2010,Estimates,0.004
+204,2015,Estimates,0.004
+204,2015,Medium variant,0.004
+204,2020,Medium variant,0.006
+204,2025,Medium variant,0.007
+204,2030,Medium variant,0.008
+204,2035,Medium variant,0.011
+204,2040,Medium variant,0.014
+204,2045,Medium variant,0.019
+204,2050,Medium variant,0.023
+204,2055,Medium variant,0.031
+204,2060,Medium variant,0.042
+204,2065,Medium variant,0.058
+204,2070,Medium variant,0.08
+204,2075,Medium variant,0.108
+204,2080,Medium variant,0.147
+204,2085,Medium variant,0.201
+204,2090,Medium variant,0.277
+204,2095,Medium variant,0.387
+204,2100,Medium variant,0.546
+208,1990,Estimates,0.486
+208,1995,Estimates,0.64
+208,2000,Estimates,0.842
+208,2005,Estimates,1.064
+208,2010,Estimates,1.356
+208,2015,Estimates,0.347
+208,2015,Medium variant,0.347
+208,2020,Medium variant,1.068
+208,2025,Medium variant,1.253
+208,2030,Medium variant,1.477
+208,2035,Medium variant,1.745
+208,2040,Medium variant,2.487
+208,2045,Medium variant,3.737
+208,2050,Medium variant,5.802
+208,2055,Medium variant,6.186
+208,2060,Medium variant,7.733
+208,2065,Medium variant,9.968
+208,2070,Medium variant,12.904
+208,2075,Medium variant,14.095
+208,2080,Medium variant,15.765
+208,2085,Medium variant,16.777
+208,2090,Medium variant,21.042
+208,2095,Medium variant,27.691
+208,2100,Medium variant,32.143
+214,1990,Estimates,0.062
+214,1995,Estimates,0.218
+214,2000,Estimates,0.614
+214,2005,Estimates,1.28
+214,2010,Estimates,2.071
+214,2015,Estimates,2.88
+214,2015,Medium variant,2.88
+214,2020,Medium variant,3.787
+214,2025,Medium variant,4.971
+214,2030,Medium variant,6.447
+214,2035,Medium variant,8.025
+214,2040,Medium variant,9.566
+214,2045,Medium variant,10.726
+214,2050,Medium variant,13.019
+214,2055,Medium variant,16.622
+214,2060,Medium variant,21.08
+214,2065,Medium variant,25.682
+214,2070,Medium variant,29.951
+214,2075,Medium variant,34.253
+214,2080,Medium variant,38.87
+214,2085,Medium variant,44.803
+214,2090,Medium variant,50.661
+214,2095,Medium variant,56.7
+214,2100,Medium variant,61.115
+218,1990,Estimates,0.114
+218,1995,Estimates,0.268
+218,2000,Estimates,0.582
+218,2005,Estimates,1.058
+218,2010,Estimates,1.221
+218,2015,Estimates,1.185
+218,2015,Medium variant,1.185
+218,2020,Medium variant,1.25
+218,2025,Medium variant,1.484
+218,2030,Medium variant,1.982
+218,2035,Medium variant,2.672
+218,2040,Medium variant,3.622
+218,2045,Medium variant,5.077
+218,2050,Medium variant,6.823
+218,2055,Medium variant,10.49
+218,2060,Medium variant,14.451
+218,2065,Medium variant,19.43
+218,2070,Medium variant,25.969
+218,2075,Medium variant,33.66
+218,2080,Medium variant,42.443
+218,2085,Medium variant,53.262
+218,2090,Medium variant,66.592
+218,2095,Medium variant,80.276
+218,2100,Medium variant,93.835
+222,1990,Estimates,0.018
+222,1995,Estimates,0.023
+222,2000,Estimates,0.031
+222,2005,Estimates,0.052
+222,2010,Estimates,0.098
+222,2015,Estimates,0.194
+222,2015,Medium variant,0.194
+222,2020,Medium variant,0.355
+222,2025,Medium variant,0.577
+222,2030,Medium variant,0.823
+222,2035,Medium variant,1.182
+222,2040,Medium variant,1.584
+222,2045,Medium variant,1.998
+222,2050,Medium variant,2.468
+222,2055,Medium variant,3.262
+222,2060,Medium variant,4.167
+222,2065,Medium variant,5.353
+222,2070,Medium variant,6.692
+222,2075,Medium variant,8.287
+222,2080,Medium variant,10.045
+222,2085,Medium variant,11.874
+222,2090,Medium variant,14.819
+222,2095,Medium variant,18.87
+222,2100,Medium variant,21.839
+226,1990,Estimates,0.001
+226,1995,Estimates,0.001
+226,2000,Estimates,0.001
+226,2005,Estimates,0.001
+226,2010,Estimates,0.002
+226,2015,Estimates,0.003
+226,2015,Medium variant,0.003
+226,2020,Medium variant,0.004
+226,2025,Medium variant,0.004
+226,2030,Medium variant,0.006
+226,2035,Medium variant,0.006
+226,2040,Medium variant,0.007
+226,2045,Medium variant,0.008
+226,2050,Medium variant,0.011
+226,2055,Medium variant,0.022
+226,2060,Medium variant,0.045
+226,2065,Medium variant,0.075
+226,2070,Medium variant,0.109
+226,2075,Medium variant,0.14
+226,2080,Medium variant,0.183
+226,2085,Medium variant,0.316
+226,2090,Medium variant,0.551
+226,2095,Medium variant,0.825
+226,2100,Medium variant,1.158
+231,1990,Estimates,0.041
+231,1995,Estimates,0.052
+231,2000,Estimates,0.076
+231,2005,Estimates,0.117
+231,2010,Estimates,0.165
+231,2015,Estimates,0.274
+231,2015,Medium variant,0.274
+231,2020,Medium variant,0.374
+231,2025,Medium variant,0.518
+231,2030,Medium variant,0.752
+231,2035,Medium variant,1.061
+231,2040,Medium variant,1.472
+231,2045,Medium variant,2.305
+231,2050,Medium variant,3.653
+231,2055,Medium variant,5.326
+231,2060,Medium variant,8.321
+231,2065,Medium variant,12.223
+231,2070,Medium variant,18.625
+231,2075,Medium variant,28.143
+231,2080,Medium variant,40.976
+231,2085,Medium variant,62.37
+231,2090,Medium variant,86.931
+231,2095,Medium variant,125.756
+231,2100,Medium variant,175.211
+232,1990,Estimates,0.004
+232,1995,Estimates,0.004
+232,2000,Estimates,0.006
+232,2005,Estimates,0.007
+232,2010,Estimates,0.009
+232,2015,Estimates,0.011
+232,2015,Medium variant,0.011
+232,2020,Medium variant,0.022
+232,2025,Medium variant,0.037
+232,2030,Medium variant,0.051
+232,2035,Medium variant,0.073
+232,2040,Medium variant,0.103
+232,2045,Medium variant,0.145
+232,2050,Medium variant,0.206
+232,2055,Medium variant,0.251
+232,2060,Medium variant,0.328
+232,2065,Medium variant,0.425
+232,2070,Medium variant,0.575
+232,2075,Medium variant,0.849
+232,2080,Medium variant,1.39
+232,2085,Medium variant,2.192
+232,2090,Medium variant,2.968
+232,2095,Medium variant,3.489
+232,2100,Medium variant,4.35
+233,1990,Estimates,0.057
+233,1995,Estimates,0.055
+233,2000,Estimates,0.064
+233,2005,Estimates,0.087
+233,2010,Estimates,0.111
+233,2015,Estimates,0.137
+233,2015,Medium variant,0.137
+233,2020,Medium variant,0.141
+233,2025,Medium variant,0.261
+233,2030,Medium variant,0.41
+233,2035,Medium variant,0.517
+233,2040,Medium variant,0.639
+233,2045,Medium variant,0.685
+233,2050,Medium variant,0.783
+233,2055,Medium variant,1.069
+233,2060,Medium variant,1.267
+233,2065,Medium variant,1.452
+233,2070,Medium variant,1.505
+233,2075,Medium variant,1.904
+233,2080,Medium variant,2.113
+233,2085,Medium variant,2.487
+233,2090,Medium variant,3.033
+233,2095,Medium variant,2.973
+233,2100,Medium variant,2.487
+242,1990,Estimates,0
+242,1995,Estimates,0
+242,2000,Estimates,0
+242,2005,Estimates,0.002
+242,2010,Estimates,0.004
+242,2015,Estimates,0.007
+242,2015,Medium variant,0.007
+242,2020,Medium variant,0.011
+242,2025,Medium variant,0.011
+242,2030,Medium variant,0.016
+242,2035,Medium variant,0.027
+242,2040,Medium variant,0.039
+242,2045,Medium variant,0.061
+242,2050,Medium variant,0.088
+242,2055,Medium variant,0.124
+242,2060,Medium variant,0.188
+242,2065,Medium variant,0.257
+242,2070,Medium variant,0.302
+242,2075,Medium variant,0.359
+242,2080,Medium variant,0.486
+242,2085,Medium variant,0.643
+242,2090,Medium variant,0.729
+242,2095,Medium variant,0.866
+242,2100,Medium variant,0.965
+246,1990,Estimates,0.139
+246,1995,Estimates,0.196
+246,2000,Estimates,0.276
+246,2005,Estimates,0.367
+246,2010,Estimates,0.576
+246,2015,Estimates,0.734
+246,2015,Medium variant,0.734
+246,2020,Medium variant,0.915
+246,2025,Medium variant,1.441
+246,2030,Medium variant,2.038
+246,2035,Medium variant,2.626
+246,2040,Medium variant,3.44
+246,2045,Medium variant,4.552
+246,2050,Medium variant,8.386
+246,2055,Medium variant,9.487
+246,2060,Medium variant,11.118
+246,2065,Medium variant,13.203
+246,2070,Medium variant,15.329
+246,2075,Medium variant,15.617
+246,2080,Medium variant,20.392
+246,2085,Medium variant,24.586
+246,2090,Medium variant,28.165
+246,2095,Medium variant,33.76
+246,2100,Medium variant,36.369
+250,1990,Estimates,3.37
+250,1995,Estimates,4.806
+250,2000,Estimates,7.071
+250,2005,Estimates,10.328
+250,2010,Estimates,14.926
+250,2015,Estimates,19.768
+250,2015,Medium variant,19.768
+250,2020,Medium variant,18.833
+250,2025,Medium variant,42.215
+250,2030,Medium variant,54.033
+250,2035,Medium variant,67.907
+250,2040,Medium variant,77.859
+250,2045,Medium variant,90.456
+250,2050,Medium variant,146.781
+250,2055,Medium variant,182.035
+250,2060,Medium variant,217.016
+250,2065,Medium variant,260.734
+250,2070,Medium variant,302.363
+250,2075,Medium variant,350.528
+250,2080,Medium variant,372.322
+250,2085,Medium variant,428.25
+250,2090,Medium variant,485.217
+250,2095,Medium variant,531.357
+250,2100,Medium variant,612.7
+254,1990,Estimates,0
+254,1995,Estimates,0
+254,2000,Estimates,0.001
+254,2005,Estimates,0.001
+254,2010,Estimates,0.002
+254,2015,Estimates,0.005
+254,2015,Medium variant,0.005
+254,2020,Medium variant,0.013
+254,2025,Medium variant,0.018
+254,2030,Medium variant,0.032
+254,2035,Medium variant,0.04
+254,2040,Medium variant,0.052
+254,2045,Medium variant,0.11
+254,2050,Medium variant,0.17
+254,2055,Medium variant,0.318
+254,2060,Medium variant,0.498
+254,2065,Medium variant,0.705
+254,2070,Medium variant,1.05
+254,2075,Medium variant,1.46
+254,2080,Medium variant,1.87
+254,2085,Medium variant,2.22
+254,2090,Medium variant,2.588
+254,2095,Medium variant,3.375
+254,2100,Medium variant,4.457
+258,1990,Estimates,0
+258,1995,Estimates,0.001
+258,2000,Estimates,0.002
+258,2005,Estimates,0.004
+258,2010,Estimates,0.003
+258,2015,Estimates,0.008
+258,2015,Medium variant,0.008
+258,2020,Medium variant,0.009
+258,2025,Medium variant,0.016
+258,2030,Medium variant,0.028
+258,2035,Medium variant,0.045
+258,2040,Medium variant,0.064
+258,2045,Medium variant,0.096
+258,2050,Medium variant,0.133
+258,2055,Medium variant,0.223
+258,2060,Medium variant,0.339
+258,2065,Medium variant,0.481
+258,2070,Medium variant,0.682
+258,2075,Medium variant,0.812
+258,2080,Medium variant,0.941
+258,2085,Medium variant,1.134
+258,2090,Medium variant,1.437
+258,2095,Medium variant,1.731
+258,2100,Medium variant,1.894
+262,1990,Estimates,0
+262,1995,Estimates,0
+262,2000,Estimates,0.001
+262,2005,Estimates,0.001
+262,2010,Estimates,0.003
+262,2015,Estimates,0.003
+262,2015,Medium variant,0.003
+262,2020,Medium variant,0.004
+262,2025,Medium variant,0.005
+262,2030,Medium variant,0.007
+262,2035,Medium variant,0.008
+262,2040,Medium variant,0.01
+262,2045,Medium variant,0.013
+262,2050,Medium variant,0.017
+262,2055,Medium variant,0.019
+262,2060,Medium variant,0.025
+262,2065,Medium variant,0.034
+262,2070,Medium variant,0.042
+262,2075,Medium variant,0.054
+262,2080,Medium variant,0.074
+262,2085,Medium variant,0.09
+262,2090,Medium variant,0.136
+262,2095,Medium variant,0.169
+262,2100,Medium variant,0.2
+266,1990,Estimates,0.005
+266,1995,Estimates,0.007
+266,2000,Estimates,0.008
+266,2005,Estimates,0.011
+266,2010,Estimates,0.014
+266,2015,Estimates,0.015
+266,2015,Medium variant,0.015
+266,2020,Medium variant,0.019
+266,2025,Medium variant,0.025
+266,2030,Medium variant,0.03
+266,2035,Medium variant,0.038
+266,2040,Medium variant,0.045
+266,2045,Medium variant,0.056
+266,2050,Medium variant,0.07
+266,2055,Medium variant,0.095
+266,2060,Medium variant,0.13
+266,2065,Medium variant,0.188
+266,2070,Medium variant,0.27
+266,2075,Medium variant,0.374
+266,2080,Medium variant,0.531
+266,2085,Medium variant,0.772
+266,2090,Medium variant,1.081
+266,2095,Medium variant,1.41
+266,2100,Medium variant,1.776
+268,1990,Estimates,0.207
+268,1995,Estimates,0.233
+268,2000,Estimates,0.19
+268,2005,Estimates,0.282
+268,2010,Estimates,0.299
+268,2015,Estimates,0.392
+268,2015,Medium variant,0.392
+268,2020,Medium variant,0.359
+268,2025,Medium variant,0.567
+268,2030,Medium variant,1.002
+268,2035,Medium variant,0.914
+268,2040,Medium variant,1.299
+268,2045,Medium variant,1.17
+268,2050,Medium variant,1.316
+268,2055,Medium variant,1.942
+268,2060,Medium variant,2.766
+268,2065,Medium variant,3.573
+268,2070,Medium variant,3.865
+268,2075,Medium variant,4.421
+268,2080,Medium variant,5.332
+268,2085,Medium variant,6.35
+268,2090,Medium variant,7.907
+268,2095,Medium variant,8.474
+268,2100,Medium variant,7.768
+270,1990,Estimates,0
+270,1995,Estimates,0
+270,2000,Estimates,0
+270,2005,Estimates,0
+270,2010,Estimates,0
+270,2015,Estimates,0
+270,2015,Medium variant,0
+270,2020,Medium variant,0.001
+270,2025,Medium variant,0.001
+270,2030,Medium variant,0.001
+270,2035,Medium variant,0.001
+270,2040,Medium variant,0.002
+270,2045,Medium variant,0.003
+270,2050,Medium variant,0.003
+270,2055,Medium variant,0.004
+270,2060,Medium variant,0.006
+270,2065,Medium variant,0.008
+270,2070,Medium variant,0.012
+270,2075,Medium variant,0.016
+270,2080,Medium variant,0.023
+270,2085,Medium variant,0.033
+270,2090,Medium variant,0.043
+270,2095,Medium variant,0.059
+270,2100,Medium variant,0.085
+275,1990,Estimates,0.003
+275,1995,Estimates,0.004
+275,2000,Estimates,0.004
+275,2005,Estimates,0.004
+275,2010,Estimates,0.006
+275,2015,Estimates,0.008
+275,2015,Medium variant,0.008
+275,2020,Medium variant,0.011
+275,2025,Medium variant,0.017
+275,2030,Medium variant,0.025
+275,2035,Medium variant,0.041
+275,2040,Medium variant,0.067
+275,2045,Medium variant,0.103
+275,2050,Medium variant,0.158
+275,2055,Medium variant,0.24
+275,2060,Medium variant,0.372
+275,2065,Medium variant,0.644
+275,2070,Medium variant,1.002
+275,2075,Medium variant,1.486
+275,2080,Medium variant,2.241
+275,2085,Medium variant,3.296
+275,2090,Medium variant,5.04
+275,2095,Medium variant,7.733
+275,2100,Medium variant,10.461
+276,1990,Estimates,2.728
+276,1995,Estimates,3.861
+276,2000,Estimates,5.814
+276,2005,Estimates,8.712
+276,2010,Estimates,12.423
+276,2015,Estimates,16.096
+276,2015,Medium variant,16.096
+276,2020,Medium variant,14.215
+276,2025,Medium variant,26.129
+276,2030,Medium variant,35.431
+276,2035,Medium variant,44.227
+276,2040,Medium variant,72.942
+276,2045,Medium variant,84.645
+276,2050,Medium variant,93.714
+276,2055,Medium variant,130.356
+276,2060,Medium variant,180.81
+276,2065,Medium variant,244.245
+276,2070,Medium variant,292.063
+276,2075,Medium variant,273.815
+276,2080,Medium variant,300.02
+276,2085,Medium variant,373.532
+276,2090,Medium variant,444.061
+276,2095,Medium variant,477.352
+276,2100,Medium variant,523.434
+288,1990,Estimates,0.002
+288,1995,Estimates,0.003
+288,2000,Estimates,0.003
+288,2005,Estimates,0.004
+288,2010,Estimates,0.006
+288,2015,Estimates,0.008
+288,2015,Medium variant,0.008
+288,2020,Medium variant,0.017
+288,2025,Medium variant,0.033
+288,2030,Medium variant,0.04
+288,2035,Medium variant,0.041
+288,2040,Medium variant,0.043
+288,2045,Medium variant,0.048
+288,2050,Medium variant,0.066
+288,2055,Medium variant,0.084
+288,2060,Medium variant,0.119
+288,2065,Medium variant,0.162
+288,2070,Medium variant,0.228
+288,2075,Medium variant,0.312
+288,2080,Medium variant,0.433
+288,2085,Medium variant,0.594
+288,2090,Medium variant,0.787
+288,2095,Medium variant,1.066
+288,2100,Medium variant,1.436
+296,1990,Estimates,0
+296,1995,Estimates,0
+296,2000,Estimates,0
+296,2005,Estimates,0
+296,2010,Estimates,0
+296,2015,Estimates,0
+296,2015,Medium variant,0
+296,2020,Medium variant,0
+296,2025,Medium variant,0
+296,2030,Medium variant,0
+296,2035,Medium variant,0
+296,2040,Medium variant,0.001
+296,2045,Medium variant,0.001
+296,2050,Medium variant,0.001
+296,2055,Medium variant,0.002
+296,2060,Medium variant,0.002
+296,2065,Medium variant,0.004
+296,2070,Medium variant,0.006
+296,2075,Medium variant,0.007
+296,2080,Medium variant,0.01
+296,2085,Medium variant,0.014
+296,2090,Medium variant,0.02
+296,2095,Medium variant,0.026
+296,2100,Medium variant,0.034
+300,1990,Estimates,0.54
+300,1995,Estimates,0.651
+300,2000,Estimates,1.049
+300,2005,Estimates,1.142
+300,2010,Estimates,1.987
+300,2015,Estimates,2.548
+300,2015,Medium variant,2.548
+300,2020,Medium variant,3.093
+300,2025,Medium variant,4.487
+300,2030,Medium variant,7.713
+300,2035,Medium variant,10.722
+300,2040,Medium variant,13.367
+300,2045,Medium variant,13.805
+300,2050,Medium variant,19.874
+300,2055,Medium variant,22.54
+300,2060,Medium variant,28.965
+300,2065,Medium variant,35.731
+300,2070,Medium variant,44.112
+300,2075,Medium variant,52.384
+300,2080,Medium variant,58.741
+300,2085,Medium variant,66.217
+300,2090,Medium variant,62.687
+300,2095,Medium variant,69.13
+300,2100,Medium variant,70.957
+308,1990,Estimates,0
+308,1995,Estimates,0
+308,2000,Estimates,0.001
+308,2005,Estimates,0.002
+308,2010,Estimates,0.002
+308,2015,Estimates,0.003
+308,2015,Medium variant,0.003
+308,2020,Medium variant,0.007
+308,2025,Medium variant,0.007
+308,2030,Medium variant,0.011
+308,2035,Medium variant,0.01
+308,2040,Medium variant,0.012
+308,2045,Medium variant,0.013
+308,2050,Medium variant,0.015
+308,2055,Medium variant,0.022
+308,2060,Medium variant,0.032
+308,2065,Medium variant,0.048
+308,2070,Medium variant,0.047
+308,2075,Medium variant,0.059
+308,2080,Medium variant,0.085
+308,2085,Medium variant,0.13
+308,2090,Medium variant,0.184
+308,2095,Medium variant,0.193
+308,2100,Medium variant,0.2
+312,1990,Estimates,0.025
+312,1995,Estimates,0.038
+312,2000,Estimates,0.057
+312,2005,Estimates,0.093
+312,2010,Estimates,0.128
+312,2015,Estimates,0.205
+312,2015,Medium variant,0.205
+312,2020,Medium variant,0.31
+312,2025,Medium variant,0.43
+312,2030,Medium variant,0.546
+312,2035,Medium variant,0.733
+312,2040,Medium variant,0.938
+312,2045,Medium variant,1.224
+312,2050,Medium variant,1.668
+312,2055,Medium variant,2.257
+312,2060,Medium variant,2.89
+312,2065,Medium variant,3.804
+312,2070,Medium variant,4.476
+312,2075,Medium variant,4.815
+312,2080,Medium variant,5.02
+312,2085,Medium variant,4.812
+312,2090,Medium variant,5.015
+312,2095,Medium variant,5.462
+312,2100,Medium variant,6.122
+316,1990,Estimates,0
+316,1995,Estimates,0
+316,2000,Estimates,0
+316,2005,Estimates,0.001
+316,2010,Estimates,0.002
+316,2015,Estimates,0.003
+316,2015,Medium variant,0.003
+316,2020,Medium variant,0.01
+316,2025,Medium variant,0.014
+316,2030,Medium variant,0.023
+316,2035,Medium variant,0.042
+316,2040,Medium variant,0.068
+316,2045,Medium variant,0.093
+316,2050,Medium variant,0.17
+316,2055,Medium variant,0.26
+316,2060,Medium variant,0.373
+316,2065,Medium variant,0.544
+316,2070,Medium variant,0.686
+316,2075,Medium variant,0.829
+316,2080,Medium variant,0.933
+316,2085,Medium variant,1.112
+316,2090,Medium variant,1.438
+316,2095,Medium variant,1.852
+316,2100,Medium variant,2.244
+320,1990,Estimates,0.269
+320,1995,Estimates,0.225
+320,2000,Estimates,0.2
+320,2005,Estimates,0.217
+320,2010,Estimates,0.269
+320,2015,Estimates,0.441
+320,2015,Medium variant,0.441
+320,2020,Medium variant,0.706
+320,2025,Medium variant,1.136
+320,2030,Medium variant,1.674
+320,2035,Medium variant,2.228
+320,2040,Medium variant,2.688
+320,2045,Medium variant,3.319
+320,2050,Medium variant,4.539
+320,2055,Medium variant,5.835
+320,2060,Medium variant,7.141
+320,2065,Medium variant,9.238
+320,2070,Medium variant,12.198
+320,2075,Medium variant,16.448
+320,2080,Medium variant,22.251
+320,2085,Medium variant,29.614
+320,2090,Medium variant,36.785
+320,2095,Medium variant,46.886
+320,2100,Medium variant,58.698
+324,1990,Estimates,0
+324,1995,Estimates,0.001
+324,2000,Estimates,0.001
+324,2005,Estimates,0.002
+324,2010,Estimates,0.003
+324,2015,Estimates,0.003
+324,2015,Medium variant,0.003
+324,2020,Medium variant,0.006
+324,2025,Medium variant,0.008
+324,2030,Medium variant,0.009
+324,2035,Medium variant,0.012
+324,2040,Medium variant,0.016
+324,2045,Medium variant,0.022
+324,2050,Medium variant,0.032
+324,2055,Medium variant,0.053
+324,2060,Medium variant,0.08
+324,2065,Medium variant,0.124
+324,2070,Medium variant,0.198
+324,2075,Medium variant,0.333
+324,2080,Medium variant,0.579
+324,2085,Medium variant,1.004
+324,2090,Medium variant,1.706
+324,2095,Medium variant,2.829
+324,2100,Medium variant,4.586
+328,1990,Estimates,0.002
+328,1995,Estimates,0.003
+328,2000,Estimates,0.003
+328,2005,Estimates,0.003
+328,2010,Estimates,0.005
+328,2015,Estimates,0.001
+328,2015,Medium variant,0.001
+328,2020,Medium variant,0.005
+328,2025,Medium variant,0.003
+328,2030,Medium variant,0.003
+328,2035,Medium variant,0.003
+328,2040,Medium variant,0.005
+328,2045,Medium variant,0.006
+328,2050,Medium variant,0.008
+328,2055,Medium variant,0.012
+328,2060,Medium variant,0.018
+328,2065,Medium variant,0.023
+328,2070,Medium variant,0.029
+328,2075,Medium variant,0.031
+328,2080,Medium variant,0.032
+328,2085,Medium variant,0.031
+328,2090,Medium variant,0.035
+328,2095,Medium variant,0.084
+328,2100,Medium variant,0.143
+332,1990,Estimates,0.032
+332,1995,Estimates,0.04
+332,2000,Estimates,0.059
+332,2005,Estimates,0.086
+332,2010,Estimates,0.126
+332,2015,Estimates,0.201
+332,2015,Medium variant,0.201
+332,2020,Medium variant,0.291
+332,2025,Medium variant,0.382
+332,2030,Medium variant,0.48
+332,2035,Medium variant,0.607
+332,2040,Medium variant,0.743
+332,2045,Medium variant,0.863
+332,2050,Medium variant,0.938
+332,2055,Medium variant,1.204
+332,2060,Medium variant,1.461
+332,2065,Medium variant,1.863
+332,2070,Medium variant,2.289
+332,2075,Medium variant,2.763
+332,2080,Medium variant,3.763
+332,2085,Medium variant,5.405
+332,2090,Medium variant,6.787
+332,2095,Medium variant,8.224
+332,2100,Medium variant,9.941
+340,1990,Estimates,0.04
+340,1995,Estimates,0.066
+340,2000,Estimates,0.119
+340,2005,Estimates,0.19
+340,2010,Estimates,0.24
+340,2015,Estimates,0.35
+340,2015,Medium variant,0.35
+340,2020,Medium variant,0.512
+340,2025,Medium variant,0.814
+340,2030,Medium variant,1.064
+340,2035,Medium variant,1.334
+340,2040,Medium variant,1.579
+340,2045,Medium variant,1.888
+340,2050,Medium variant,2.451
+340,2055,Medium variant,3.422
+340,2060,Medium variant,4.48
+340,2065,Medium variant,5.847
+340,2070,Medium variant,7.695
+340,2075,Medium variant,9.897
+340,2080,Medium variant,13.369
+340,2085,Medium variant,17.925
+340,2090,Medium variant,23.218
+340,2095,Medium variant,29.493
+340,2100,Medium variant,35.348
+344,1990,Estimates,0.042
+344,1995,Estimates,0.152
+344,2000,Estimates,0.315
+344,2005,Estimates,0.782
+344,2010,Estimates,1.316
+344,2015,Estimates,2.07
+344,2015,Medium variant,2.07
+344,2020,Medium variant,4.112
+344,2025,Medium variant,5.533
+344,2030,Medium variant,9.399
+344,2035,Medium variant,13.706
+344,2040,Medium variant,16.617
+344,2045,Medium variant,18.868
+344,2050,Medium variant,30.012
+344,2055,Medium variant,45.706
+344,2060,Medium variant,65.618
+344,2065,Medium variant,84.051
+344,2070,Medium variant,94.087
+344,2075,Medium variant,104.016
+344,2080,Medium variant,115.282
+344,2085,Medium variant,126.213
+344,2090,Medium variant,129.102
+344,2095,Medium variant,136.419
+344,2100,Medium variant,136.617
+348,1990,Estimates,0.173
+348,1995,Estimates,0.228
+348,2000,Estimates,0.333
+348,2005,Estimates,0.508
+348,2010,Estimates,0.828
+348,2015,Estimates,1.288
+348,2015,Medium variant,1.288
+348,2020,Medium variant,1.136
+348,2025,Medium variant,2.19
+348,2030,Medium variant,2.528
+348,2035,Medium variant,2.889
+348,2040,Medium variant,3.174
+348,2045,Medium variant,3.921
+348,2050,Medium variant,4.575
+348,2055,Medium variant,6.061
+348,2060,Medium variant,6.45
+348,2065,Medium variant,6.188
+348,2070,Medium variant,7.742
+348,2075,Medium variant,9.968
+348,2080,Medium variant,13.17
+348,2085,Medium variant,13.156
+348,2090,Medium variant,14.324
+348,2095,Medium variant,15.683
+348,2100,Medium variant,15.196
+352,1990,Estimates,0.02
+352,1995,Estimates,0.03
+352,2000,Estimates,0.033
+352,2005,Estimates,0.035
+352,2010,Estimates,0.036
+352,2015,Estimates,0.026
+352,2015,Medium variant,0.026
+352,2020,Medium variant,0.053
+352,2025,Medium variant,0.076
+352,2030,Medium variant,0.105
+352,2035,Medium variant,0.138
+352,2040,Medium variant,0.161
+352,2045,Medium variant,0.235
+352,2050,Medium variant,0.375
+352,2055,Medium variant,0.532
+352,2060,Medium variant,0.735
+352,2065,Medium variant,0.927
+352,2070,Medium variant,1.086
+352,2075,Medium variant,1.274
+352,2080,Medium variant,1.497
+352,2085,Medium variant,1.931
+352,2090,Medium variant,2.206
+352,2095,Medium variant,2.806
+352,2100,Medium variant,3.023
+356,1990,Estimates,5.718
+356,1995,Estimates,6.811
+356,2000,Estimates,10.485
+356,2005,Estimates,13.705
+356,2010,Estimates,19.291
+356,2015,Estimates,27.266
+356,2015,Medium variant,27.266
+356,2020,Medium variant,40.331
+356,2025,Medium variant,57.099
+356,2030,Medium variant,77.608
+356,2035,Medium variant,101.368
+356,2040,Medium variant,129.232
+356,2045,Medium variant,159.08
+356,2050,Medium variant,207.125
+356,2055,Medium variant,299.745
+356,2060,Medium variant,397.938
+356,2065,Medium variant,522.055
+356,2070,Medium variant,679.822
+356,2075,Medium variant,893.472
+356,2080,Medium variant,1175.177
+356,2085,Medium variant,1568.609
+356,2090,Medium variant,2019.323
+356,2095,Medium variant,2512.547
+356,2100,Medium variant,3087.074
+360,1990,Estimates,0.167
+360,1995,Estimates,0.198
+360,2000,Estimates,0.236
+360,2005,Estimates,0.329
+360,2010,Estimates,0.471
+360,2015,Estimates,0.633
+360,2015,Medium variant,0.633
+360,2020,Medium variant,0.837
+360,2025,Medium variant,1.1
+360,2030,Medium variant,1.466
+360,2035,Medium variant,1.608
+360,2040,Medium variant,2.165
+360,2045,Medium variant,2.646
+360,2050,Medium variant,3.42
+360,2055,Medium variant,4.874
+360,2060,Medium variant,7.438
+360,2065,Medium variant,10.284
+360,2070,Medium variant,13.754
+360,2075,Medium variant,17.677
+360,2080,Medium variant,21.983
+360,2085,Medium variant,27.528
+360,2090,Medium variant,30.298
+360,2095,Medium variant,36.688
+360,2100,Medium variant,47.361
+364,1990,Estimates,0.154
+364,1995,Estimates,0.183
+364,2000,Estimates,0.25
+364,2005,Estimates,0.378
+364,2010,Estimates,0.533
+364,2015,Estimates,0.492
+364,2015,Medium variant,0.492
+364,2020,Medium variant,0.766
+364,2025,Medium variant,1.151
+364,2030,Medium variant,1.488
+364,2035,Medium variant,2.004
+364,2040,Medium variant,2.454
+364,2045,Medium variant,2.954
+364,2050,Medium variant,4.634
+364,2055,Medium variant,8.918
+364,2060,Medium variant,13.557
+364,2065,Medium variant,19.889
+364,2070,Medium variant,27.986
+364,2075,Medium variant,38.761
+364,2080,Medium variant,62.806
+364,2085,Medium variant,101.949
+364,2090,Medium variant,127.757
+364,2095,Medium variant,123.09
+364,2100,Medium variant,112.599
+368,1990,Estimates,0.026
+368,1995,Estimates,0.049
+368,2000,Estimates,0.072
+368,2005,Estimates,0.099
+368,2010,Estimates,0.121
+368,2015,Estimates,0.139
+368,2015,Medium variant,0.139
+368,2020,Medium variant,0.168
+368,2025,Medium variant,0.178
+368,2030,Medium variant,0.206
+368,2035,Medium variant,0.258
+368,2040,Medium variant,0.32
+368,2045,Medium variant,0.41
+368,2050,Medium variant,0.481
+368,2055,Medium variant,0.868
+368,2060,Medium variant,1.031
+368,2065,Medium variant,1.546
+368,2070,Medium variant,2.623
+368,2075,Medium variant,3.817
+368,2080,Medium variant,5.335
+368,2085,Medium variant,7.257
+368,2090,Medium variant,10.044
+368,2095,Medium variant,13.801
+368,2100,Medium variant,19.104
+372,1990,Estimates,0.116
+372,1995,Estimates,0.136
+372,2000,Estimates,0.166
+372,2005,Estimates,0.222
+372,2010,Estimates,0.331
+372,2015,Estimates,0.545
+372,2015,Medium variant,0.545
+372,2020,Medium variant,0.786
+372,2025,Medium variant,1.146
+372,2030,Medium variant,1.403
+372,2035,Medium variant,1.906
+372,2040,Medium variant,2.783
+372,2045,Medium variant,4.008
+372,2050,Medium variant,6.128
+372,2055,Medium variant,8.254
+372,2060,Medium variant,10.337
+372,2065,Medium variant,13.759
+372,2070,Medium variant,16.71
+372,2075,Medium variant,22.403
+372,2080,Medium variant,27.559
+372,2085,Medium variant,31.299
+372,2090,Medium variant,31.215
+372,2095,Medium variant,31.419
+372,2100,Medium variant,36.34
+376,1990,Estimates,0.076
+376,1995,Estimates,0.109
+376,2000,Estimates,0.178
+376,2005,Estimates,0.288
+376,2010,Estimates,0.55
+376,2015,Estimates,1.273
+376,2015,Medium variant,1.273
+376,2020,Medium variant,1.928
+376,2025,Medium variant,3.093
+376,2030,Medium variant,4.324
+376,2035,Medium variant,5.583
+376,2040,Medium variant,6.692
+376,2045,Medium variant,8.566
+376,2050,Medium variant,14.167
+376,2055,Medium variant,19.704
+376,2060,Medium variant,23.012
+376,2065,Medium variant,27.821
+376,2070,Medium variant,34.626
+376,2075,Medium variant,45.847
+376,2080,Medium variant,57.979
+376,2085,Medium variant,69.295
+376,2090,Medium variant,80.914
+376,2095,Medium variant,94.01
+376,2100,Medium variant,114.323
+380,1990,Estimates,2.192
+380,1995,Estimates,3.153
+380,2000,Estimates,4.702
+380,2005,Estimates,7.326
+380,2010,Estimates,11.702
+380,2015,Estimates,24.592
+380,2015,Medium variant,24.592
+380,2020,Medium variant,31.831
+380,2025,Medium variant,60.982
+380,2030,Medium variant,84.951
+380,2035,Medium variant,109.363
+380,2040,Medium variant,141.2
+380,2045,Medium variant,163.449
+380,2050,Medium variant,216.207
+380,2055,Medium variant,257.123
+380,2060,Medium variant,319.063
+380,2065,Medium variant,412.65
+380,2070,Medium variant,498.16
+380,2075,Medium variant,562.535
+380,2080,Medium variant,575.357
+380,2085,Medium variant,575.759
+380,2090,Medium variant,598.858
+380,2095,Medium variant,647.145
+380,2100,Medium variant,709.584
+384,1990,Estimates,0.013
+384,1995,Estimates,0.017
+384,2000,Estimates,0.017
+384,2005,Estimates,0.015
+384,2010,Estimates,0.015
+384,2015,Estimates,0.014
+384,2015,Medium variant,0.014
+384,2020,Medium variant,0.018
+384,2025,Medium variant,0.022
+384,2030,Medium variant,0.027
+384,2035,Medium variant,0.035
+384,2040,Medium variant,0.045
+384,2045,Medium variant,0.06
+384,2050,Medium variant,0.076
+384,2055,Medium variant,0.098
+384,2060,Medium variant,0.135
+384,2065,Medium variant,0.192
+384,2070,Medium variant,0.281
+384,2075,Medium variant,0.425
+384,2080,Medium variant,0.67
+384,2085,Medium variant,1.066
+384,2090,Medium variant,1.772
+384,2095,Medium variant,3.011
+384,2100,Medium variant,5.01
+388,1990,Estimates,0.059
+388,1995,Estimates,0.094
+388,2000,Estimates,0.272
+388,2005,Estimates,0.27
+388,2010,Estimates,0.386
+388,2015,Estimates,0.493
+388,2015,Medium variant,0.493
+388,2020,Medium variant,0.605
+388,2025,Medium variant,0.694
+388,2030,Medium variant,0.855
+388,2035,Medium variant,0.967
+388,2040,Medium variant,1.037
+388,2045,Medium variant,1.147
+388,2050,Medium variant,1.402
+388,2055,Medium variant,1.829
+388,2060,Medium variant,2.459
+388,2065,Medium variant,3.121
+388,2070,Medium variant,3.721
+388,2075,Medium variant,4.282
+388,2080,Medium variant,4.856
+388,2085,Medium variant,5.95
+388,2090,Medium variant,7.272
+388,2095,Medium variant,8.483
+388,2100,Medium variant,9.254
+392,1990,Estimates,2.821
+392,1995,Estimates,5.268
+392,2000,Estimates,10.78
+392,2005,Estimates,22.548
+392,2010,Estimates,39.939
+392,2015,Estimates,60.63
+392,2015,Medium variant,60.63
+392,2020,Medium variant,79.523
+392,2025,Medium variant,115.971
+392,2030,Medium variant,165.532
+392,2035,Medium variant,216.863
+392,2040,Medium variant,266.223
+392,2045,Medium variant,338.945
+392,2050,Medium variant,441.117
+392,2055,Medium variant,462.541
+392,2060,Medium variant,461.317
+392,2065,Medium variant,518.644
+392,2070,Medium variant,624.43
+392,2075,Medium variant,779.118
+392,2080,Medium variant,803.601
+392,2085,Medium variant,812.047
+392,2090,Medium variant,833.559
+392,2095,Medium variant,844.42
+392,2100,Medium variant,904.728
+398,1990,Estimates,1.117
+398,1995,Estimates,0.935
+398,2000,Estimates,0.625
+398,2005,Estimates,0.526
+398,2010,Estimates,0.297
+398,2015,Estimates,0.3
+398,2015,Medium variant,0.3
+398,2020,Medium variant,0.206
+398,2025,Medium variant,0.306
+398,2030,Medium variant,0.438
+398,2035,Medium variant,0.425
+398,2040,Medium variant,0.753
+398,2045,Medium variant,0.66
+398,2050,Medium variant,0.756
+398,2055,Medium variant,1.407
+398,2060,Medium variant,1.918
+398,2065,Medium variant,2.704
+398,2070,Medium variant,2.89
+398,2075,Medium variant,3.664
+398,2080,Medium variant,4.554
+398,2085,Medium variant,5.888
+398,2090,Medium variant,8.475
+398,2095,Medium variant,9.17
+398,2100,Medium variant,8.319
+400,1990,Estimates,0.006
+400,1995,Estimates,0.008
+400,2000,Estimates,0.013
+400,2005,Estimates,0.018
+400,2010,Estimates,0.025
+400,2015,Estimates,0.027
+400,2015,Medium variant,0.027
+400,2020,Medium variant,0.031
+400,2025,Medium variant,0.048
+400,2030,Medium variant,0.076
+400,2035,Medium variant,0.117
+400,2040,Medium variant,0.172
+400,2045,Medium variant,0.241
+400,2050,Medium variant,0.314
+400,2055,Medium variant,0.422
+400,2060,Medium variant,0.707
+400,2065,Medium variant,1.237
+400,2070,Medium variant,2.01
+400,2075,Medium variant,3.13
+400,2080,Medium variant,4.427
+400,2085,Medium variant,6.338
+400,2090,Medium variant,8.092
+400,2095,Medium variant,10.524
+400,2100,Medium variant,13.921
+404,1990,Estimates,0.055
+404,1995,Estimates,0.072
+404,2000,Estimates,0.093
+404,2005,Estimates,0.112
+404,2010,Estimates,0.132
+404,2015,Estimates,0.154
+404,2015,Medium variant,0.154
+404,2020,Medium variant,0.185
+404,2025,Medium variant,0.227
+404,2030,Medium variant,0.293
+404,2035,Medium variant,0.38
+404,2040,Medium variant,0.459
+404,2045,Medium variant,0.579
+404,2050,Medium variant,0.954
+404,2055,Medium variant,1.585
+404,2060,Medium variant,2.373
+404,2065,Medium variant,3.392
+404,2070,Medium variant,4.891
+404,2075,Medium variant,7.761
+404,2080,Medium variant,12.914
+404,2085,Medium variant,20.399
+404,2090,Medium variant,28.836
+404,2095,Medium variant,36.181
+404,2100,Medium variant,46.876
+408,1990,Estimates,0.032
+408,1995,Estimates,0.052
+408,2000,Estimates,0.071
+408,2005,Estimates,0.09
+408,2010,Estimates,0.105
+408,2015,Estimates,0.122
+408,2015,Medium variant,0.122
+408,2020,Medium variant,0.16
+408,2025,Medium variant,0.221
+408,2030,Medium variant,0.311
+408,2035,Medium variant,0.453
+408,2040,Medium variant,0.696
+408,2045,Medium variant,0.901
+408,2050,Medium variant,1.048
+408,2055,Medium variant,0.936
+408,2060,Medium variant,1.995
+408,2065,Medium variant,2.333
+408,2070,Medium variant,3.824
+408,2075,Medium variant,4.749
+408,2080,Medium variant,4.137
+408,2085,Medium variant,5.886
+408,2090,Medium variant,7.641
+408,2095,Medium variant,10.152
+408,2100,Medium variant,12.368
+410,1990,Estimates,0.164
+410,1995,Estimates,0.249
+410,2000,Estimates,0.4
+410,2005,Estimates,0.773
+410,2010,Estimates,1.85
+410,2015,Estimates,3.297
+410,2015,Medium variant,3.297
+410,2020,Medium variant,5.343
+410,2025,Medium variant,10.053
+410,2030,Medium variant,16.528
+410,2035,Medium variant,27.576
+410,2040,Medium variant,41.875
+410,2045,Medium variant,55.27
+410,2050,Medium variant,74.972
+410,2055,Medium variant,108.515
+410,2060,Medium variant,169.132
+410,2065,Medium variant,221.492
+410,2070,Medium variant,267.496
+410,2075,Medium variant,311.674
+410,2080,Medium variant,336.855
+410,2085,Medium variant,369.606
+410,2090,Medium variant,378.242
+410,2095,Medium variant,440.676
+410,2100,Medium variant,482.73
+414,1990,Estimates,0
+414,1995,Estimates,0
+414,2000,Estimates,0
+414,2005,Estimates,0
+414,2010,Estimates,0
+414,2015,Estimates,0
+414,2015,Medium variant,0
+414,2020,Medium variant,0.001
+414,2025,Medium variant,0.002
+414,2030,Medium variant,0.003
+414,2035,Medium variant,0.004
+414,2040,Medium variant,0.006
+414,2045,Medium variant,0.009
+414,2050,Medium variant,0.02
+414,2055,Medium variant,0.037
+414,2060,Medium variant,0.095
+414,2065,Medium variant,0.163
+414,2070,Medium variant,0.338
+414,2075,Medium variant,0.553
+414,2080,Medium variant,0.836
+414,2085,Medium variant,1.496
+414,2090,Medium variant,2.122
+414,2095,Medium variant,2.649
+414,2100,Medium variant,3.244
+417,1990,Estimates,0.383
+417,1995,Estimates,0.421
+417,2000,Estimates,0.157
+417,2005,Estimates,0.088
+417,2010,Estimates,0.055
+417,2015,Estimates,0.034
+417,2015,Medium variant,0.034
+417,2020,Medium variant,0.026
+417,2025,Medium variant,0.036
+417,2030,Medium variant,0.038
+417,2035,Medium variant,0.051
+417,2040,Medium variant,0.063
+417,2045,Medium variant,0.054
+417,2050,Medium variant,0.083
+417,2055,Medium variant,0.179
+417,2060,Medium variant,0.282
+417,2065,Medium variant,0.429
+417,2070,Medium variant,0.504
+417,2075,Medium variant,0.661
+417,2080,Medium variant,0.838
+417,2085,Medium variant,1.189
+417,2090,Medium variant,1.922
+417,2095,Medium variant,2.218
+417,2100,Medium variant,2.351
+418,1990,Estimates,0.004
+418,1995,Estimates,0.005
+418,2000,Estimates,0.008
+418,2005,Estimates,0.01
+418,2010,Estimates,0.013
+418,2015,Estimates,0.016
+418,2015,Medium variant,0.016
+418,2020,Medium variant,0.02
+418,2025,Medium variant,0.024
+418,2030,Medium variant,0.031
+418,2035,Medium variant,0.041
+418,2040,Medium variant,0.057
+418,2045,Medium variant,0.084
+418,2050,Medium variant,0.139
+418,2055,Medium variant,0.245
+418,2060,Medium variant,0.419
+418,2065,Medium variant,0.699
+418,2070,Medium variant,1.102
+418,2075,Medium variant,1.715
+418,2080,Medium variant,2.59
+418,2085,Medium variant,4.037
+418,2090,Medium variant,6.46
+418,2095,Medium variant,9.721
+418,2100,Medium variant,12.144
+422,1990,Estimates,0.017
+422,1995,Estimates,0.018
+422,2000,Estimates,0.02
+422,2005,Estimates,0.033
+422,2010,Estimates,0.058
+422,2015,Estimates,0.103
+422,2015,Medium variant,0.103
+422,2020,Medium variant,0.179
+422,2025,Medium variant,0.347
+422,2030,Medium variant,0.652
+422,2035,Medium variant,1.421
+422,2040,Medium variant,2.32
+422,2045,Medium variant,3.142
+422,2050,Medium variant,4.452
+422,2055,Medium variant,6.614
+422,2060,Medium variant,9.496
+422,2065,Medium variant,13.541
+422,2070,Medium variant,17.233
+422,2075,Medium variant,20.596
+422,2080,Medium variant,27.077
+422,2085,Medium variant,37.261
+422,2090,Medium variant,47.304
+422,2095,Medium variant,56.264
+422,2100,Medium variant,60.189
+426,1990,Estimates,0.004
+426,1995,Estimates,0.004
+426,2000,Estimates,0.005
+426,2005,Estimates,0.005
+426,2010,Estimates,0.008
+426,2015,Estimates,0.009
+426,2015,Medium variant,0.009
+426,2020,Medium variant,0.011
+426,2025,Medium variant,0.014
+426,2030,Medium variant,0.013
+426,2035,Medium variant,0.015
+426,2040,Medium variant,0.015
+426,2045,Medium variant,0.015
+426,2050,Medium variant,0.023
+426,2055,Medium variant,0.031
+426,2060,Medium variant,0.038
+426,2065,Medium variant,0.041
+426,2070,Medium variant,0.046
+426,2075,Medium variant,0.063
+426,2080,Medium variant,0.11
+426,2085,Medium variant,0.193
+426,2090,Medium variant,0.292
+426,2095,Medium variant,0.401
+426,2100,Medium variant,0.533
+428,1990,Estimates,0.15
+428,1995,Estimates,0.161
+428,2000,Estimates,0.158
+428,2005,Estimates,0.187
+428,2010,Estimates,0.22
+428,2015,Estimates,0.175
+428,2015,Medium variant,0.175
+428,2020,Medium variant,0.143
+428,2025,Medium variant,0.222
+428,2030,Medium variant,0.309
+428,2035,Medium variant,0.362
+428,2040,Medium variant,0.44
+428,2045,Medium variant,0.496
+428,2050,Medium variant,0.476
+428,2055,Medium variant,0.627
+428,2060,Medium variant,0.782
+428,2065,Medium variant,0.918
+428,2070,Medium variant,0.921
+428,2075,Medium variant,1.088
+428,2080,Medium variant,1.174
+428,2085,Medium variant,1.386
+428,2090,Medium variant,1.761
+428,2095,Medium variant,1.824
+428,2100,Medium variant,1.45
+430,1990,Estimates,0
+430,1995,Estimates,0
+430,2000,Estimates,0
+430,2005,Estimates,0
+430,2010,Estimates,0
+430,2015,Estimates,0.001
+430,2015,Medium variant,0.001
+430,2020,Medium variant,0.002
+430,2025,Medium variant,0.003
+430,2030,Medium variant,0.003
+430,2035,Medium variant,0.004
+430,2040,Medium variant,0.006
+430,2045,Medium variant,0.009
+430,2050,Medium variant,0.011
+430,2055,Medium variant,0.016
+430,2060,Medium variant,0.024
+430,2065,Medium variant,0.034
+430,2070,Medium variant,0.049
+430,2075,Medium variant,0.074
+430,2080,Medium variant,0.112
+430,2085,Medium variant,0.171
+430,2090,Medium variant,0.249
+430,2095,Medium variant,0.361
+430,2100,Medium variant,0.56
+434,1990,Estimates,0.004
+434,1995,Estimates,0.005
+434,2000,Estimates,0.007
+434,2005,Estimates,0.009
+434,2010,Estimates,0.014
+434,2015,Estimates,0.021
+434,2015,Medium variant,0.021
+434,2020,Medium variant,0.032
+434,2025,Medium variant,0.048
+434,2030,Medium variant,0.066
+434,2035,Medium variant,0.089
+434,2040,Medium variant,0.123
+434,2045,Medium variant,0.167
+434,2050,Medium variant,0.223
+434,2055,Medium variant,0.357
+434,2060,Medium variant,0.557
+434,2065,Medium variant,0.916
+434,2070,Medium variant,1.527
+434,2075,Medium variant,2.33
+434,2080,Medium variant,3.296
+434,2085,Medium variant,4.212
+434,2090,Medium variant,5.282
+434,2095,Medium variant,6.088
+434,2100,Medium variant,7.861
+440,1990,Estimates,0.473
+440,1995,Estimates,0.404
+440,2000,Estimates,0.274
+440,2005,Estimates,0.256
+440,2010,Estimates,0.275
+440,2015,Estimates,0.264
+440,2015,Medium variant,0.264
+440,2020,Medium variant,0.285
+440,2025,Medium variant,0.439
+440,2030,Medium variant,0.655
+440,2035,Medium variant,0.785
+440,2040,Medium variant,0.85
+440,2045,Medium variant,0.883
+440,2050,Medium variant,0.854
+440,2055,Medium variant,1.128
+440,2060,Medium variant,1.416
+440,2065,Medium variant,1.759
+440,2070,Medium variant,1.728
+440,2075,Medium variant,1.909
+440,2080,Medium variant,1.885
+440,2085,Medium variant,2.014
+440,2090,Medium variant,2.525
+440,2095,Medium variant,3.136
+440,2100,Medium variant,2.978
+442,1990,Estimates,0.015
+442,1995,Estimates,0.022
+442,2000,Estimates,0.035
+442,2005,Estimates,0.056
+442,2010,Estimates,0.082
+442,2015,Estimates,0.085
+442,2015,Medium variant,0.085
+442,2020,Medium variant,0.085
+442,2025,Medium variant,0.135
+442,2030,Medium variant,0.209
+442,2035,Medium variant,0.292
+442,2040,Medium variant,0.351
+442,2045,Medium variant,0.48
+442,2050,Medium variant,0.674
+442,2055,Medium variant,0.959
+442,2060,Medium variant,1.365
+442,2065,Medium variant,1.898
+442,2070,Medium variant,2.489
+442,2075,Medium variant,2.905
+442,2080,Medium variant,3.373
+442,2085,Medium variant,4.293
+442,2090,Medium variant,4.985
+442,2095,Medium variant,5.834
+442,2100,Medium variant,6.94
+446,1990,Estimates,0
+446,1995,Estimates,0.001
+446,2000,Estimates,0.004
+446,2005,Estimates,0.003
+446,2010,Estimates,0.006
+446,2015,Estimates,0.007
+446,2015,Medium variant,0.007
+446,2020,Medium variant,0.015
+446,2025,Medium variant,0.024
+446,2030,Medium variant,0.043
+446,2035,Medium variant,0.055
+446,2040,Medium variant,0.073
+446,2045,Medium variant,0.13
+446,2050,Medium variant,0.293
+446,2055,Medium variant,0.553
+446,2060,Medium variant,0.923
+446,2065,Medium variant,1.331
+446,2070,Medium variant,1.59
+446,2075,Medium variant,1.964
+446,2080,Medium variant,2.338
+446,2085,Medium variant,3.506
+446,2090,Medium variant,4.555
+446,2095,Medium variant,4.859
+446,2100,Medium variant,4.841
+450,1990,Estimates,0.013
+450,1995,Estimates,0.019
+450,2000,Estimates,0.034
+450,2005,Estimates,0.056
+450,2010,Estimates,0.086
+450,2015,Estimates,0.104
+450,2015,Medium variant,0.104
+450,2020,Medium variant,0.127
+450,2025,Medium variant,0.173
+450,2030,Medium variant,0.226
+450,2035,Medium variant,0.293
+450,2040,Medium variant,0.364
+450,2045,Medium variant,0.458
+450,2050,Medium variant,0.627
+450,2055,Medium variant,1.01
+450,2060,Medium variant,1.469
+450,2065,Medium variant,2.103
+450,2070,Medium variant,3.033
+450,2075,Medium variant,4.476
+450,2080,Medium variant,6.404
+450,2085,Medium variant,8.378
+450,2090,Medium variant,12.505
+450,2095,Medium variant,18.18
+450,2100,Medium variant,25.859
+454,1990,Estimates,0.001
+454,1995,Estimates,0.001
+454,2000,Estimates,0.002
+454,2005,Estimates,0.004
+454,2010,Estimates,0.007
+454,2015,Estimates,0.011
+454,2015,Medium variant,0.011
+454,2020,Medium variant,0.017
+454,2025,Medium variant,0.024
+454,2030,Medium variant,0.036
+454,2035,Medium variant,0.057
+454,2040,Medium variant,0.094
+454,2045,Medium variant,0.154
+454,2050,Medium variant,0.231
+454,2055,Medium variant,0.271
+454,2060,Medium variant,0.334
+454,2065,Medium variant,0.438
+454,2070,Medium variant,0.652
+454,2075,Medium variant,1.042
+454,2080,Medium variant,1.666
+454,2085,Medium variant,2.499
+454,2090,Medium variant,3.734
+454,2095,Medium variant,5.081
+454,2100,Medium variant,6.755
+458,1990,Estimates,0.028
+458,1995,Estimates,0.036
+458,2000,Estimates,0.046
+458,2005,Estimates,0.059
+458,2010,Estimates,0.108
+458,2015,Estimates,0.18
+458,2015,Medium variant,0.18
+458,2020,Medium variant,0.312
+458,2025,Medium variant,0.525
+458,2030,Medium variant,0.758
+458,2035,Medium variant,1.095
+458,2040,Medium variant,1.58
+458,2045,Medium variant,2.038
+458,2050,Medium variant,3.212
+458,2055,Medium variant,4.618
+458,2060,Medium variant,6.748
+458,2065,Medium variant,9.324
+458,2070,Medium variant,12.38
+458,2075,Medium variant,16.253
+458,2080,Medium variant,21.718
+458,2085,Medium variant,32.625
+458,2090,Medium variant,42.219
+458,2095,Medium variant,50.431
+458,2100,Medium variant,57.238
+462,1990,Estimates,0
+462,1995,Estimates,0
+462,2000,Estimates,0
+462,2005,Estimates,0
+462,2010,Estimates,0.002
+462,2015,Estimates,0.004
+462,2015,Medium variant,0.004
+462,2020,Medium variant,0.008
+462,2025,Medium variant,0.014
+462,2030,Medium variant,0.023
+462,2035,Medium variant,0.041
+462,2040,Medium variant,0.064
+462,2045,Medium variant,0.079
+462,2050,Medium variant,0.086
+462,2055,Medium variant,0.133
+462,2060,Medium variant,0.24
+462,2065,Medium variant,0.359
+462,2070,Medium variant,0.499
+462,2075,Medium variant,0.667
+462,2080,Medium variant,0.903
+462,2085,Medium variant,1.362
+462,2090,Medium variant,1.807
+462,2095,Medium variant,2.009
+462,2100,Medium variant,1.945
+466,1990,Estimates,0
+466,1995,Estimates,0
+466,2000,Estimates,0.001
+466,2005,Estimates,0.002
+466,2010,Estimates,0.003
+466,2015,Estimates,0.005
+466,2015,Medium variant,0.005
+466,2020,Medium variant,0.009
+466,2025,Medium variant,0.01
+466,2030,Medium variant,0.012
+466,2035,Medium variant,0.015
+466,2040,Medium variant,0.02
+466,2045,Medium variant,0.03
+466,2050,Medium variant,0.038
+466,2055,Medium variant,0.061
+466,2060,Medium variant,0.088
+466,2065,Medium variant,0.141
+466,2070,Medium variant,0.252
+466,2075,Medium variant,0.462
+466,2080,Medium variant,0.802
+466,2085,Medium variant,1.328
+466,2090,Medium variant,2.138
+466,2095,Medium variant,3.546
+466,2100,Medium variant,5.968
+470,1990,Estimates,0.001
+470,1995,Estimates,0.003
+470,2000,Estimates,0.006
+470,2005,Estimates,0.01
+470,2010,Estimates,0.019
+470,2015,Estimates,0.026
+470,2015,Medium variant,0.026
+470,2020,Medium variant,0.041
+470,2025,Medium variant,0.076
+470,2030,Medium variant,0.113
+470,2035,Medium variant,0.117
+470,2040,Medium variant,0.229
+470,2045,Medium variant,0.34
+470,2050,Medium variant,0.531
+470,2055,Medium variant,0.616
+470,2060,Medium variant,0.777
+470,2065,Medium variant,0.958
+470,2070,Medium variant,1.093
+470,2075,Medium variant,1.384
+470,2080,Medium variant,1.869
+470,2085,Medium variant,1.913
+470,2090,Medium variant,2.139
+470,2095,Medium variant,2.749
+470,2100,Medium variant,3.133
+474,1990,Estimates,0.006
+474,1995,Estimates,0.022
+474,2000,Estimates,0.039
+474,2005,Estimates,0.064
+474,2010,Estimates,0.1
+474,2015,Estimates,0.157
+474,2015,Medium variant,0.157
+474,2020,Medium variant,0.236
+474,2025,Medium variant,0.331
+474,2030,Medium variant,0.45
+474,2035,Medium variant,0.686
+474,2040,Medium variant,0.901
+474,2045,Medium variant,0.993
+474,2050,Medium variant,1.466
+474,2055,Medium variant,2.023
+474,2060,Medium variant,2.631
+474,2065,Medium variant,3.478
+474,2070,Medium variant,3.856
+474,2075,Medium variant,3.661
+474,2080,Medium variant,3.129
+474,2085,Medium variant,2.761
+474,2090,Medium variant,3.552
+474,2095,Medium variant,4.298
+474,2100,Medium variant,4.806
+478,1990,Estimates,0
+478,1995,Estimates,0
+478,2000,Estimates,0
+478,2005,Estimates,0.001
+478,2010,Estimates,0.001
+478,2015,Estimates,0.001
+478,2015,Medium variant,0.001
+478,2020,Medium variant,0.003
+478,2025,Medium variant,0.004
+478,2030,Medium variant,0.005
+478,2035,Medium variant,0.007
+478,2040,Medium variant,0.008
+478,2045,Medium variant,0.01
+478,2050,Medium variant,0.012
+478,2055,Medium variant,0.017
+478,2060,Medium variant,0.024
+478,2065,Medium variant,0.033
+478,2070,Medium variant,0.044
+478,2075,Medium variant,0.059
+478,2080,Medium variant,0.08
+478,2085,Medium variant,0.103
+478,2090,Medium variant,0.136
+478,2095,Medium variant,0.181
+478,2100,Medium variant,0.244
+480,1990,Estimates,0.008
+480,1995,Estimates,0.012
+480,2000,Estimates,0.016
+480,2005,Estimates,0.028
+480,2010,Estimates,0.041
+480,2015,Estimates,0.065
+480,2015,Medium variant,0.065
+480,2020,Medium variant,0.121
+480,2025,Medium variant,0.188
+480,2030,Medium variant,0.253
+480,2035,Medium variant,0.324
+480,2040,Medium variant,0.405
+480,2045,Medium variant,0.531
+480,2050,Medium variant,0.825
+480,2055,Medium variant,1.123
+480,2060,Medium variant,1.46
+480,2065,Medium variant,1.879
+480,2070,Medium variant,2.016
+480,2075,Medium variant,2.24
+480,2080,Medium variant,2.83
+480,2085,Medium variant,2.992
+480,2090,Medium variant,3.404
+480,2095,Medium variant,4.171
+480,2100,Medium variant,4.547
+484,1990,Estimates,3.251
+484,1995,Estimates,4.429
+484,2000,Estimates,5.745
+484,2005,Estimates,7.232
+484,2010,Estimates,7.882
+484,2015,Estimates,11.09
+484,2015,Medium variant,11.09
+484,2020,Medium variant,17.251
+484,2025,Medium variant,28.272
+484,2030,Medium variant,39.115
+484,2035,Medium variant,49.381
+484,2040,Medium variant,58.933
+484,2045,Medium variant,78.026
+484,2050,Medium variant,100.545
+484,2055,Medium variant,148.064
+484,2060,Medium variant,200.906
+484,2065,Medium variant,266.632
+484,2070,Medium variant,358.662
+484,2075,Medium variant,465.695
+484,2080,Medium variant,563.738
+484,2085,Medium variant,657.938
+484,2090,Medium variant,767.45
+484,2095,Medium variant,899.31
+484,2100,Medium variant,1036.506
+496,1990,Estimates,0.002
+496,1995,Estimates,0.002
+496,2000,Estimates,0.003
+496,2005,Estimates,0.003
+496,2010,Estimates,0.004
+496,2015,Estimates,0.009
+496,2015,Medium variant,0.009
+496,2020,Medium variant,0.033
+496,2025,Medium variant,0.075
+496,2030,Medium variant,0.173
+496,2035,Medium variant,0.359
+496,2040,Medium variant,0.598
+496,2045,Medium variant,0.952
+496,2050,Medium variant,1.395
+496,2055,Medium variant,2.474
+496,2060,Medium variant,4.49
+496,2065,Medium variant,7.673
+496,2070,Medium variant,10.551
+496,2075,Medium variant,14.215
+496,2080,Medium variant,18.133
+496,2085,Medium variant,23.185
+496,2090,Medium variant,30.968
+496,2095,Medium variant,32.708
+496,2100,Medium variant,31.479
+498,1990,Estimates,0.052
+498,1995,Estimates,0.058
+498,2000,Estimates,0.066
+498,2005,Estimates,0.09
+498,2010,Estimates,0.099
+498,2015,Estimates,0.1
+498,2015,Medium variant,0.1
+498,2020,Medium variant,0.084
+498,2025,Medium variant,0.153
+498,2030,Medium variant,0.217
+498,2035,Medium variant,0.237
+498,2040,Medium variant,0.26
+498,2045,Medium variant,0.274
+498,2050,Medium variant,0.286
+498,2055,Medium variant,0.608
+498,2060,Medium variant,0.697
+498,2065,Medium variant,0.822
+498,2070,Medium variant,0.746
+498,2075,Medium variant,0.874
+498,2080,Medium variant,1.123
+498,2085,Medium variant,1.485
+498,2090,Medium variant,2.04
+498,2095,Medium variant,1.953
+498,2100,Medium variant,1.674
+499,1990,Estimates,0.02
+499,1995,Estimates,0.026
+499,2000,Estimates,0.028
+499,2005,Estimates,0.029
+499,2010,Estimates,0.027
+499,2015,Estimates,0.009
+499,2015,Medium variant,0.009
+499,2020,Medium variant,0.008
+499,2025,Medium variant,0.017
+499,2030,Medium variant,0.027
+499,2035,Medium variant,0.039
+499,2040,Medium variant,0.056
+499,2045,Medium variant,0.059
+499,2050,Medium variant,0.088
+499,2055,Medium variant,0.151
+499,2060,Medium variant,0.185
+499,2065,Medium variant,0.245
+499,2070,Medium variant,0.289
+499,2075,Medium variant,0.38
+499,2080,Medium variant,0.498
+499,2085,Medium variant,0.667
+499,2090,Medium variant,0.757
+499,2095,Medium variant,0.938
+499,2100,Medium variant,1.146
+504,1990,Estimates,0.017
+504,1995,Estimates,0.03
+504,2000,Estimates,0.048
+504,2005,Estimates,0.085
+504,2010,Estimates,0.124
+504,2015,Estimates,0.201
+504,2015,Medium variant,0.201
+504,2020,Medium variant,0.378
+504,2025,Medium variant,0.757
+504,2030,Medium variant,1.322
+504,2035,Medium variant,1.874
+504,2040,Medium variant,2.628
+504,2045,Medium variant,3.458
+504,2050,Medium variant,4.514
+504,2055,Medium variant,8.277
+504,2060,Medium variant,13.339
+504,2065,Medium variant,19.181
+504,2070,Medium variant,25.126
+504,2075,Medium variant,33.131
+504,2080,Medium variant,45.24
+504,2085,Medium variant,63.473
+504,2090,Medium variant,80.108
+504,2095,Medium variant,97.082
+504,2100,Medium variant,106.674
+508,1990,Estimates,0.01
+508,1995,Estimates,0.013
+508,2000,Estimates,0.018
+508,2005,Estimates,0.025
+508,2010,Estimates,0.037
+508,2015,Estimates,0.055
+508,2015,Medium variant,0.055
+508,2020,Medium variant,0.082
+508,2025,Medium variant,0.115
+508,2030,Medium variant,0.16
+508,2035,Medium variant,0.216
+508,2040,Medium variant,0.285
+508,2045,Medium variant,0.375
+508,2050,Medium variant,0.492
+508,2055,Medium variant,0.657
+508,2060,Medium variant,0.891
+508,2065,Medium variant,1.236
+508,2070,Medium variant,1.71
+508,2075,Medium variant,2.343
+508,2080,Medium variant,3.381
+508,2085,Medium variant,4.932
+508,2090,Medium variant,7.069
+508,2095,Medium variant,10.543
+508,2100,Medium variant,15.659
+512,1990,Estimates,0.001
+512,1995,Estimates,0.004
+512,2000,Estimates,0.01
+512,2005,Estimates,0.025
+512,2010,Estimates,0.06
+512,2015,Estimates,0.116
+512,2015,Medium variant,0.116
+512,2020,Medium variant,0.195
+512,2025,Medium variant,0.267
+512,2030,Medium variant,0.367
+512,2035,Medium variant,0.449
+512,2040,Medium variant,0.634
+512,2045,Medium variant,1.107
+512,2050,Medium variant,1.576
+512,2055,Medium variant,2.5
+512,2060,Medium variant,3.612
+512,2065,Medium variant,5.174
+512,2070,Medium variant,8.289
+512,2075,Medium variant,12.066
+512,2080,Medium variant,18.499
+512,2085,Medium variant,25.757
+512,2090,Medium variant,30.616
+512,2095,Medium variant,33.151
+512,2100,Medium variant,33.001
+516,1990,Estimates,0.002
+516,1995,Estimates,0.003
+516,2000,Estimates,0.004
+516,2005,Estimates,0.005
+516,2010,Estimates,0.005
+516,2015,Estimates,0.006
+516,2015,Medium variant,0.006
+516,2020,Medium variant,0.009
+516,2025,Medium variant,0.01
+516,2030,Medium variant,0.014
+516,2035,Medium variant,0.018
+516,2040,Medium variant,0.025
+516,2045,Medium variant,0.036
+516,2050,Medium variant,0.052
+516,2055,Medium variant,0.079
+516,2060,Medium variant,0.114
+516,2065,Medium variant,0.166
+516,2070,Medium variant,0.236
+516,2075,Medium variant,0.329
+516,2080,Medium variant,0.45
+516,2085,Medium variant,0.604
+516,2090,Medium variant,0.84
+516,2095,Medium variant,1.146
+516,2100,Medium variant,1.413
+524,1990,Estimates,0.015
+524,1995,Estimates,0.02
+524,2000,Estimates,0.028
+524,2005,Estimates,0.041
+524,2010,Estimates,0.056
+524,2015,Estimates,0.074
+524,2015,Medium variant,0.074
+524,2020,Medium variant,0.098
+524,2025,Medium variant,0.146
+524,2030,Medium variant,0.217
+524,2035,Medium variant,0.302
+524,2040,Medium variant,0.48
+524,2045,Medium variant,0.795
+524,2050,Medium variant,1.351
+524,2055,Medium variant,2.226
+524,2060,Medium variant,2.957
+524,2065,Medium variant,4.646
+524,2070,Medium variant,7.17
+524,2075,Medium variant,10.957
+524,2080,Medium variant,16.289
+524,2085,Medium variant,23.516
+524,2090,Medium variant,34.043
+524,2095,Medium variant,48.977
+524,2100,Medium variant,69.683
+528,1990,Estimates,0.759
+528,1995,Estimates,0.948
+528,2000,Estimates,1.166
+528,2005,Estimates,1.374
+528,2010,Estimates,1.656
+528,2015,Estimates,2.213
+528,2015,Medium variant,2.213
+528,2020,Medium variant,3.01
+528,2025,Medium variant,4.637
+528,2030,Medium variant,5.968
+528,2035,Medium variant,7.747
+528,2040,Medium variant,9.936
+528,2045,Medium variant,13.849
+528,2050,Medium variant,21.449
+528,2055,Medium variant,25.724
+528,2060,Medium variant,32.358
+528,2065,Medium variant,41.017
+528,2070,Medium variant,48.773
+528,2075,Medium variant,50.892
+528,2080,Medium variant,51.743
+528,2085,Medium variant,58.544
+528,2090,Medium variant,69.355
+528,2095,Medium variant,81.058
+528,2100,Medium variant,91.951
+531,1990,Estimates,0.008
+531,1995,Estimates,0.012
+531,2000,Estimates,0.013
+531,2005,Estimates,0.018
+531,2010,Estimates,0.025
+531,2015,Estimates,0.033
+531,2015,Medium variant,0.033
+531,2020,Medium variant,0.048
+531,2025,Medium variant,0.066
+531,2030,Medium variant,0.085
+531,2035,Medium variant,0.11
+531,2040,Medium variant,0.145
+531,2045,Medium variant,0.19
+531,2050,Medium variant,0.259
+531,2055,Medium variant,0.341
+531,2060,Medium variant,0.449
+531,2065,Medium variant,0.542
+531,2070,Medium variant,0.584
+531,2075,Medium variant,0.596
+531,2080,Medium variant,0.58
+531,2085,Medium variant,0.652
+531,2090,Medium variant,0.79
+531,2095,Medium variant,0.97
+531,2100,Medium variant,1.056
+533,1990,Estimates,0
+533,1995,Estimates,0.001
+533,2000,Estimates,0.001
+533,2005,Estimates,0.001
+533,2010,Estimates,0.002
+533,2015,Estimates,0.003
+533,2015,Medium variant,0.003
+533,2020,Medium variant,0.004
+533,2025,Medium variant,0.005
+533,2030,Medium variant,0.007
+533,2035,Medium variant,0.01
+533,2040,Medium variant,0.014
+533,2045,Medium variant,0.019
+533,2050,Medium variant,0.028
+533,2055,Medium variant,0.043
+533,2060,Medium variant,0.063
+533,2065,Medium variant,0.085
+533,2070,Medium variant,0.094
+533,2075,Medium variant,0.104
+533,2080,Medium variant,0.114
+533,2085,Medium variant,0.119
+533,2090,Medium variant,0.129
+533,2095,Medium variant,0.192
+533,2100,Medium variant,0.239
+540,1990,Estimates,0
+540,1995,Estimates,0
+540,2000,Estimates,0.001
+540,2005,Estimates,0.001
+540,2010,Estimates,0.003
+540,2015,Estimates,0.005
+540,2015,Medium variant,0.005
+540,2020,Medium variant,0.008
+540,2025,Medium variant,0.015
+540,2030,Medium variant,0.028
+540,2035,Medium variant,0.038
+540,2040,Medium variant,0.056
+540,2045,Medium variant,0.084
+540,2050,Medium variant,0.124
+540,2055,Medium variant,0.181
+540,2060,Medium variant,0.27
+540,2065,Medium variant,0.394
+540,2070,Medium variant,0.522
+540,2075,Medium variant,0.684
+540,2080,Medium variant,0.798
+540,2085,Medium variant,0.944
+540,2090,Medium variant,1.223
+540,2095,Medium variant,1.599
+540,2100,Medium variant,1.868
+548,1990,Estimates,0
+548,1995,Estimates,0
+548,2000,Estimates,0
+548,2005,Estimates,0
+548,2010,Estimates,0
+548,2015,Estimates,0.001
+548,2015,Medium variant,0.001
+548,2020,Medium variant,0.001
+548,2025,Medium variant,0.001
+548,2030,Medium variant,0.001
+548,2035,Medium variant,0.003
+548,2040,Medium variant,0.005
+548,2045,Medium variant,0.009
+548,2050,Medium variant,0.013
+548,2055,Medium variant,0.023
+548,2060,Medium variant,0.034
+548,2065,Medium variant,0.061
+548,2070,Medium variant,0.086
+548,2075,Medium variant,0.125
+548,2080,Medium variant,0.183
+548,2085,Medium variant,0.28
+548,2090,Medium variant,0.409
+548,2095,Medium variant,0.508
+548,2100,Medium variant,0.688
+554,1990,Estimates,0.194
+554,1995,Estimates,0.238
+554,2000,Estimates,0.316
+554,2005,Estimates,0.375
+554,2010,Estimates,0.513
+554,2015,Estimates,0.584
+554,2015,Medium variant,0.584
+554,2020,Medium variant,0.717
+554,2025,Medium variant,1.005
+554,2030,Medium variant,1.416
+554,2035,Medium variant,1.659
+554,2040,Medium variant,2.395
+554,2045,Medium variant,3.654
+554,2050,Medium variant,5.791
+554,2055,Medium variant,7.511
+554,2060,Medium variant,10.141
+554,2065,Medium variant,13.711
+554,2070,Medium variant,15.752
+554,2075,Medium variant,19.146
+554,2080,Medium variant,19.968
+554,2085,Medium variant,23.952
+554,2090,Medium variant,29.052
+554,2095,Medium variant,37.427
+554,2100,Medium variant,43.381
+558,1990,Estimates,0.038
+558,1995,Estimates,0.041
+558,2000,Estimates,0.061
+558,2005,Estimates,0.128
+558,2010,Estimates,0.258
+558,2015,Estimates,0.493
+558,2015,Medium variant,0.493
+558,2020,Medium variant,0.842
+558,2025,Medium variant,1.325
+558,2030,Medium variant,1.836
+558,2035,Medium variant,2.368
+558,2040,Medium variant,3.014
+558,2045,Medium variant,3.83
+558,2050,Medium variant,4.504
+558,2055,Medium variant,7.257
+558,2060,Medium variant,10.197
+558,2065,Medium variant,12.608
+558,2070,Medium variant,15.821
+558,2075,Medium variant,20.701
+558,2080,Medium variant,26.823
+558,2085,Medium variant,34.115
+558,2090,Medium variant,40.6
+558,2095,Medium variant,45.632
+558,2100,Medium variant,49.555
+562,1990,Estimates,0
+562,1995,Estimates,0
+562,2000,Estimates,0.001
+562,2005,Estimates,0.001
+562,2010,Estimates,0.002
+562,2015,Estimates,0.003
+562,2015,Medium variant,0.003
+562,2020,Medium variant,0.006
+562,2025,Medium variant,0.009
+562,2030,Medium variant,0.013
+562,2035,Medium variant,0.019
+562,2040,Medium variant,0.028
+562,2045,Medium variant,0.044
+562,2050,Medium variant,0.064
+562,2055,Medium variant,0.091
+562,2060,Medium variant,0.14
+562,2065,Medium variant,0.209
+562,2070,Medium variant,0.275
+562,2075,Medium variant,0.409
+562,2080,Medium variant,0.627
+562,2085,Medium variant,0.928
+562,2090,Medium variant,1.437
+562,2095,Medium variant,2.294
+562,2100,Medium variant,3.723
+566,1990,Estimates,0.007
+566,1995,Estimates,0.01
+566,2000,Estimates,0.013
+566,2005,Estimates,0.013
+566,2010,Estimates,0.016
+566,2015,Estimates,0.027
+566,2015,Medium variant,0.027
+566,2020,Medium variant,0.031
+566,2025,Medium variant,0.037
+566,2030,Medium variant,0.046
+566,2035,Medium variant,0.059
+566,2040,Medium variant,0.079
+566,2045,Medium variant,0.106
+566,2050,Medium variant,0.142
+566,2055,Medium variant,0.189
+566,2060,Medium variant,0.263
+566,2065,Medium variant,0.369
+566,2070,Medium variant,0.521
+566,2075,Medium variant,0.766
+566,2080,Medium variant,1.128
+566,2085,Medium variant,1.624
+566,2090,Medium variant,2.304
+566,2095,Medium variant,3.349
+566,2100,Medium variant,5.226
+578,1990,Estimates,0.266
+578,1995,Estimates,0.376
+578,2000,Estimates,0.468
+578,2005,Estimates,0.574
+578,2010,Estimates,0.764
+578,2015,Estimates,0.715
+578,2015,Medium variant,0.715
+578,2020,Medium variant,0.851
+578,2025,Medium variant,1.111
+578,2030,Medium variant,1.278
+578,2035,Medium variant,1.527
+578,2040,Medium variant,1.915
+578,2045,Medium variant,2.914
+578,2050,Medium variant,5.066
+578,2055,Medium variant,5.894
+578,2060,Medium variant,7.751
+578,2065,Medium variant,9.777
+578,2070,Medium variant,13.102
+578,2075,Medium variant,16.04
+578,2080,Medium variant,17.791
+578,2085,Medium variant,21.925
+578,2090,Medium variant,27.472
+578,2095,Medium variant,33.582
+578,2100,Medium variant,38.254
+583,1990,Estimates,0
+583,1995,Estimates,0
+583,2000,Estimates,0
+583,2005,Estimates,0
+583,2010,Estimates,0
+583,2015,Estimates,0
+583,2015,Medium variant,0
+583,2020,Medium variant,0.001
+583,2025,Medium variant,0.001
+583,2030,Medium variant,0.001
+583,2035,Medium variant,0.001
+583,2040,Medium variant,0.001
+583,2045,Medium variant,0.001
+583,2050,Medium variant,0.001
+583,2055,Medium variant,0.002
+583,2060,Medium variant,0.004
+583,2065,Medium variant,0.004
+583,2070,Medium variant,0.005
+583,2075,Medium variant,0.004
+583,2080,Medium variant,0.006
+583,2085,Medium variant,0.014
+583,2090,Medium variant,0.02
+583,2095,Medium variant,0.033
+583,2100,Medium variant,0.046
+586,1990,Estimates,0.775
+586,1995,Estimates,0.767
+586,2000,Estimates,0.809
+586,2005,Estimates,0.75
+586,2010,Estimates,0.761
+586,2015,Estimates,0.849
+586,2015,Medium variant,0.849
+586,2020,Medium variant,1.108
+586,2025,Medium variant,1.385
+586,2030,Medium variant,1.67
+586,2035,Medium variant,2.003
+586,2040,Medium variant,2.399
+586,2045,Medium variant,2.899
+586,2050,Medium variant,3.261
+586,2055,Medium variant,3.751
+586,2060,Medium variant,5.111
+586,2065,Medium variant,6.747
+586,2070,Medium variant,8.581
+586,2075,Medium variant,11.051
+586,2080,Medium variant,15.14
+586,2085,Medium variant,21.491
+586,2090,Medium variant,31.123
+586,2095,Medium variant,41.712
+586,2100,Medium variant,54.547
+591,1990,Estimates,0.056
+591,1995,Estimates,0.082
+591,2000,Estimates,0.124
+591,2005,Estimates,0.202
+591,2010,Estimates,0.34
+591,2015,Estimates,0.552
+591,2015,Medium variant,0.552
+591,2020,Medium variant,0.97
+591,2025,Medium variant,1.43
+591,2030,Medium variant,1.925
+591,2035,Medium variant,2.498
+591,2040,Medium variant,3.191
+591,2045,Medium variant,4.04
+591,2050,Medium variant,5.117
+591,2055,Medium variant,6.627
+591,2060,Medium variant,8.651
+591,2065,Medium variant,11.1
+591,2070,Medium variant,13.779
+591,2075,Medium variant,16.638
+591,2080,Medium variant,19.206
+591,2085,Medium variant,21.634
+591,2090,Medium variant,24.33
+591,2095,Medium variant,26.933
+591,2100,Medium variant,30.379
+598,1990,Estimates,0.006
+598,1995,Estimates,0.007
+598,2000,Estimates,0.011
+598,2005,Estimates,0.014
+598,2010,Estimates,0.019
+598,2015,Estimates,0.026
+598,2015,Medium variant,0.026
+598,2020,Medium variant,0.034
+598,2025,Medium variant,0.045
+598,2030,Medium variant,0.059
+598,2035,Medium variant,0.075
+598,2040,Medium variant,0.099
+598,2045,Medium variant,0.13
+598,2050,Medium variant,0.174
+598,2055,Medium variant,0.24
+598,2060,Medium variant,0.313
+598,2065,Medium variant,0.409
+598,2070,Medium variant,0.556
+598,2075,Medium variant,0.812
+598,2080,Medium variant,1.035
+598,2085,Medium variant,1.318
+598,2090,Medium variant,1.655
+598,2095,Medium variant,2.207
+598,2100,Medium variant,3.015
+600,1990,Estimates,0.03
+600,1995,Estimates,0.045
+600,2000,Estimates,0.071
+600,2005,Estimates,0.113
+600,2010,Estimates,0.178
+600,2015,Estimates,0.277
+600,2015,Medium variant,0.277
+600,2020,Medium variant,0.409
+600,2025,Medium variant,0.563
+600,2030,Medium variant,0.736
+600,2035,Medium variant,0.823
+600,2040,Medium variant,1.048
+600,2045,Medium variant,1.279
+600,2050,Medium variant,1.624
+600,2055,Medium variant,2.115
+600,2060,Medium variant,2.526
+600,2065,Medium variant,2.97
+600,2070,Medium variant,3.462
+600,2075,Medium variant,3.961
+600,2080,Medium variant,5.161
+600,2085,Medium variant,6.964
+600,2090,Medium variant,8.811
+600,2095,Medium variant,10.593
+600,2100,Medium variant,12.483
+604,1990,Estimates,0.092
+604,1995,Estimates,0.226
+604,2000,Estimates,0.475
+604,2005,Estimates,0.813
+604,2010,Estimates,1.4
+604,2015,Estimates,2.156
+604,2015,Medium variant,2.156
+604,2020,Medium variant,3.041
+604,2025,Medium variant,4.273
+604,2030,Medium variant,6.808
+604,2035,Medium variant,8.664
+604,2040,Medium variant,11.181
+604,2045,Medium variant,14.518
+604,2050,Medium variant,19.883
+604,2055,Medium variant,28.215
+604,2060,Medium variant,38.85
+604,2065,Medium variant,53.727
+604,2070,Medium variant,71.25
+604,2075,Medium variant,90.142
+604,2080,Medium variant,114.947
+604,2085,Medium variant,139.952
+604,2090,Medium variant,171.85
+604,2095,Medium variant,200.162
+604,2100,Medium variant,222.229
+608,1990,Estimates,0.092
+608,1995,Estimates,0.102
+608,2000,Estimates,0.118
+608,2005,Estimates,0.14
+608,2010,Estimates,0.18
+608,2015,Estimates,0.205
+608,2015,Medium variant,0.205
+608,2020,Medium variant,0.225
+608,2025,Medium variant,0.269
+608,2030,Medium variant,0.376
+608,2035,Medium variant,0.51
+608,2040,Medium variant,0.657
+608,2045,Medium variant,0.767
+608,2050,Medium variant,1.097
+608,2055,Medium variant,1.48
+608,2060,Medium variant,2.058
+608,2065,Medium variant,2.704
+608,2070,Medium variant,3.521
+608,2075,Medium variant,4.357
+608,2080,Medium variant,5.529
+608,2085,Medium variant,6.903
+608,2090,Medium variant,8.955
+608,2095,Medium variant,12.145
+608,2100,Medium variant,15.052
+616,1990,Estimates,0.641
+616,1995,Estimates,0.714
+616,2000,Estimates,0.978
+616,2005,Estimates,1.467
+616,2010,Estimates,2.912
+616,2015,Estimates,4.53
+616,2015,Medium variant,4.53
+616,2020,Medium variant,5.44
+616,2025,Medium variant,11.117
+616,2030,Medium variant,16.375
+616,2035,Medium variant,20.925
+616,2040,Medium variant,24.528
+616,2045,Medium variant,25.581
+616,2050,Medium variant,41.006
+616,2055,Medium variant,59.141
+616,2060,Medium variant,71.689
+616,2065,Medium variant,69.049
+616,2070,Medium variant,71.653
+616,2075,Medium variant,89.66
+616,2080,Medium variant,116.495
+616,2085,Medium variant,143.338
+616,2090,Medium variant,149.501
+616,2095,Medium variant,146.352
+616,2100,Medium variant,134.524
+620,1990,Estimates,0.222
+620,1995,Estimates,0.33
+620,2000,Estimates,0.47
+620,2005,Estimates,0.673
+620,2010,Estimates,0.993
+620,2015,Estimates,1.604
+620,2015,Medium variant,1.604
+620,2020,Medium variant,2.293
+620,2025,Medium variant,3.762
+620,2030,Medium variant,6.313
+620,2035,Medium variant,8.635
+620,2040,Medium variant,11.191
+620,2045,Medium variant,14.274
+620,2050,Medium variant,19.198
+620,2055,Medium variant,24.576
+620,2060,Medium variant,31.108
+620,2065,Medium variant,39.635
+620,2070,Medium variant,47.295
+620,2075,Medium variant,58.935
+620,2080,Medium variant,66.959
+620,2085,Medium variant,69.656
+620,2090,Medium variant,70.683
+620,2095,Medium variant,75.999
+620,2100,Medium variant,86.564
+624,1990,Estimates,0
+624,1995,Estimates,0
+624,2000,Estimates,0
+624,2005,Estimates,0
+624,2010,Estimates,0
+624,2015,Estimates,0
+624,2015,Medium variant,0
+624,2020,Medium variant,0.001
+624,2025,Medium variant,0.001
+624,2030,Medium variant,0.001
+624,2035,Medium variant,0.001
+624,2040,Medium variant,0.002
+624,2045,Medium variant,0.003
+624,2050,Medium variant,0.003
+624,2055,Medium variant,0.004
+624,2060,Medium variant,0.006
+624,2065,Medium variant,0.007
+624,2070,Medium variant,0.01
+624,2075,Medium variant,0.013
+624,2080,Medium variant,0.018
+624,2085,Medium variant,0.027
+624,2090,Medium variant,0.037
+624,2095,Medium variant,0.05
+624,2100,Medium variant,0.068
+626,1990,Estimates,0
+626,1995,Estimates,0
+626,2000,Estimates,0
+626,2005,Estimates,0.001
+626,2010,Estimates,0.001
+626,2015,Estimates,0.001
+626,2015,Medium variant,0.001
+626,2020,Medium variant,0.001
+626,2025,Medium variant,0.003
+626,2030,Medium variant,0.006
+626,2035,Medium variant,0.008
+626,2040,Medium variant,0.011
+626,2045,Medium variant,0.019
+626,2050,Medium variant,0.036
+626,2055,Medium variant,0.022
+626,2060,Medium variant,0.031
+626,2065,Medium variant,0.043
+626,2070,Medium variant,0.061
+626,2075,Medium variant,0.082
+626,2080,Medium variant,0.082
+626,2085,Medium variant,0.136
+626,2090,Medium variant,0.188
+626,2095,Medium variant,0.27
+626,2100,Medium variant,0.373
+630,1990,Estimates,0.496
+630,1995,Estimates,0.248
+630,2000,Estimates,0.559
+630,2005,Estimates,0.738
+630,2010,Estimates,1.094
+630,2015,Estimates,1.657
+630,2015,Medium variant,1.657
+630,2020,Medium variant,2.071
+630,2025,Medium variant,2.583
+630,2030,Medium variant,3.017
+630,2035,Medium variant,3.579
+630,2040,Medium variant,4.377
+630,2045,Medium variant,5.462
+630,2050,Medium variant,7.257
+630,2055,Medium variant,8.613
+630,2060,Medium variant,10.177
+630,2065,Medium variant,11.88
+630,2070,Medium variant,13.552
+630,2075,Medium variant,15.095
+630,2080,Medium variant,17.168
+630,2085,Medium variant,19.078
+630,2090,Medium variant,20.989
+630,2095,Medium variant,23.579
+630,2100,Medium variant,24.984
+634,1990,Estimates,0.003
+634,1995,Estimates,0.005
+634,2000,Estimates,0.006
+634,2005,Estimates,0.014
+634,2010,Estimates,0.01
+634,2015,Estimates,0.01
+634,2015,Medium variant,0.01
+634,2020,Medium variant,0.014
+634,2025,Medium variant,0.014
+634,2030,Medium variant,0.023
+634,2035,Medium variant,0.032
+634,2040,Medium variant,0.092
+634,2045,Medium variant,0.123
+634,2050,Medium variant,0.167
+634,2055,Medium variant,0.374
+634,2060,Medium variant,0.79
+634,2065,Medium variant,1.431
+634,2070,Medium variant,2.903
+634,2075,Medium variant,3.91
+634,2080,Medium variant,4.54
+634,2085,Medium variant,7.581
+634,2090,Medium variant,10.057
+634,2095,Medium variant,13.133
+634,2100,Medium variant,16.492
+638,1990,Estimates,0.019
+638,1995,Estimates,0.029
+638,2000,Estimates,0.046
+638,2005,Estimates,0.074
+638,2010,Estimates,0.104
+638,2015,Estimates,0.149
+638,2015,Medium variant,0.149
+638,2020,Medium variant,0.219
+638,2025,Medium variant,0.336
+638,2030,Medium variant,0.42
+638,2035,Medium variant,0.605
+638,2040,Medium variant,0.867
+638,2045,Medium variant,1.143
+638,2050,Medium variant,1.567
+638,2055,Medium variant,2.363
+638,2060,Medium variant,3.215
+638,2065,Medium variant,4.428
+638,2070,Medium variant,5.552
+638,2075,Medium variant,5.892
+638,2080,Medium variant,6.237
+638,2085,Medium variant,6.538
+638,2090,Medium variant,7.463
+638,2095,Medium variant,8.53
+638,2100,Medium variant,9.73
+642,1990,Estimates,0.181
+642,1995,Estimates,0.263
+642,2000,Estimates,0.331
+642,2005,Estimates,0.581
+642,2010,Estimates,0.946
+642,2015,Estimates,1.209
+642,2015,Medium variant,1.209
+642,2020,Medium variant,1.072
+642,2025,Medium variant,2.012
+642,2030,Medium variant,2.817
+642,2035,Medium variant,3.53
+642,2040,Medium variant,4.403
+642,2045,Medium variant,4.26
+642,2050,Medium variant,6.029
+642,2055,Medium variant,8.54
+642,2060,Medium variant,9.944
+642,2065,Medium variant,9.434
+642,2070,Medium variant,14.887
+642,2075,Medium variant,17.675
+642,2080,Medium variant,20.867
+642,2085,Medium variant,20.689
+642,2090,Medium variant,23.851
+642,2095,Medium variant,21.824
+642,2100,Medium variant,25.155
+643,1990,Estimates,6.229
+643,1995,Estimates,5.029
+643,2000,Estimates,4.183
+643,2005,Estimates,4.672
+643,2010,Estimates,6.072
+643,2015,Estimates,5.471
+643,2015,Medium variant,5.471
+643,2020,Medium variant,4.146
+643,2025,Medium variant,5.968
+643,2030,Medium variant,10.88
+643,2035,Medium variant,10.852
+643,2040,Medium variant,15.025
+643,2045,Medium variant,11.209
+643,2050,Medium variant,14.346
+643,2055,Medium variant,22.951
+643,2060,Medium variant,27.376
+643,2065,Medium variant,30.196
+643,2070,Medium variant,26.769
+643,2075,Medium variant,33.287
+643,2080,Medium variant,40.686
+643,2085,Medium variant,51.271
+643,2090,Medium variant,62.598
+643,2095,Medium variant,55.197
+643,2100,Medium variant,47.341
+646,1990,Estimates,0.009
+646,1995,Estimates,0.007
+646,2000,Estimates,0.005
+646,2005,Estimates,0.005
+646,2010,Estimates,0.008
+646,2015,Estimates,0.008
+646,2015,Medium variant,0.008
+646,2020,Medium variant,0.056
+646,2025,Medium variant,0.099
+646,2030,Medium variant,0.058
+646,2035,Medium variant,0.128
+646,2040,Medium variant,0.119
+646,2045,Medium variant,0.221
+646,2050,Medium variant,0.359
+646,2055,Medium variant,0.64
+646,2060,Medium variant,1.033
+646,2065,Medium variant,1.74
+646,2070,Medium variant,2.124
+646,2075,Medium variant,3.35
+646,2080,Medium variant,5.238
+646,2085,Medium variant,8.759
+646,2090,Medium variant,12.153
+646,2095,Medium variant,13.584
+646,2100,Medium variant,18.104
+662,1990,Estimates,0.009
+662,1995,Estimates,0.011
+662,2000,Estimates,0.011
+662,2005,Estimates,0.012
+662,2010,Estimates,0.033
+662,2015,Estimates,0.053
+662,2015,Medium variant,0.053
+662,2020,Medium variant,0.078
+662,2025,Medium variant,0.086
+662,2030,Medium variant,0.102
+662,2035,Medium variant,0.108
+662,2040,Medium variant,0.125
+662,2045,Medium variant,0.143
+662,2050,Medium variant,0.173
+662,2055,Medium variant,0.205
+662,2060,Medium variant,0.278
+662,2065,Medium variant,0.37
+662,2070,Medium variant,0.445
+662,2075,Medium variant,0.501
+662,2080,Medium variant,0.556
+662,2085,Medium variant,0.64
+662,2090,Medium variant,0.696
+662,2095,Medium variant,0.834
+662,2100,Medium variant,0.892
+670,1990,Estimates,0
+670,1995,Estimates,0.001
+670,2000,Estimates,0.004
+670,2005,Estimates,0.007
+670,2010,Estimates,0.011
+670,2015,Estimates,0.012
+670,2015,Medium variant,0.012
+670,2020,Medium variant,0.017
+670,2025,Medium variant,0.017
+670,2030,Medium variant,0.016
+670,2035,Medium variant,0.022
+670,2040,Medium variant,0.027
+670,2045,Medium variant,0.025
+670,2050,Medium variant,0.031
+670,2055,Medium variant,0.043
+670,2060,Medium variant,0.06
+670,2065,Medium variant,0.079
+670,2070,Medium variant,0.081
+670,2075,Medium variant,0.089
+670,2080,Medium variant,0.103
+670,2085,Medium variant,0.119
+670,2090,Medium variant,0.133
+670,2095,Medium variant,0.152
+670,2100,Medium variant,0.17
+678,1990,Estimates,0.001
+678,1995,Estimates,0
+678,2000,Estimates,0.001
+678,2005,Estimates,0.001
+678,2010,Estimates,0.001
+678,2015,Estimates,0.001
+678,2015,Medium variant,0.001
+678,2020,Medium variant,0.001
+678,2025,Medium variant,0.002
+678,2030,Medium variant,0.003
+678,2035,Medium variant,0.003
+678,2040,Medium variant,0.003
+678,2045,Medium variant,0.003
+678,2050,Medium variant,0.003
+678,2055,Medium variant,0.004
+678,2060,Medium variant,0.005
+678,2065,Medium variant,0.008
+678,2070,Medium variant,0.01
+678,2075,Medium variant,0.014
+678,2080,Medium variant,0.023
+678,2085,Medium variant,0.025
+678,2090,Medium variant,0.038
+678,2095,Medium variant,0.045
+678,2100,Medium variant,0.061
+682,1990,Estimates,0.018
+682,1995,Estimates,0.025
+682,2000,Estimates,0.037
+682,2005,Estimates,0.065
+682,2010,Estimates,0.119
+682,2015,Estimates,0.189
+682,2015,Medium variant,0.189
+682,2020,Medium variant,0.33
+682,2025,Medium variant,0.48
+682,2030,Medium variant,0.601
+682,2035,Medium variant,0.734
+682,2040,Medium variant,0.95
+682,2045,Medium variant,1.285
+682,2050,Medium variant,1.813
+682,2055,Medium variant,3.302
+682,2060,Medium variant,5.46
+682,2065,Medium variant,9.035
+682,2070,Medium variant,13.423
+682,2075,Medium variant,21.94
+682,2080,Medium variant,29.901
+682,2085,Medium variant,37.184
+682,2090,Medium variant,45.575
+682,2095,Medium variant,52.998
+682,2100,Medium variant,67.955
+686,1990,Estimates,0.001
+686,1995,Estimates,0.001
+686,2000,Estimates,0.002
+686,2005,Estimates,0.003
+686,2010,Estimates,0.004
+686,2015,Estimates,0.005
+686,2015,Medium variant,0.005
+686,2020,Medium variant,0.01
+686,2025,Medium variant,0.014
+686,2030,Medium variant,0.021
+686,2035,Medium variant,0.033
+686,2040,Medium variant,0.051
+686,2045,Medium variant,0.083
+686,2050,Medium variant,0.132
+686,2055,Medium variant,0.24
+686,2060,Medium variant,0.425
+686,2065,Medium variant,0.751
+686,2070,Medium variant,1.324
+686,2075,Medium variant,2.375
+686,2080,Medium variant,4.101
+686,2085,Medium variant,6.697
+686,2090,Medium variant,10.634
+686,2095,Medium variant,16.048
+686,2100,Medium variant,23.626
+688,1990,Estimates,0.108
+688,1995,Estimates,0.108
+688,2000,Estimates,0.16
+688,2005,Estimates,0.191
+688,2010,Estimates,0.228
+688,2015,Estimates,0.266
+688,2015,Medium variant,0.266
+688,2020,Medium variant,0.29
+688,2025,Medium variant,0.56
+688,2030,Medium variant,0.868
+688,2035,Medium variant,1.178
+688,2040,Medium variant,1.375
+688,2045,Medium variant,1.484
+688,2050,Medium variant,2.471
+688,2055,Medium variant,3.382
+688,2060,Medium variant,3.526
+688,2065,Medium variant,4.185
+688,2070,Medium variant,5.309
+688,2075,Medium variant,6.804
+688,2080,Medium variant,8.319
+688,2085,Medium variant,9.392
+688,2090,Medium variant,11.587
+688,2095,Medium variant,13.201
+688,2100,Medium variant,15.456
+690,1990,Estimates,0.003
+690,1995,Estimates,0.004
+690,2000,Estimates,0.004
+690,2005,Estimates,0.005
+690,2010,Estimates,0.005
+690,2015,Estimates,0.008
+690,2015,Medium variant,0.008
+690,2020,Medium variant,0.009
+690,2025,Medium variant,0.011
+690,2030,Medium variant,0.014
+690,2035,Medium variant,0.015
+690,2040,Medium variant,0.017
+690,2045,Medium variant,0.019
+690,2050,Medium variant,0.02
+690,2055,Medium variant,0.04
+690,2060,Medium variant,0.06
+690,2065,Medium variant,0.082
+690,2070,Medium variant,0.101
+690,2075,Medium variant,0.121
+690,2080,Medium variant,0.139
+690,2085,Medium variant,0.159
+690,2090,Medium variant,0.17
+690,2095,Medium variant,0.182
+690,2100,Medium variant,0.18
+694,1990,Estimates,0
+694,1995,Estimates,0
+694,2000,Estimates,0
+694,2005,Estimates,0
+694,2010,Estimates,0
+694,2015,Estimates,0
+694,2015,Medium variant,0
+694,2020,Medium variant,0
+694,2025,Medium variant,0
+694,2030,Medium variant,0.001
+694,2035,Medium variant,0.002
+694,2040,Medium variant,0.002
+694,2045,Medium variant,0.003
+694,2050,Medium variant,0.004
+694,2055,Medium variant,0.005
+694,2060,Medium variant,0.007
+694,2065,Medium variant,0.01
+694,2070,Medium variant,0.013
+694,2075,Medium variant,0.019
+694,2080,Medium variant,0.028
+694,2085,Medium variant,0.04
+694,2090,Medium variant,0.055
+694,2095,Medium variant,0.074
+694,2100,Medium variant,0.102
+702,1990,Estimates,0.022
+702,1995,Estimates,0.054
+702,2000,Estimates,0.108
+702,2005,Estimates,0.224
+702,2010,Estimates,0.579
+702,2015,Estimates,1.129
+702,2015,Medium variant,1.129
+702,2020,Medium variant,2.11
+702,2025,Medium variant,3.921
+702,2030,Medium variant,6.348
+702,2035,Medium variant,9.928
+702,2040,Medium variant,14.856
+702,2045,Medium variant,20.329
+702,2050,Medium variant,34.233
+702,2055,Medium variant,51.797
+702,2060,Medium variant,73.496
+702,2065,Medium variant,94.61
+702,2070,Medium variant,111.518
+702,2075,Medium variant,130.72
+702,2080,Medium variant,145.873
+702,2085,Medium variant,156.914
+702,2090,Medium variant,164.385
+702,2095,Medium variant,180.63
+702,2100,Medium variant,193.521
+703,1990,Estimates,0.056
+703,1995,Estimates,0.063
+703,2000,Estimates,0.103
+703,2005,Estimates,0.154
+703,2010,Estimates,0.249
+703,2015,Estimates,0.341
+703,2015,Medium variant,0.341
+703,2020,Medium variant,0.299
+703,2025,Medium variant,0.672
+703,2030,Medium variant,0.802
+703,2035,Medium variant,0.984
+703,2040,Medium variant,1.141
+703,2045,Medium variant,1.525
+703,2050,Medium variant,2.148
+703,2055,Medium variant,3.207
+703,2060,Medium variant,3.905
+703,2065,Medium variant,4.413
+703,2070,Medium variant,4.936
+703,2075,Medium variant,6.674
+703,2080,Medium variant,8.999
+703,2085,Medium variant,10.409
+703,2090,Medium variant,11.46
+703,2095,Medium variant,11.98
+703,2100,Medium variant,11.523
+704,1990,Estimates,1.942
+704,1995,Estimates,3.64
+704,2000,Estimates,6.489
+704,2005,Estimates,11.468
+704,2010,Estimates,16.525
+704,2015,Estimates,23.838
+704,2015,Medium variant,23.838
+704,2020,Medium variant,30.183
+704,2025,Medium variant,39.166
+704,2030,Medium variant,46.924
+704,2035,Medium variant,57.833
+704,2040,Medium variant,59.865
+704,2045,Medium variant,62.66
+704,2050,Medium variant,77.703
+704,2055,Medium variant,124.817
+704,2060,Medium variant,182.482
+704,2065,Medium variant,233.357
+704,2070,Medium variant,278.96
+704,2075,Medium variant,333.654
+704,2080,Medium variant,391.852
+704,2085,Medium variant,468.094
+704,2090,Medium variant,552.762
+704,2095,Medium variant,617.37
+704,2100,Medium variant,572.092
+705,1990,Estimates,0.02
+705,1995,Estimates,0.029
+705,2000,Estimates,0.058
+705,2005,Estimates,0.08
+705,2010,Estimates,0.179
+705,2015,Estimates,0.284
+705,2015,Medium variant,0.284
+705,2020,Medium variant,0.251
+705,2025,Medium variant,0.555
+705,2030,Medium variant,0.831
+705,2035,Medium variant,1.169
+705,2040,Medium variant,1.438
+705,2045,Medium variant,1.89
+705,2050,Medium variant,2.324
+705,2055,Medium variant,3.659
+705,2060,Medium variant,4.515
+705,2065,Medium variant,5.386
+705,2070,Medium variant,6.389
+705,2075,Medium variant,7.144
+705,2080,Medium variant,8.833
+705,2085,Medium variant,9.967
+705,2090,Medium variant,10.549
+705,2095,Medium variant,10.318
+705,2100,Medium variant,10.6
+706,1990,Estimates,0.007
+706,1995,Estimates,0.007
+706,2000,Estimates,0.01
+706,2005,Estimates,0.014
+706,2010,Estimates,0.018
+706,2015,Estimates,0.026
+706,2015,Medium variant,0.026
+706,2020,Medium variant,0.032
+706,2025,Medium variant,0.04
+706,2030,Medium variant,0.046
+706,2035,Medium variant,0.053
+706,2040,Medium variant,0.065
+706,2045,Medium variant,0.072
+706,2050,Medium variant,0.088
+706,2055,Medium variant,0.105
+706,2060,Medium variant,0.123
+706,2065,Medium variant,0.144
+706,2070,Medium variant,0.172
+706,2075,Medium variant,0.203
+706,2080,Medium variant,0.245
+706,2085,Medium variant,0.316
+706,2090,Medium variant,0.419
+706,2095,Medium variant,0.572
+706,2100,Medium variant,0.816
+710,1990,Estimates,0.2
+710,1995,Estimates,0.24
+710,2000,Estimates,0.294
+710,2005,Estimates,0.385
+710,2010,Estimates,0.517
+710,2015,Estimates,0.648
+710,2015,Medium variant,0.648
+710,2020,Medium variant,0.821
+710,2025,Medium variant,1.167
+710,2030,Medium variant,2.75
+710,2035,Medium variant,2.768
+710,2040,Medium variant,3.427
+710,2045,Medium variant,4.264
+710,2050,Medium variant,5.922
+710,2055,Medium variant,8.15
+710,2060,Medium variant,10.862
+710,2065,Medium variant,13.734
+710,2070,Medium variant,16.102
+710,2075,Medium variant,19.207
+710,2080,Medium variant,24.018
+710,2085,Medium variant,33.67
+710,2090,Medium variant,43.855
+710,2095,Medium variant,51.103
+710,2100,Medium variant,57.784
+716,1990,Estimates,0.027
+716,1995,Estimates,0.036
+716,2000,Estimates,0.049
+716,2005,Estimates,0.065
+716,2010,Estimates,0.078
+716,2015,Estimates,0.093
+716,2015,Medium variant,0.093
+716,2020,Medium variant,0.116
+716,2025,Medium variant,0.123
+716,2030,Medium variant,0.15
+716,2035,Medium variant,0.18
+716,2040,Medium variant,0.223
+716,2045,Medium variant,0.289
+716,2050,Medium variant,0.34
+716,2055,Medium variant,0.531
+716,2060,Medium variant,0.716
+716,2065,Medium variant,0.965
+716,2070,Medium variant,1.374
+716,2075,Medium variant,2.306
+716,2080,Medium variant,4.238
+716,2085,Medium variant,7.013
+716,2090,Medium variant,9.65
+716,2095,Medium variant,11.95
+716,2100,Medium variant,14.315
+724,1990,Estimates,1.408
+724,1995,Estimates,2.146
+724,2000,Estimates,3.258
+724,2005,Estimates,5.218
+724,2010,Estimates,7.999
+724,2015,Estimates,9.86
+724,2015,Medium variant,9.86
+724,2020,Medium variant,12.971
+724,2025,Medium variant,20.19
+724,2030,Medium variant,29.455
+724,2035,Medium variant,41.137
+724,2040,Medium variant,47.309
+724,2045,Medium variant,61.726
+724,2050,Medium variant,82.752
+724,2055,Medium variant,105.711
+724,2060,Medium variant,145.806
+724,2065,Medium variant,192.966
+724,2070,Medium variant,239.24
+724,2075,Medium variant,295.702
+724,2080,Medium variant,344.21
+724,2085,Medium variant,340.829
+724,2090,Medium variant,329.866
+724,2095,Medium variant,341.59
+724,2100,Medium variant,368.821
+728,1990,Estimates,0.002
+728,1995,Estimates,0.003
+728,2000,Estimates,0.004
+728,2005,Estimates,0.007
+728,2010,Estimates,0.012
+728,2015,Estimates,0.022
+728,2015,Medium variant,0.022
+728,2020,Medium variant,0.034
+728,2025,Medium variant,0.049
+728,2030,Medium variant,0.065
+728,2035,Medium variant,0.085
+728,2040,Medium variant,0.105
+728,2045,Medium variant,0.127
+728,2050,Medium variant,0.144
+728,2055,Medium variant,0.151
+728,2060,Medium variant,0.186
+728,2065,Medium variant,0.227
+728,2070,Medium variant,0.275
+728,2075,Medium variant,0.323
+728,2080,Medium variant,0.383
+728,2085,Medium variant,0.453
+728,2090,Medium variant,0.571
+728,2095,Medium variant,0.707
+728,2100,Medium variant,0.874
+729,1990,Estimates,0.047
+729,1995,Estimates,0.062
+729,2000,Estimates,0.074
+729,2005,Estimates,0.096
+729,2010,Estimates,0.124
+729,2015,Estimates,0.188
+729,2015,Medium variant,0.188
+729,2020,Medium variant,0.277
+729,2025,Medium variant,0.376
+729,2030,Medium variant,0.476
+729,2035,Medium variant,0.589
+729,2040,Medium variant,0.715
+729,2045,Medium variant,0.859
+729,2050,Medium variant,1.045
+729,2055,Medium variant,1.265
+729,2060,Medium variant,1.533
+729,2065,Medium variant,1.882
+729,2070,Medium variant,2.335
+729,2075,Medium variant,2.922
+729,2080,Medium variant,3.642
+729,2085,Medium variant,4.507
+729,2090,Medium variant,5.626
+729,2095,Medium variant,7.354
+729,2100,Medium variant,9.607
+732,1990,Estimates,0
+732,1995,Estimates,0
+732,2000,Estimates,0
+732,2005,Estimates,0
+732,2010,Estimates,0
+732,2015,Estimates,0
+732,2015,Medium variant,0
+732,2020,Medium variant,0.001
+732,2025,Medium variant,0.001
+732,2030,Medium variant,0.002
+732,2035,Medium variant,0.003
+732,2040,Medium variant,0.004
+732,2045,Medium variant,0.006
+732,2050,Medium variant,0.011
+732,2055,Medium variant,0.025
+732,2060,Medium variant,0.051
+732,2065,Medium variant,0.091
+732,2070,Medium variant,0.159
+732,2075,Medium variant,0.257
+732,2080,Medium variant,0.388
+732,2085,Medium variant,0.548
+732,2090,Medium variant,0.736
+732,2095,Medium variant,0.97
+732,2100,Medium variant,1.203
+740,1990,Estimates,0.007
+740,1995,Estimates,0.004
+740,2000,Estimates,0.019
+740,2005,Estimates,0.018
+740,2010,Estimates,0.018
+740,2015,Estimates,0.02
+740,2015,Medium variant,0.02
+740,2020,Medium variant,0.025
+740,2025,Medium variant,0.035
+740,2030,Medium variant,0.045
+740,2035,Medium variant,0.058
+740,2040,Medium variant,0.069
+740,2045,Medium variant,0.079
+740,2050,Medium variant,0.094
+740,2055,Medium variant,0.125
+740,2060,Medium variant,0.174
+740,2065,Medium variant,0.247
+740,2070,Medium variant,0.285
+740,2075,Medium variant,0.34
+740,2080,Medium variant,0.36
+740,2085,Medium variant,0.458
+740,2090,Medium variant,0.564
+740,2095,Medium variant,0.605
+740,2100,Medium variant,0.737
+748,1990,Estimates,0.001
+748,1995,Estimates,0.001
+748,2000,Estimates,0.001
+748,2005,Estimates,0.002
+748,2010,Estimates,0.003
+748,2015,Estimates,0.003
+748,2015,Medium variant,0.003
+748,2020,Medium variant,0.004
+748,2025,Medium variant,0.004
+748,2030,Medium variant,0.006
+748,2035,Medium variant,0.008
+748,2040,Medium variant,0.011
+748,2045,Medium variant,0.014
+748,2050,Medium variant,0.018
+748,2055,Medium variant,0.021
+748,2060,Medium variant,0.024
+748,2065,Medium variant,0.027
+748,2070,Medium variant,0.029
+748,2075,Medium variant,0.031
+748,2080,Medium variant,0.043
+748,2085,Medium variant,0.077
+748,2090,Medium variant,0.141
+748,2095,Medium variant,0.214
+748,2100,Medium variant,0.276
+752,1990,Estimates,0.625
+752,1995,Estimates,0.781
+752,2000,Estimates,1.048
+752,2005,Estimates,1.418
+752,2010,Estimates,1.874
+752,2015,Estimates,1.826
+752,2015,Medium variant,1.826
+752,2020,Medium variant,2.119
+752,2025,Medium variant,2.82
+752,2030,Medium variant,3.381
+752,2035,Medium variant,4.079
+752,2040,Medium variant,5.483
+752,2045,Medium variant,8.565
+752,2050,Medium variant,13.164
+752,2055,Medium variant,14.099
+752,2060,Medium variant,17.299
+752,2065,Medium variant,21.491
+752,2070,Medium variant,29.179
+752,2075,Medium variant,32.573
+752,2080,Medium variant,36.9
+752,2085,Medium variant,44.434
+752,2090,Medium variant,56.617
+752,2095,Medium variant,71.911
+752,2100,Medium variant,71.519
+756,1990,Estimates,0.305
+756,1995,Estimates,0.439
+756,2000,Estimates,0.601
+756,2005,Estimates,0.85
+756,2010,Estimates,1.23
+756,2015,Estimates,1.614
+756,2015,Medium variant,1.614
+756,2020,Medium variant,1.821
+756,2025,Medium variant,2.759
+756,2030,Medium variant,3.861
+756,2035,Medium variant,4.972
+756,2040,Medium variant,6.574
+756,2045,Medium variant,9.461
+756,2050,Medium variant,13.357
+756,2055,Medium variant,16.565
+756,2060,Medium variant,22.702
+756,2065,Medium variant,31.912
+756,2070,Medium variant,40.363
+756,2075,Medium variant,44.052
+756,2080,Medium variant,49.538
+756,2085,Medium variant,60.92
+756,2090,Medium variant,71.232
+756,2095,Medium variant,81.559
+756,2100,Medium variant,89.712
+760,1990,Estimates,0.025
+760,1995,Estimates,0.031
+760,2000,Estimates,0.039
+760,2005,Estimates,0.055
+760,2010,Estimates,0.085
+760,2015,Estimates,0.113
+760,2015,Medium variant,0.113
+760,2020,Medium variant,0.157
+760,2025,Medium variant,0.189
+760,2030,Medium variant,0.286
+760,2035,Medium variant,0.463
+760,2040,Medium variant,0.643
+760,2045,Medium variant,0.957
+760,2050,Medium variant,1.345
+760,2055,Medium variant,2.38
+760,2060,Medium variant,3.641
+760,2065,Medium variant,5.538
+760,2070,Medium variant,7.8
+760,2075,Medium variant,11.145
+760,2080,Medium variant,16.857
+760,2085,Medium variant,24.385
+760,2090,Medium variant,31.167
+760,2095,Medium variant,37.33
+760,2100,Medium variant,47.831
+762,1990,Estimates,0.253
+762,1995,Estimates,0.225
+762,2000,Estimates,0.236
+762,2005,Estimates,0.297
+762,2010,Estimates,0.307
+762,2015,Estimates,0.288
+762,2015,Medium variant,0.288
+762,2020,Medium variant,0.214
+762,2025,Medium variant,0.421
+762,2030,Medium variant,0.541
+762,2035,Medium variant,0.493
+762,2040,Medium variant,0.686
+762,2045,Medium variant,0.678
+762,2050,Medium variant,0.749
+762,2055,Medium variant,1.398
+762,2060,Medium variant,2.164
+762,2065,Medium variant,3.156
+762,2070,Medium variant,3.619
+762,2075,Medium variant,4.17
+762,2080,Medium variant,4.872
+762,2085,Medium variant,6.46
+762,2090,Medium variant,9.51
+762,2095,Medium variant,10.803
+762,2100,Medium variant,11.954
+764,1990,Estimates,1.174
+764,1995,Estimates,1.463
+764,2000,Estimates,2.08
+764,2005,Estimates,2.543
+764,2010,Estimates,3.412
+764,2015,Estimates,4.681
+764,2015,Medium variant,4.681
+764,2020,Medium variant,6.844
+764,2025,Medium variant,10.267
+764,2030,Medium variant,15.661
+764,2035,Medium variant,21.435
+764,2040,Medium variant,28.529
+764,2045,Medium variant,34.279
+764,2050,Medium variant,46.723
+764,2055,Medium variant,68.328
+764,2060,Medium variant,93.426
+764,2065,Medium variant,116.808
+764,2070,Medium variant,141.28
+764,2075,Medium variant,161.17
+764,2080,Medium variant,178.358
+764,2085,Medium variant,187.416
+764,2090,Medium variant,199.014
+764,2095,Medium variant,214.831
+764,2100,Medium variant,225.578
+768,1990,Estimates,0.001
+768,1995,Estimates,0.001
+768,2000,Estimates,0.001
+768,2005,Estimates,0.001
+768,2010,Estimates,0.001
+768,2015,Estimates,0.001
+768,2015,Medium variant,0.001
+768,2020,Medium variant,0.003
+768,2025,Medium variant,0.003
+768,2030,Medium variant,0.004
+768,2035,Medium variant,0.006
+768,2040,Medium variant,0.008
+768,2045,Medium variant,0.012
+768,2050,Medium variant,0.016
+768,2055,Medium variant,0.024
+768,2060,Medium variant,0.036
+768,2065,Medium variant,0.054
+768,2070,Medium variant,0.088
+768,2075,Medium variant,0.147
+768,2080,Medium variant,0.248
+768,2085,Medium variant,0.401
+768,2090,Medium variant,0.622
+768,2095,Medium variant,0.918
+768,2100,Medium variant,1.355
+776,1990,Estimates,0.001
+776,1995,Estimates,0.001
+776,2000,Estimates,0.002
+776,2005,Estimates,0.002
+776,2010,Estimates,0.003
+776,2015,Estimates,0.004
+776,2015,Medium variant,0.004
+776,2020,Medium variant,0.006
+776,2025,Medium variant,0.008
+776,2030,Medium variant,0.012
+776,2035,Medium variant,0.014
+776,2040,Medium variant,0.017
+776,2045,Medium variant,0.019
+776,2050,Medium variant,0.023
+776,2055,Medium variant,0.03
+776,2060,Medium variant,0.049
+776,2065,Medium variant,0.059
+776,2070,Medium variant,0.078
+776,2075,Medium variant,0.107
+776,2080,Medium variant,0.124
+776,2085,Medium variant,0.144
+776,2090,Medium variant,0.152
+776,2095,Medium variant,0.223
+776,2100,Medium variant,0.307
+780,1990,Estimates,0.018
+780,1995,Estimates,0.026
+780,2000,Estimates,0.039
+780,2005,Estimates,0.052
+780,2010,Estimates,0.068
+780,2015,Estimates,0.09
+780,2015,Medium variant,0.09
+780,2020,Medium variant,0.108
+780,2025,Medium variant,0.135
+780,2030,Medium variant,0.16
+780,2035,Medium variant,0.176
+780,2040,Medium variant,0.213
+780,2045,Medium variant,0.263
+780,2050,Medium variant,0.32
+780,2055,Medium variant,0.4
+780,2060,Medium variant,0.492
+780,2065,Medium variant,0.611
+780,2070,Medium variant,0.596
+780,2075,Medium variant,0.666
+780,2080,Medium variant,0.794
+780,2085,Medium variant,1.058
+780,2090,Medium variant,1.109
+780,2095,Medium variant,1.024
+780,2100,Medium variant,0.982
+784,1990,Estimates,0.001
+784,1995,Estimates,0.001
+784,2000,Estimates,0.001
+784,2005,Estimates,0.002
+784,2010,Estimates,0.009
+784,2015,Estimates,0.019
+784,2015,Medium variant,0.019
+784,2020,Medium variant,0.019
+784,2025,Medium variant,0.036
+784,2030,Medium variant,0.044
+784,2035,Medium variant,0.087
+784,2040,Medium variant,0.12
+784,2045,Medium variant,0.224
+784,2050,Medium variant,0.572
+784,2055,Medium variant,1.193
+784,2060,Medium variant,3.036
+784,2065,Medium variant,6.964
+784,2070,Medium variant,11.815
+784,2075,Medium variant,16.043
+784,2080,Medium variant,18.607
+784,2085,Medium variant,25.979
+784,2090,Medium variant,39.385
+784,2095,Medium variant,49.41
+784,2100,Medium variant,54.565
+788,1990,Estimates,0.029
+788,1995,Estimates,0.034
+788,2000,Estimates,0.051
+788,2005,Estimates,0.075
+788,2010,Estimates,0.125
+788,2015,Estimates,0.206
+788,2015,Medium variant,0.206
+788,2020,Medium variant,0.28
+788,2025,Medium variant,0.464
+788,2030,Medium variant,0.605
+788,2035,Medium variant,0.904
+788,2040,Medium variant,1.094
+788,2045,Medium variant,1.264
+788,2050,Medium variant,1.719
+788,2055,Medium variant,2.914
+788,2060,Medium variant,4.194
+788,2065,Medium variant,5.832
+788,2070,Medium variant,7.756
+788,2075,Medium variant,9.35
+788,2080,Medium variant,12.537
+788,2085,Medium variant,16.993
+788,2090,Medium variant,21.426
+788,2095,Medium variant,23.612
+788,2100,Medium variant,24.774
+792,1990,Estimates,0.214
+792,1995,Estimates,0.24
+792,2000,Estimates,0.352
+792,2005,Estimates,0.374
+792,2010,Estimates,0.538
+792,2015,Estimates,0.766
+792,2015,Medium variant,0.766
+792,2020,Medium variant,0.984
+792,2025,Medium variant,1.761
+792,2030,Medium variant,3.233
+792,2035,Medium variant,5.504
+792,2040,Medium variant,7.587
+792,2045,Medium variant,11.141
+792,2050,Medium variant,17.027
+792,2055,Medium variant,28.496
+792,2060,Medium variant,42.259
+792,2065,Medium variant,58.797
+792,2070,Medium variant,80.476
+792,2075,Medium variant,111.42
+792,2080,Medium variant,148.475
+792,2085,Medium variant,187.84
+792,2090,Medium variant,222.75
+792,2095,Medium variant,258.946
+792,2100,Medium variant,309.625
+795,1990,Estimates,0.043
+795,1995,Estimates,0.041
+795,2000,Estimates,0.045
+795,2005,Estimates,0.057
+795,2010,Estimates,0.065
+795,2015,Estimates,0.082
+795,2015,Medium variant,0.082
+795,2020,Medium variant,0.081
+795,2025,Medium variant,0.105
+795,2030,Medium variant,0.141
+795,2035,Medium variant,0.141
+795,2040,Medium variant,0.169
+795,2045,Medium variant,0.127
+795,2050,Medium variant,0.176
+795,2055,Medium variant,0.271
+795,2060,Medium variant,0.392
+795,2065,Medium variant,0.5
+795,2070,Medium variant,0.551
+795,2075,Medium variant,0.66
+795,2080,Medium variant,0.818
+795,2085,Medium variant,1.044
+795,2090,Medium variant,1.381
+795,2095,Medium variant,1.625
+795,2100,Medium variant,1.579
+800,1990,Estimates,0.02
+800,1995,Estimates,0.024
+800,2000,Estimates,0.031
+800,2005,Estimates,0.042
+800,2010,Estimates,0.057
+800,2015,Estimates,0.078
+800,2015,Medium variant,0.078
+800,2020,Medium variant,0.107
+800,2025,Medium variant,0.145
+800,2030,Medium variant,0.188
+800,2035,Medium variant,0.24
+800,2040,Medium variant,0.26
+800,2045,Medium variant,0.356
+800,2050,Medium variant,0.455
+800,2055,Medium variant,0.596
+800,2060,Medium variant,0.749
+800,2065,Medium variant,1.019
+800,2070,Medium variant,1.587
+800,2075,Medium variant,2.604
+800,2080,Medium variant,4.168
+800,2085,Medium variant,6.359
+800,2090,Medium variant,9.424
+800,2095,Medium variant,13.865
+800,2100,Medium variant,19.921
+804,1990,Estimates,2.141
+804,1995,Estimates,1.796
+804,2000,Estimates,1.432
+804,2005,Estimates,1.433
+804,2010,Estimates,1.804
+804,2015,Estimates,2.153
+804,2015,Medium variant,2.153
+804,2020,Medium variant,1.975
+804,2025,Medium variant,3.137
+804,2030,Medium variant,4.672
+804,2035,Medium variant,3.937
+804,2040,Medium variant,5.992
+804,2045,Medium variant,4.779
+804,2050,Medium variant,4.569
+804,2055,Medium variant,7.669
+804,2060,Medium variant,7.818
+804,2065,Medium variant,8.795
+804,2070,Medium variant,8.014
+804,2075,Medium variant,9.449
+804,2080,Medium variant,11.086
+804,2085,Medium variant,13.164
+804,2090,Medium variant,14.649
+804,2095,Medium variant,13.242
+804,2100,Medium variant,11.575
+807,1990,Estimates,0.012
+807,1995,Estimates,0.013
+807,2000,Estimates,0.015
+807,2005,Estimates,0.02
+807,2010,Estimates,0.029
+807,2015,Estimates,0.037
+807,2015,Medium variant,0.037
+807,2020,Medium variant,0.036
+807,2025,Medium variant,0.075
+807,2030,Medium variant,0.115
+807,2035,Medium variant,0.164
+807,2040,Medium variant,0.227
+807,2045,Medium variant,0.288
+807,2050,Medium variant,0.411
+807,2055,Medium variant,0.667
+807,2060,Medium variant,0.867
+807,2065,Medium variant,1.098
+807,2070,Medium variant,1.437
+807,2075,Medium variant,1.772
+807,2080,Medium variant,2.272
+807,2085,Medium variant,2.92
+807,2090,Medium variant,3.389
+807,2095,Medium variant,3.902
+807,2100,Medium variant,4.245
+818,1990,Estimates,0.28
+818,1995,Estimates,0.405
+818,2000,Estimates,0.557
+818,2005,Estimates,0.73
+818,2010,Estimates,0.891
+818,2015,Estimates,0.886
+818,2015,Medium variant,0.886
+818,2020,Medium variant,1.08
+818,2025,Medium variant,1.404
+818,2030,Medium variant,1.816
+818,2035,Medium variant,2.272
+818,2040,Medium variant,2.762
+818,2045,Medium variant,3.491
+818,2050,Medium variant,5.637
+818,2055,Medium variant,7.305
+818,2060,Medium variant,10.675
+818,2065,Medium variant,14.951
+818,2070,Medium variant,20.24
+818,2075,Medium variant,27.766
+818,2080,Medium variant,41.869
+818,2085,Medium variant,61.866
+818,2090,Medium variant,86.326
+818,2095,Medium variant,102.917
+818,2100,Medium variant,122.686
+826,1990,Estimates,4.217
+826,1995,Estimates,5.322
+826,2000,Estimates,6.599
+826,2005,Estimates,8.46
+826,2010,Estimates,12.012
+826,2015,Estimates,16.227
+826,2015,Medium variant,16.227
+826,2020,Medium variant,20.402
+826,2025,Medium variant,28.644
+826,2030,Medium variant,33.246
+826,2035,Medium variant,41.444
+826,2040,Medium variant,52.426
+826,2045,Medium variant,69.145
+826,2050,Medium variant,101.227
+826,2055,Medium variant,112.454
+826,2060,Medium variant,142.969
+826,2065,Medium variant,193.901
+826,2070,Medium variant,233.423
+826,2075,Medium variant,251.531
+826,2080,Medium variant,275.267
+826,2085,Medium variant,333.899
+826,2090,Medium variant,398.28
+826,2095,Medium variant,454.38
+826,2100,Medium variant,491.969
+830,1990,Estimates,0.008
+830,1995,Estimates,0.01
+830,2000,Estimates,0.013
+830,2005,Estimates,0.02
+830,2010,Estimates,0.03
+830,2015,Estimates,0.04
+830,2015,Medium variant,0.04
+830,2020,Medium variant,0.047
+830,2025,Medium variant,0.064
+830,2030,Medium variant,0.08
+830,2035,Medium variant,0.101
+830,2040,Medium variant,0.125
+830,2045,Medium variant,0.173
+830,2050,Medium variant,0.232
+830,2055,Medium variant,0.323
+830,2060,Medium variant,0.415
+830,2065,Medium variant,0.533
+830,2070,Medium variant,0.636
+830,2075,Medium variant,0.717
+830,2080,Medium variant,0.804
+830,2085,Medium variant,0.908
+830,2090,Medium variant,1.01
+830,2095,Medium variant,1.164
+830,2100,Medium variant,1.292
+834,1990,Estimates,0.027
+834,1995,Estimates,0.036
+834,2000,Estimates,0.048
+834,2005,Estimates,0.067
+834,2010,Estimates,0.096
+834,2015,Estimates,0.145
+834,2015,Medium variant,0.145
+834,2020,Medium variant,0.211
+834,2025,Medium variant,0.308
+834,2030,Medium variant,0.479
+834,2035,Medium variant,0.677
+834,2040,Medium variant,0.973
+834,2045,Medium variant,1.413
+834,2050,Medium variant,2.062
+834,2055,Medium variant,2.858
+834,2060,Medium variant,4.085
+834,2065,Medium variant,5.777
+834,2070,Medium variant,8.415
+834,2075,Medium variant,12.559
+834,2080,Medium variant,18.617
+834,2085,Medium variant,26.291
+834,2090,Medium variant,35.521
+834,2095,Medium variant,47.389
+834,2100,Medium variant,62.258
+840,1990,Estimates,32.143
+840,1995,Estimates,43.766
+840,2000,Estimates,45.588
+840,2005,Estimates,47.705
+840,2010,Estimates,60.754
+840,2015,Estimates,71.972
+840,2015,Medium variant,71.972
+840,2020,Medium variant,95.543
+840,2025,Medium variant,119.579
+840,2030,Medium variant,143.984
+840,2035,Medium variant,163.028
+840,2040,Medium variant,191.918
+840,2045,Medium variant,262.329
+840,2050,Medium variant,378.336
+840,2055,Medium variant,491.757
+840,2060,Medium variant,629.703
+840,2065,Medium variant,739.299
+840,2070,Medium variant,768.981
+840,2075,Medium variant,863.134
+840,2080,Medium variant,940.936
+840,2085,Medium variant,1157.841
+840,2090,Medium variant,1343.917
+840,2095,Medium variant,1613.198
+840,2100,Medium variant,1739.648
+850,1990,Estimates,0.003
+850,1995,Estimates,0.004
+850,2000,Estimates,0.007
+850,2005,Estimates,0.011
+850,2010,Estimates,0.011
+850,2015,Estimates,0.028
+850,2015,Medium variant,0.028
+850,2020,Medium variant,0.04
+850,2025,Medium variant,0.059
+850,2030,Medium variant,0.068
+850,2035,Medium variant,0.112
+850,2040,Medium variant,0.179
+850,2045,Medium variant,0.295
+850,2050,Medium variant,0.426
+850,2055,Medium variant,0.499
+850,2060,Medium variant,0.606
+850,2065,Medium variant,0.682
+850,2070,Medium variant,0.747
+850,2075,Medium variant,0.756
+850,2080,Medium variant,0.76
+850,2085,Medium variant,0.777
+850,2090,Medium variant,0.771
+850,2095,Medium variant,0.962
+850,2100,Medium variant,1.053
+854,1990,Estimates,0
+854,1995,Estimates,0.001
+854,2000,Estimates,0.001
+854,2005,Estimates,0.003
+854,2010,Estimates,0.003
+854,2015,Estimates,0.004
+854,2015,Medium variant,0.004
+854,2020,Medium variant,0.007
+854,2025,Medium variant,0.009
+854,2030,Medium variant,0.011
+854,2035,Medium variant,0.013
+854,2040,Medium variant,0.017
+854,2045,Medium variant,0.023
+854,2050,Medium variant,0.03
+854,2055,Medium variant,0.042
+854,2060,Medium variant,0.061
+854,2065,Medium variant,0.087
+854,2070,Medium variant,0.129
+854,2075,Medium variant,0.189
+854,2080,Medium variant,0.287
+854,2085,Medium variant,0.435
+854,2090,Medium variant,0.65
+854,2095,Medium variant,1.003
+854,2100,Medium variant,1.577
+858,1990,Estimates,0.283
+858,1995,Estimates,0.388
+858,2000,Estimates,0.532
+858,2005,Estimates,0.675
+858,2010,Estimates,0.774
+858,2015,Estimates,1.166
+858,2015,Medium variant,1.166
+858,2020,Medium variant,1.768
+858,2025,Medium variant,2.655
+858,2030,Medium variant,3.48
+858,2035,Medium variant,3.966
+858,2040,Medium variant,4.166
+858,2045,Medium variant,4.502
+858,2050,Medium variant,5.097
+858,2055,Medium variant,5.843
+858,2060,Medium variant,7.017
+858,2065,Medium variant,8.072
+858,2070,Medium variant,8.806
+858,2075,Medium variant,10.317
+858,2080,Medium variant,11.966
+858,2085,Medium variant,12.692
+858,2090,Medium variant,14.511
+858,2095,Medium variant,16.859
+858,2100,Medium variant,18.56
+860,1990,Estimates,1.193
+860,1995,Estimates,1.143
+860,2000,Estimates,1.223
+860,2005,Estimates,1.619
+860,2010,Estimates,1.502
+860,2015,Estimates,1.763
+860,2015,Medium variant,1.763
+860,2020,Medium variant,1.73
+860,2025,Medium variant,2.29
+860,2030,Medium variant,3.189
+860,2035,Medium variant,3.345
+860,2040,Medium variant,4.003
+860,2045,Medium variant,3.073
+860,2050,Medium variant,3.775
+860,2055,Medium variant,5.665
+860,2060,Medium variant,8.044
+860,2065,Medium variant,9.948
+860,2070,Medium variant,10.5
+860,2075,Medium variant,12.043
+860,2080,Medium variant,14.117
+860,2085,Medium variant,17.819
+860,2090,Medium variant,22.141
+860,2095,Medium variant,23.496
+860,2100,Medium variant,22.619
+862,1990,Estimates,0.322
+862,1995,Estimates,0.718
+862,2000,Estimates,1.425
+862,2005,Estimates,2.329
+862,2010,Estimates,3.157
+862,2015,Estimates,4.051
+862,2015,Medium variant,4.051
+862,2020,Medium variant,5.303
+862,2025,Medium variant,6.928
+862,2030,Medium variant,9.074
+862,2035,Medium variant,11.816
+862,2040,Medium variant,15.332
+862,2045,Medium variant,19.803
+862,2050,Medium variant,25.856
+862,2055,Medium variant,33.842
+862,2060,Medium variant,45.618
+862,2065,Medium variant,61.937
+862,2070,Medium variant,74.667
+862,2075,Medium variant,84.606
+862,2080,Medium variant,101.174
+862,2085,Medium variant,121.052
+862,2090,Medium variant,144.965
+862,2095,Medium variant,163.601
+862,2100,Medium variant,180.772
+882,1990,Estimates,0.001
+882,1995,Estimates,0.001
+882,2000,Estimates,0.002
+882,2005,Estimates,0.002
+882,2010,Estimates,0.004
+882,2015,Estimates,0.006
+882,2015,Medium variant,0.006
+882,2020,Medium variant,0.008
+882,2025,Medium variant,0.013
+882,2030,Medium variant,0.021
+882,2035,Medium variant,0.027
+882,2040,Medium variant,0.036
+882,2045,Medium variant,0.05
+882,2050,Medium variant,0.065
+882,2055,Medium variant,0.1
+882,2060,Medium variant,0.15
+882,2065,Medium variant,0.212
+882,2070,Medium variant,0.285
+882,2075,Medium variant,0.348
+882,2080,Medium variant,0.4
+882,2085,Medium variant,0.438
+882,2090,Medium variant,0.483
+882,2095,Medium variant,0.672
+882,2100,Medium variant,0.886
+887,1990,Estimates,0.014
+887,1995,Estimates,0.017
+887,2000,Estimates,0.021
+887,2005,Estimates,0.025
+887,2010,Estimates,0.064
+887,2015,Estimates,0.076
+887,2015,Medium variant,0.076
+887,2020,Medium variant,0.073
+887,2025,Medium variant,0.081
+887,2030,Medium variant,0.089
+887,2035,Medium variant,0.096
+887,2040,Medium variant,0.109
+887,2045,Medium variant,0.154
+887,2050,Medium variant,0.216
+887,2055,Medium variant,0.294
+887,2060,Medium variant,0.352
+887,2065,Medium variant,0.407
+887,2070,Medium variant,0.484
+887,2075,Medium variant,0.629
+887,2080,Medium variant,0.994
+887,2085,Medium variant,1.496
+887,2090,Medium variant,2.198
+887,2095,Medium variant,3.117
+887,2100,Medium variant,3.916
+894,1990,Estimates,0.01
+894,1995,Estimates,0.012
+894,2000,Estimates,0.016
+894,2005,Estimates,0.022
+894,2010,Estimates,0.029
+894,2015,Estimates,0.04
+894,2015,Medium variant,0.04
+894,2020,Medium variant,0.055
+894,2025,Medium variant,0.074
+894,2030,Medium variant,0.099
+894,2035,Medium variant,0.133
+894,2040,Medium variant,0.179
+894,2045,Medium variant,0.242
+894,2050,Medium variant,0.328
+894,2055,Medium variant,0.428
+894,2060,Medium variant,0.561
+894,2065,Medium variant,0.789
+894,2070,Medium variant,1.253
+894,2075,Medium variant,2.09
+894,2080,Medium variant,3.367
+894,2085,Medium variant,4.933
+894,2090,Medium variant,7.16
+894,2095,Medium variant,9.913
+894,2100,Medium variant,13.538
+900,1990,Estimates,95.163
+900,1995,Estimates,124.737
+900,2000,Estimates,159.932
+900,2005,Estimates,220.196
+900,2010,Estimates,318.557
+900,2015,Estimates,450.895
+900,2015,Medium variant,450.895
+900,2020,Medium variant,605.465
+900,2025,Medium variant,905.182
+900,2030,Medium variant,1244.851
+900,2035,Medium variant,1617.797
+900,2040,Medium variant,2061.113
+900,2045,Medium variant,2621.129
+900,2050,Medium variant,3675.964
+900,2055,Medium variant,5074.922
+900,2060,Medium variant,6559.948
+900,2065,Medium variant,8687.889
+900,2070,Medium variant,11166.359
+900,2075,Medium variant,13444.066
+900,2080,Medium variant,15138.081
+900,2085,Medium variant,18016.92
+900,2090,Medium variant,22250.687
+900,2095,Medium variant,24868.131
+900,2100,Medium variant,26421.922
+901,1990,Estimates,67.901
+901,1995,Estimates,88.443
+901,2000,Estimates,105.822
+901,2005,Estimates,137.407
+901,2010,Estimates,197.916
+901,2015,Estimates,265.497
+901,2015,Medium variant,265.497
+901,2020,Medium variant,326.72
+901,2025,Medium variant,500.931
+901,2030,Medium variant,670.447
+901,2035,Medium variant,836.296
+901,2040,Medium variant,1044.257
+901,2045,Medium variant,1309.749
+901,2050,Medium variant,1811.147
+901,2055,Medium variant,2199.838
+901,2060,Medium variant,2677.699
+901,2065,Medium variant,3266.164
+901,2070,Medium variant,3763.786
+901,2075,Medium variant,4324.062
+901,2080,Medium variant,4712.259
+901,2085,Medium variant,5330.167
+901,2090,Medium variant,5928.283
+901,2095,Medium variant,6582.877
+901,2100,Medium variant,7127.927
+902,1990,Estimates,27.262
+902,1995,Estimates,36.294
+902,2000,Estimates,54.11
+902,2005,Estimates,82.789
+902,2010,Estimates,120.641
+902,2015,Estimates,185.398
+902,2015,Medium variant,185.398
+902,2020,Medium variant,278.745
+902,2025,Medium variant,404.251
+902,2030,Medium variant,574.404
+902,2035,Medium variant,781.501
+902,2040,Medium variant,1016.856
+902,2045,Medium variant,1311.38
+902,2050,Medium variant,1864.817
+902,2055,Medium variant,2875.084
+902,2060,Medium variant,3882.249
+902,2065,Medium variant,5421.725
+902,2070,Medium variant,7402.573
+902,2075,Medium variant,9120.004
+902,2080,Medium variant,10425.822
+902,2085,Medium variant,12686.753
+902,2090,Medium variant,16322.404
+902,2095,Medium variant,18285.254
+902,2100,Medium variant,19293.995
+903,1990,Estimates,0.984
+903,1995,Estimates,1.31
+903,2000,Estimates,1.782
+903,2005,Estimates,2.462
+903,2010,Estimates,3.442
+903,2015,Estimates,4.58
+903,2015,Medium variant,4.58
+903,2020,Medium variant,6.576
+903,2025,Medium variant,9.445
+903,2030,Medium variant,14.453
+903,2035,Medium variant,18.902
+903,2040,Medium variant,24.387
+903,2045,Medium variant,31.505
+903,2050,Medium variant,44.101
+903,2055,Medium variant,65.992
+903,2060,Medium variant,94.622
+903,2065,Medium variant,132.784
+903,2070,Medium variant,180.828
+903,2075,Medium variant,249.111
+903,2080,Medium variant,356.755
+903,2085,Medium variant,510.292
+903,2090,Medium variant,681.122
+903,2095,Medium variant,856.264
+903,2100,Medium variant,1049.406
+904,1990,Estimates,7.895
+904,1995,Estimates,11.095
+904,2000,Estimates,17.341
+904,2005,Estimates,26.268
+904,2010,Estimates,35.391
+904,2015,Estimates,52.418
+904,2015,Medium variant,52.418
+904,2020,Medium variant,79.6
+904,2025,Medium variant,119.783
+904,2030,Medium variant,168.189
+904,2035,Medium variant,217.482
+904,2040,Medium variant,279.24
+904,2045,Medium variant,364.895
+904,2050,Medium variant,489.411
+904,2055,Medium variant,687.809
+904,2060,Medium variant,920.636
+904,2065,Medium variant,1227.108
+904,2070,Medium variant,1542.364
+904,2075,Medium variant,1872.469
+904,2080,Medium variant,2262.661
+904,2085,Medium variant,2697.032
+904,2090,Medium variant,3139.828
+904,2095,Medium variant,3557.559
+904,2100,Medium variant,4017.747
+905,1990,Estimates,34.62
+905,1995,Estimates,46.779
+905,2000,Estimates,48.924
+905,2005,Estimates,51.718
+905,2010,Estimates,66.306
+905,2015,Estimates,79.724
+905,2015,Medium variant,79.724
+905,2020,Medium variant,105.992
+905,2025,Medium variant,134.962
+905,2030,Medium variant,164.348
+905,2035,Medium variant,187.969
+905,2040,Medium variant,223.42
+905,2045,Medium variant,306.863
+905,2050,Medium variant,445.437
+905,2055,Medium variant,580.07
+905,2060,Medium variant,747.415
+905,2065,Medium variant,885.589
+905,2070,Medium variant,922.845
+905,2075,Medium variant,1034.185
+905,2080,Medium variant,1141.199
+905,2085,Medium variant,1401.819
+905,2090,Medium variant,1627.225
+905,2095,Medium variant,1948.458
+905,2100,Medium variant,2099.573
+906,1990,Estimates,6.365
+906,1995,Estimates,11.395
+906,2000,Estimates,20.706
+906,2005,Estimates,40.973
+906,2010,Estimates,72.342
+906,2015,Estimates,116.299
+906,2015,Medium variant,116.299
+906,2020,Medium variant,166.798
+906,2025,Medium variant,237.246
+906,2030,Medium variant,345.371
+906,2035,Medium variant,482.758
+906,2040,Medium variant,631.01
+906,2045,Medium variant,828.468
+906,2050,Medium variant,1210.881
+906,2055,Medium variant,1784.217
+906,2060,Medium variant,2211.788
+906,2065,Medium variant,3071.619
+906,2070,Medium variant,4356.269
+906,2075,Medium variant,5312.657
+906,2080,Medium variant,5478.035
+906,2085,Medium variant,6293.92
+906,2090,Medium variant,8442.276
+906,2095,Medium variant,8918.463
+906,2100,Medium variant,8442.913
+908,1990,Estimates,29.376
+908,1995,Estimates,34.863
+908,2000,Estimates,44.277
+908,2005,Estimates,60.796
+908,2010,Estimates,88.366
+908,2015,Estimates,120.82
+908,2015,Medium variant,120.82
+908,2020,Medium variant,135.78
+908,2025,Medium variant,241.639
+908,2030,Medium variant,329.275
+908,2035,Medium variant,417.279
+908,2040,Medium variant,535.689
+908,2045,Medium variant,636.642
+908,2050,Medium variant,882.174
+908,2055,Medium variant,1102.497
+908,2060,Medium variant,1396.247
+908,2065,Medium variant,1767.393
+908,2070,Medium variant,2106.722
+908,2075,Medium variant,2371.255
+908,2080,Medium variant,2612.093
+908,2085,Medium variant,2915.387
+908,2090,Medium variant,3219.971
+908,2095,Medium variant,3498.693
+908,2100,Medium variant,3796.934
+909,1990,Estimates,1.092
+909,1995,Estimates,1.543
+909,2000,Estimates,1.859
+909,2005,Estimates,2.373
+909,2010,Estimates,3.346
+909,2015,Estimates,4.389
+909,2015,Medium variant,4.389
+909,2020,Medium variant,5.521
+909,2025,Medium variant,8.494
+909,2030,Medium variant,11.497
+909,2035,Medium variant,14.483
+909,2040,Medium variant,19.35
+909,2045,Medium variant,27.898
+909,2050,Medium variant,43.305
+909,2055,Medium variant,56.056
+909,2060,Medium variant,74.648
+909,2065,Medium variant,97.264
+909,2070,Medium variant,113.433
+909,2075,Medium variant,144.189
+909,2080,Medium variant,160.934
+909,2085,Medium variant,207.61
+909,2090,Medium variant,255.829
+909,2095,Medium variant,302.003
+909,2100,Medium variant,339.969
+910,1990,Estimates,0.264
+910,1995,Estimates,0.342
+910,2000,Estimates,0.476
+910,2005,Estimates,0.673
+910,2010,Estimates,0.916
+910,2015,Estimates,1.282
+910,2015,Medium variant,1.282
+910,2020,Medium variant,1.818
+910,2025,Medium variant,2.539
+910,2030,Medium variant,3.384
+910,2035,Medium variant,4.639
+910,2040,Medium variant,6.144
+910,2045,Medium variant,8.64
+910,2050,Medium variant,12.637
+910,2055,Medium variant,18.367
+910,2060,Medium variant,26.521
+910,2065,Medium variant,37.717
+910,2070,Medium variant,53.544
+910,2075,Medium variant,77.986
+910,2080,Medium variant,114.689
+910,2085,Medium variant,168.174
+910,2090,Medium variant,232.963
+910,2095,Medium variant,316.472
+910,2100,Medium variant,427.373
+911,1990,Estimates,0.091
+911,1995,Estimates,0.119
+911,2000,Estimates,0.149
+911,2005,Estimates,0.187
+911,2010,Estimates,0.237
+911,2015,Estimates,0.303
+911,2015,Medium variant,0.303
+911,2020,Medium variant,0.39
+911,2025,Medium variant,0.51
+911,2030,Medium variant,0.667
+911,2035,Medium variant,0.862
+911,2040,Medium variant,1.117
+911,2045,Medium variant,1.447
+911,2050,Medium variant,1.863
+911,2055,Medium variant,2.455
+911,2060,Medium variant,3.344
+911,2065,Medium variant,4.675
+911,2070,Medium variant,6.718
+911,2075,Medium variant,9.857
+911,2080,Medium variant,14.651
+911,2085,Medium variant,22.138
+911,2090,Medium variant,33.048
+911,2095,Medium variant,48.242
+911,2100,Medium variant,69.562
+912,1990,Estimates,0.394
+912,1995,Estimates,0.562
+912,2000,Estimates,0.807
+912,2005,Estimates,1.151
+912,2010,Estimates,1.69
+912,2015,Estimates,2.244
+912,2015,Medium variant,2.244
+912,2020,Medium variant,3.392
+912,2025,Medium variant,5.025
+912,2030,Medium variant,7.393
+912,2035,Medium variant,10.295
+912,2040,Medium variant,13.255
+912,2045,Medium variant,16.552
+912,2050,Medium variant,22.857
+912,2055,Medium variant,35.789
+912,2060,Medium variant,52.035
+912,2065,Medium variant,73.825
+912,2070,Medium variant,100.154
+912,2075,Medium variant,135.246
+912,2080,Medium variant,192.466
+912,2085,Medium variant,269.169
+912,2090,Medium variant,344.875
+912,2095,Medium variant,400.641
+912,2100,Medium variant,435.041
+913,1990,Estimates,0.209
+913,1995,Estimates,0.251
+913,2000,Estimates,0.307
+913,2005,Estimates,0.401
+913,2010,Estimates,0.537
+913,2015,Estimates,0.67
+913,2015,Medium variant,0.67
+913,2020,Medium variant,0.851
+913,2025,Medium variant,1.204
+913,2030,Medium variant,2.794
+913,2035,Medium variant,2.825
+913,2040,Medium variant,3.501
+913,2045,Medium variant,4.36
+913,2050,Medium variant,6.058
+913,2055,Medium variant,8.353
+913,2060,Medium variant,11.138
+913,2065,Medium variant,14.109
+913,2070,Medium variant,16.614
+913,2075,Medium variant,19.936
+913,2080,Medium variant,25.111
+913,2085,Medium variant,35.259
+913,2090,Medium variant,46.04
+913,2095,Medium variant,53.948
+913,2100,Medium variant,61.279
+914,1990,Estimates,0.026
+914,1995,Estimates,0.036
+914,2000,Estimates,0.043
+914,2005,Estimates,0.05
+914,2010,Estimates,0.062
+914,2015,Estimates,0.081
+914,2015,Medium variant,0.081
+914,2020,Medium variant,0.125
+914,2025,Medium variant,0.167
+914,2030,Medium variant,0.215
+914,2035,Medium variant,0.281
+914,2040,Medium variant,0.37
+914,2045,Medium variant,0.506
+914,2050,Medium variant,0.686
+914,2055,Medium variant,1.028
+914,2060,Medium variant,1.584
+914,2065,Medium variant,2.458
+914,2070,Medium variant,3.798
+914,2075,Medium variant,6.086
+914,2080,Medium variant,9.838
+914,2085,Medium variant,15.552
+914,2090,Medium variant,24.196
+914,2095,Medium variant,36.961
+914,2100,Medium variant,56.151
+915,1990,Estimates,1.33
+915,1995,Estimates,1.562
+915,2000,Estimates,3.006
+915,2005,Estimates,4.743
+915,2010,Estimates,6.621
+915,2015,Estimates,9.361
+915,2015,Medium variant,9.361
+915,2020,Medium variant,12.908
+915,2025,Medium variant,17.24
+915,2030,Medium variant,22.03
+915,2035,Medium variant,27.668
+915,2040,Medium variant,34.945
+915,2045,Medium variant,42.403
+915,2050,Medium variant,53.091
+915,2055,Medium variant,69.442
+915,2060,Medium variant,85.323
+915,2065,Medium variant,118.179
+915,2070,Medium variant,140.429
+915,2075,Medium variant,154.287
+915,2080,Medium variant,149.808
+915,2085,Medium variant,161.244
+915,2090,Medium variant,187.229
+915,2095,Medium variant,203.837
+915,2100,Medium variant,216.317
+916,1990,Estimates,3.711
+916,1995,Estimates,4.935
+916,2000,Estimates,6.393
+916,2005,Estimates,8.199
+916,2010,Estimates,9.366
+916,2015,Estimates,13.556
+916,2015,Medium variant,13.556
+916,2020,Medium variant,21.267
+916,2025,Medium variant,34.481
+916,2030,Medium variant,47.788
+916,2035,Medium variant,60.852
+916,2040,Medium variant,73.554
+916,2045,Medium variant,96.681
+916,2050,Medium variant,124.864
+916,2055,Medium variant,181.374
+916,2060,Medium variant,245.384
+916,2065,Medium variant,324.035
+916,2070,Medium variant,430.669
+916,2075,Medium variant,555.238
+916,2080,Medium variant,676.899
+916,2085,Medium variant,799.758
+916,2090,Medium variant,938.933
+916,2095,Medium variant,1102.846
+916,2100,Medium variant,1271.036
+920,1990,Estimates,3.506
+920,1995,Estimates,5.599
+920,2000,Estimates,9.215
+920,2005,Estimates,14.939
+920,2010,Estimates,21.489
+920,2015,Estimates,30.926
+920,2015,Medium variant,30.926
+920,2020,Medium variant,40.845
+920,2025,Medium variant,55.668
+920,2030,Medium variant,72.096
+920,2035,Medium variant,93.148
+920,2040,Medium variant,108.621
+920,2045,Medium variant,124.069
+920,2050,Medium variant,168.462
+920,2055,Medium variant,259.529
+920,2060,Medium variant,371.013
+920,2065,Medium variant,475.428
+920,2070,Medium variant,573.054
+920,2075,Medium variant,679.488
+920,2080,Medium variant,782.781
+920,2085,Medium variant,917.186
+920,2090,Medium variant,1039.616
+920,2095,Medium variant,1169.738
+920,2100,Medium variant,1178.883
+921,1990,Estimates,9.835
+921,1995,Estimates,10.936
+921,2000,Estimates,14.485
+921,2005,Estimates,18.93
+921,2010,Estimates,25.509
+921,2015,Estimates,37.957
+921,2015,Medium variant,37.957
+921,2020,Medium variant,59.417
+921,2025,Medium variant,90.116
+921,2030,Medium variant,127.632
+921,2035,Medium variant,168.545
+921,2040,Medium variant,216.281
+921,2045,Medium variant,270.371
+921,2050,Medium variant,346.236
+921,2055,Medium variant,466.124
+921,2060,Medium variant,640.761
+921,2065,Medium variant,886.522
+921,2070,Medium variant,1175.17
+921,2075,Medium variant,1513.262
+921,2080,Medium variant,1989.393
+921,2085,Medium variant,2613.741
+921,2090,Medium variant,3278.767
+921,2095,Medium variant,3949.543
+921,2100,Medium variant,4709.069
+922,1990,Estimates,1.49
+922,1995,Estimates,1.217
+922,2000,Estimates,1.343
+922,2005,Estimates,1.737
+922,2010,Estimates,2.366
+922,2015,Estimates,3.782
+922,2015,Medium variant,3.782
+922,2020,Medium variant,4.936
+922,2025,Medium variant,7.829
+922,2030,Medium variant,11.99
+922,2035,Medium variant,17.231
+922,2040,Medium variant,23.115
+922,2045,Medium variant,30.418
+922,2050,Medium variant,45.957
+922,2055,Medium variant,72.628
+922,2060,Medium variant,102.818
+922,2065,Medium variant,144.182
+922,2070,Medium variant,195.674
+922,2075,Medium variant,267.45
+922,2080,Medium variant,354.23
+922,2085,Medium variant,459.933
+922,2090,Medium variant,566.053
+922,2095,Medium variant,667.41
+922,2100,Medium variant,787.428
+923,1990,Estimates,10.338
+923,1995,Estimates,9.16
+923,2000,Estimates,8.296
+923,2005,Estimates,9.84
+923,2010,Estimates,14.049
+923,2015,Estimates,16.588
+923,2015,Medium variant,16.588
+923,2020,Medium variant,15.624
+923,2025,Medium variant,28.631
+923,2030,Medium variant,42.953
+923,2035,Medium variant,48.985
+923,2040,Medium variant,61.086
+923,2045,Medium variant,60.33
+923,2050,Medium variant,85.623
+923,2055,Medium variant,124.259
+923,2060,Medium variant,145.975
+923,2065,Medium variant,149.711
+923,2070,Medium variant,158.978
+923,2075,Medium variant,200.409
+923,2080,Medium variant,253.437
+923,2085,Medium variant,296.422
+923,2090,Medium variant,325.697
+923,2095,Medium variant,314.769
+923,2100,Medium variant,291.65
+924,1990,Estimates,6.57
+924,1995,Estimates,8.128
+924,2000,Estimates,9.968
+924,2005,Estimates,12.727
+924,2010,Estimates,17.635
+924,2015,Estimates,21.103
+924,2015,Medium variant,21.103
+924,2020,Medium variant,26.88
+924,2025,Medium variant,37.573
+924,2030,Medium variant,44.489
+924,2035,Medium variant,55.357
+924,2040,Medium variant,70.902
+924,2045,Medium variant,95.601
+924,2050,Medium variant,142.782
+924,2055,Medium variant,160.388
+924,2060,Medium variant,202.231
+924,2065,Medium variant,268.198
+924,2070,Medium variant,327.139
+924,2075,Medium variant,359.825
+924,2080,Medium variant,401.864
+924,2085,Medium variant,482.404
+924,2090,Medium variant,574.164
+924,2095,Medium variant,665.664
+924,2100,Medium variant,719.041
+925,1990,Estimates,4.685
+925,1995,Estimates,6.655
+925,2000,Estimates,10.041
+925,2005,Estimates,15.103
+925,2010,Estimates,23.851
+925,2015,Estimates,40.113
+925,2015,Medium variant,40.113
+925,2020,Medium variant,51.796
+925,2025,Medium variant,92.535
+925,2030,Medium variant,133.221
+925,2035,Medium variant,176.486
+925,2040,Medium variant,221.533
+925,2045,Medium variant,262.641
+925,2050,Medium variant,351.661
+925,2055,Medium variant,429.337
+925,2060,Medium variant,548.886
+925,2065,Medium variant,710.161
+925,2070,Medium variant,862.141
+925,2075,Medium variant,1009.073
+925,2080,Medium variant,1092.117
+925,2085,Medium variant,1107.299
+925,2090,Medium variant,1125.131
+925,2095,Medium variant,1202.579
+925,2100,Medium variant,1312.109
+926,1990,Estimates,7.783
+926,1995,Estimates,10.92
+926,2000,Estimates,15.972
+926,2005,Estimates,23.126
+926,2010,Estimates,32.831
+926,2015,Estimates,43.016
+926,2015,Medium variant,43.016
+926,2020,Medium variant,41.48
+926,2025,Medium variant,82.9
+926,2030,Medium variant,108.612
+926,2035,Medium variant,136.451
+926,2040,Medium variant,182.168
+926,2045,Medium variant,218.07
+926,2050,Medium variant,302.108
+926,2055,Medium variant,388.513
+926,2060,Medium variant,499.155
+926,2065,Medium variant,639.323
+926,2070,Medium variant,758.464
+926,2075,Medium variant,801.948
+926,2080,Medium variant,864.675
+926,2085,Medium variant,1029.262
+926,2090,Medium variant,1194.979
+926,2095,Medium variant,1315.681
+926,2100,Medium variant,1474.134
+927,1990,Estimates,1.084
+927,1995,Estimates,1.533
+927,2000,Estimates,1.841
+927,2005,Estimates,2.345
+927,2010,Estimates,3.305
+927,2015,Estimates,4.323
+927,2015,Medium variant,4.323
+927,2020,Medium variant,5.425
+927,2025,Medium variant,8.359
+927,2030,Medium variant,11.292
+927,2035,Medium variant,14.185
+927,2040,Medium variant,18.925
+927,2045,Medium variant,27.299
+927,2050,Medium variant,42.419
+927,2055,Medium variant,54.73
+927,2060,Medium variant,72.72
+927,2065,Medium variant,94.538
+927,2070,Medium variant,109.789
+927,2075,Medium variant,139.504
+927,2080,Medium variant,155.366
+927,2085,Medium variant,200.914
+927,2090,Medium variant,247.528
+927,2095,Medium variant,291.306
+927,2100,Medium variant,326.692
+928,1990,Estimates,0.006
+928,1995,Estimates,0.007
+928,2000,Estimates,0.012
+928,2005,Estimates,0.017
+928,2010,Estimates,0.026
+928,2015,Estimates,0.04
+928,2015,Medium variant,0.04
+928,2020,Medium variant,0.055
+928,2025,Medium variant,0.074
+928,2030,Medium variant,0.106
+928,2035,Medium variant,0.146
+928,2040,Medium variant,0.202
+928,2045,Medium variant,0.288
+928,2050,Medium variant,0.405
+928,2055,Medium variant,0.577
+928,2060,Medium variant,0.818
+928,2065,Medium variant,1.141
+928,2070,Medium variant,1.498
+928,2075,Medium variant,2.036
+928,2080,Medium variant,2.586
+928,2085,Medium variant,3.296
+928,2090,Medium variant,4.161
+928,2095,Medium variant,5.39
+928,2100,Medium variant,6.85
+931,1990,Estimates,2.854
+931,1995,Estimates,4.598
+931,2000,Estimates,7.942
+931,2005,Estimates,13.326
+931,2010,Estimates,19.404
+931,2015,Estimates,29.501
+931,2015,Medium variant,29.501
+931,2020,Medium variant,45.425
+931,2025,Medium variant,68.062
+931,2030,Medium variant,98.371
+931,2035,Medium variant,128.962
+931,2040,Medium variant,170.741
+931,2045,Medium variant,225.811
+931,2050,Medium variant,311.456
+931,2055,Medium variant,436.993
+931,2060,Medium variant,589.929
+931,2065,Medium variant,784.894
+931,2070,Medium variant,971.266
+931,2075,Medium variant,1162.944
+931,2080,Medium variant,1435.954
+931,2085,Medium variant,1736.03
+931,2090,Medium variant,2013.666
+931,2095,Medium variant,2250.876
+931,2100,Medium variant,2530.394
+934,1990,Estimates,26.821
+934,1995,Estimates,35.719
+934,2000,Estimates,53.258
+934,2005,Estimates,81.277
+934,2010,Estimates,117.439
+934,2015,Estimates,177.769
+934,2015,Medium variant,177.769
+934,2020,Medium variant,262.81
+934,2025,Medium variant,375.673
+934,2030,Medium variant,530.322
+934,2035,Medium variant,720.4
+934,2040,Medium variant,937.037
+934,2045,Medium variant,1206.922
+934,2050,Medium variant,1735.449
+934,2055,Medium variant,2723.385
+934,2060,Medium variant,3659.557
+934,2065,Medium variant,5080.702
+934,2070,Medium variant,6928.078
+934,2075,Medium variant,8514.22
+934,2080,Medium variant,9628.995
+934,2085,Medium variant,11642.746
+934,2090,Medium variant,15039.51
+934,2095,Medium variant,16727.027
+934,2100,Medium variant,17416.458
+935,1990,Estimates,21.196
+935,1995,Estimates,29.147
+935,2000,Estimates,45.749
+935,2005,Estimates,76.579
+935,2010,Estimates,121.706
+935,2015,Estimates,188.964
+935,2015,Medium variant,188.964
+935,2020,Medium variant,271.996
+935,2025,Medium variant,390.859
+935,2030,Medium variant,557.089
+935,2035,Medium variant,761.682
+935,2040,Medium variant,979.027
+935,2045,Medium variant,1253.326
+935,2050,Medium variant,1771.536
+935,2055,Medium variant,2582.498
+935,2060,Medium variant,3326.38
+935,2065,Medium variant,4577.751
+935,2070,Medium variant,6300.167
+935,2075,Medium variant,7772.857
+935,2080,Medium variant,8604.439
+935,2085,Medium variant,10284.78
+935,2090,Medium variant,13326.712
+935,2095,Medium variant,14705.154
+935,2100,Medium variant,15118.293
+941,1990,Estimates,0.441
+941,1995,Estimates,0.575
+941,2000,Estimates,0.852
+941,2005,Estimates,1.512
+941,2010,Estimates,3.202
+941,2015,Estimates,7.629
+941,2015,Medium variant,7.629
+941,2020,Medium variant,15.935
+941,2025,Medium variant,28.578
+941,2030,Medium variant,44.082
+941,2035,Medium variant,61.101
+941,2040,Medium variant,79.819
+941,2045,Medium variant,104.458
+941,2050,Medium variant,129.368
+941,2055,Medium variant,151.699
+941,2060,Medium variant,222.692
+941,2065,Medium variant,341.023
+941,2070,Medium variant,474.495
+941,2075,Medium variant,605.784
+941,2080,Medium variant,796.827
+941,2085,Medium variant,1044.007
+941,2090,Medium variant,1282.894
+941,2095,Medium variant,1558.227
+941,2100,Medium variant,1877.537
+947,1990,Estimates,0.59
+947,1995,Estimates,0.748
+947,2000,Estimates,0.975
+947,2005,Estimates,1.311
+947,2010,Estimates,1.752
+947,2015,Estimates,2.336
+947,2015,Medium variant,2.336
+947,2020,Medium variant,3.184
+947,2025,Medium variant,4.42
+947,2030,Medium variant,7.06
+947,2035,Medium variant,8.607
+947,2040,Medium variant,11.132
+947,2045,Medium variant,14.953
+947,2050,Medium variant,21.244
+947,2055,Medium variant,30.203
+947,2060,Medium variant,42.587
+947,2065,Medium variant,58.959
+947,2070,Medium variant,80.674
+947,2075,Medium variant,113.865
+947,2080,Medium variant,164.289
+947,2085,Medium variant,241.123
+947,2090,Medium variant,336.247
+947,2095,Medium variant,455.623
+947,2100,Medium variant,614.365
+948,1990,Estimates,23.916
+948,1995,Estimates,30.47
+948,2000,Estimates,44.658
+948,2005,Estimates,65.23
+948,2010,Estimates,90.197
+948,2015,Estimates,133.157
+948,2015,Medium variant,133.157
+948,2020,Medium variant,197.006
+948,2025,Medium variant,293.325
+948,2030,Medium variant,411.577
+948,2035,Medium variant,543.994
+948,2040,Medium variant,695.238
+948,2045,Medium variant,878.979999999999
+948,2050,Medium variant,1172.468
+948,2055,Medium variant,1665.333
+948,2060,Medium variant,2307.395
+948,2065,Medium variant,3100.248
+948,2070,Medium variant,3952.605
+948,2075,Medium variant,4917.103
+948,2080,Medium variant,6110.513
+948,2085,Medium variant,7603.557
+948,2090,Medium variant,9130.538
+948,2095,Medium variant,10694.747
+948,2100,Medium variant,12282.387
+954,1990,Estimates,0
+954,1995,Estimates,0
+954,2000,Estimates,0
+954,2005,Estimates,0.002
+954,2010,Estimates,0.003
+954,2015,Estimates,0.005
+954,2015,Medium variant,0.005
+954,2020,Medium variant,0.014
+954,2025,Medium variant,0.019
+954,2030,Medium variant,0.031
+954,2035,Medium variant,0.056
+954,2040,Medium variant,0.09
+954,2045,Medium variant,0.126
+954,2050,Medium variant,0.228
+954,2055,Medium variant,0.35
+954,2060,Medium variant,0.503
+954,2065,Medium variant,0.735
+954,2070,Medium variant,0.966
+954,2075,Medium variant,1.216
+954,2080,Medium variant,1.344
+954,2085,Medium variant,1.499
+954,2090,Medium variant,1.819
+954,2095,Medium variant,2.321
+954,2100,Medium variant,2.921
+957,1990,Estimates,0.002
+957,1995,Estimates,0.003
+957,2000,Estimates,0.006
+957,2005,Estimates,0.009
+957,2010,Estimates,0.012
+957,2015,Estimates,0.021
+957,2015,Medium variant,0.021
+957,2020,Medium variant,0.027
+957,2025,Medium variant,0.042
+957,2030,Medium variant,0.068
+957,2035,Medium variant,0.096
+957,2040,Medium variant,0.133
+957,2045,Medium variant,0.185
+957,2050,Medium variant,0.253
+957,2055,Medium variant,0.399
+957,2060,Medium variant,0.607
+957,2065,Medium variant,0.85
+957,2070,Medium variant,1.18
+957,2075,Medium variant,1.433
+957,2080,Medium variant,1.638
+957,2085,Medium variant,1.901
+957,2090,Medium variant,2.321
+957,2095,Medium variant,2.986
+957,2100,Medium variant,3.506
+1500,1990,Estimates,0.316
+1500,1995,Estimates,0.416
+1500,2000,Estimates,0.569
+1500,2005,Estimates,0.784
+1500,2010,Estimates,1.066
+1500,2015,Estimates,1.495
+1500,2015,Medium variant,1.495
+1500,2020,Medium variant,2.103
+1500,2025,Medium variant,2.898
+1500,2030,Medium variant,3.927
+1500,2035,Medium variant,5.412
+1500,2040,Medium variant,7.353
+1500,2045,Medium variant,10.423
+1500,2050,Medium variant,14.817
+1500,2055,Medium variant,21.129
+1500,2060,Medium variant,31.016
+1500,2065,Medium variant,44.911
+1500,2070,Medium variant,65.632
+1500,2075,Medium variant,95.94
+1500,2080,Medium variant,134.712
+1500,2085,Medium variant,213.111
+1500,2090,Medium variant,289.579
+1500,2095,Medium variant,405.08
+1500,2100,Medium variant,551.384
+1501,1990,Estimates,14.332
+1501,1995,Estimates,17.134
+1501,2000,Estimates,23.748
+1501,2005,Estimates,33.962
+1501,2010,Estimates,47.045
+1501,2015,Estimates,68.561
+1501,2015,Medium variant,68.561
+1501,2020,Medium variant,98.107
+1501,2025,Medium variant,142.137
+1501,2030,Medium variant,193.083
+1501,2035,Medium variant,247.826
+1501,2040,Medium variant,304.104
+1501,2045,Medium variant,364.578
+1501,2050,Medium variant,462.711
+1501,2055,Medium variant,645.871
+1501,2060,Medium variant,896.476
+1501,2065,Medium variant,1213.994
+1501,2070,Medium variant,1570.583
+1501,2075,Medium variant,1997.761
+1501,2080,Medium variant,2576.704
+1501,2085,Medium variant,3330.897
+1501,2090,Medium variant,4150.789
+1501,2095,Medium variant,4985.713
+1501,2100,Medium variant,5811.199
+1502,1990,Estimates,13.152
+1502,1995,Estimates,17.802
+1502,2000,Estimates,25.333
+1502,2005,Estimates,38.837
+1502,2010,Estimates,57.497
+1502,2015,Estimates,90.198
+1502,2015,Medium variant,90.198
+1502,2020,Medium variant,136.597
+1502,2025,Medium variant,196.187
+1502,2030,Medium variant,284.861
+1502,2035,Medium variant,397.347
+1502,2040,Medium variant,532.637
+1502,2045,Medium variant,705.776
+1502,2050,Medium variant,1064.918
+1502,2055,Medium variant,1740.111
+1502,2060,Medium variant,2296.323
+1502,2065,Medium variant,3309.617
+1502,2070,Medium variant,4743.96
+1502,2075,Medium variant,5836.388
+1502,2080,Medium variant,6342.661
+1502,2085,Medium variant,7585.128
+1502,2090,Medium variant,10181.132
+1502,2095,Medium variant,10960.093
+1502,2100,Medium variant,10816.153
+1503,1990,Estimates,67.309
+1503,1995,Estimates,89.289
+1503,2000,Estimates,110.129
+1503,2005,Estimates,146.36
+1503,2010,Estimates,212.584
+1503,2015,Estimates,290.084
+1503,2015,Medium variant,290.084
+1503,2020,Medium variant,367.824
+1503,2025,Medium variant,562.765
+1503,2030,Medium variant,761.429
+1503,2035,Medium variant,965.012
+1503,2040,Medium variant,1214.052
+1503,2045,Medium variant,1536.585
+1503,2050,Medium variant,2128.199
+1503,2055,Medium variant,2660.239
+1503,2060,Medium variant,3326.01
+1503,2065,Medium variant,4105.717
+1503,2070,Medium variant,4769.6
+1503,2075,Medium variant,5495.997
+1503,2080,Medium variant,6064.969
+1503,2085,Medium variant,6867.94
+1503,2090,Medium variant,7606.314
+1503,2095,Medium variant,8490.503
+1503,2100,Medium variant,9211.735
+1517,1990,Estimates,27.484
+1517,1995,Estimates,34.936
+1517,2000,Estimates,49.081
+1517,2005,Estimates,72.799
+1517,2010,Estimates,104.542
+1517,2015,Estimates,158.759
+1517,2015,Medium variant,158.759
+1517,2020,Medium variant,234.704
+1517,2025,Medium variant,338.324
+1517,2030,Medium variant,477.944
+1517,2035,Medium variant,645.173
+1517,2040,Medium variant,836.741
+1517,2045,Medium variant,1070.354
+1517,2050,Medium variant,1527.629
+1517,2055,Medium variant,2385.982
+1517,2060,Medium variant,3192.799
+1517,2065,Medium variant,4523.611
+1517,2070,Medium variant,6314.543
+1517,2075,Medium variant,7834.149
+1517,2080,Medium variant,8919.365
+1517,2085,Medium variant,10916.025
+1517,2090,Medium variant,14331.921
+1517,2095,Medium variant,15945.806
+1517,2100,Medium variant,16627.352
+5500,1990,Estimates,2.989
+5500,1995,Estimates,2.765
+5500,2000,Estimates,2.286
+5500,2005,Estimates,2.587
+5500,2010,Estimates,2.226
+5500,2015,Estimates,2.467
+5500,2015,Medium variant,2.467
+5500,2020,Medium variant,2.257
+5500,2025,Medium variant,3.158
+5500,2030,Medium variant,4.347
+5500,2035,Medium variant,4.455
+5500,2040,Medium variant,5.674
+5500,2045,Medium variant,4.592
+5500,2050,Medium variant,5.539
+5500,2055,Medium variant,8.92
+5500,2060,Medium variant,12.8
+5500,2065,Medium variant,16.737
+5500,2070,Medium variant,18.064
+5500,2075,Medium variant,21.198
+5500,2080,Medium variant,25.199
+5500,2085,Medium variant,32.4
+5500,2090,Medium variant,43.429
+5500,2095,Medium variant,47.312
+5500,2100,Medium variant,46.822
+5501,1990,Estimates,6.846
+5501,1995,Estimates,8.171
+5501,2000,Estimates,12.199
+5501,2005,Estimates,16.343
+5501,2010,Estimates,23.283
+5501,2015,Estimates,35.49
+5501,2015,Medium variant,35.49
+5501,2020,Medium variant,57.16
+5501,2025,Medium variant,86.958
+5501,2030,Medium variant,123.285
+5501,2035,Medium variant,164.09
+5501,2040,Medium variant,210.607
+5501,2045,Medium variant,265.779
+5501,2050,Medium variant,340.697
+5501,2055,Medium variant,457.204
+5501,2060,Medium variant,627.961
+5501,2065,Medium variant,869.785
+5501,2070,Medium variant,1157.106
+5501,2075,Medium variant,1492.064
+5501,2080,Medium variant,1964.194
+5501,2085,Medium variant,2581.341
+5501,2090,Medium variant,3235.338
+5501,2095,Medium variant,3902.231
+5501,2100,Medium variant,4662.247
