@@ -85,6 +85,7 @@ Total Population aged 76 (Number),total_population_aged_76_number,measure,thousa
 Total Population aged 77 (Number),total_population_aged_77_number,measure,thousands
 Total Population aged 78 (Number),total_population_aged_78_number,measure,thousands
 Total Population aged 79 (Number),total_population_aged_79_number,measure,thousands
+Total Population aged 80plus (Number),total_population_aged_80plus_number,measure,thousands
 Total Population aged 80 (Number),total_population_aged_80_number,measure,thousands
 Total Population aged 81 (Number),total_population_aged_81_number,measure,thousands
 Total Population aged 82 (Number),total_population_aged_82_number,measure,thousands
@@ -105,4 +106,4 @@ Total Population aged 96 (Number),total_population_aged_96_number,measure,thousa
 Total Population aged 97 (Number),total_population_aged_97_number,measure,thousands
 Total Population aged 98 (Number),total_population_aged_98_number,measure,thousands
 Total Population aged 99 (Number),total_population_aged_99_number,measure,thousands
-Total Population aged 100+ (Number),total_population_aged_100_number,measure,thousands
+Total Population aged 100plus (Number),total_population_aged_100plus_number,measure,thousands

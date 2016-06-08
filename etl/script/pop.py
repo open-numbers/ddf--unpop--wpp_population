@@ -54,7 +54,9 @@ def extract_concepts(data_est, data_var):
     cols_2 = data_var.columns
     cols_new_2 = [*cols_2[:4], *(map(lambda x: 'Total Population aged ' + x + ' (Number)', cols_2[4:]))]
 
-    assert cols_new_1 == cols_new_2  # columns should have same names in both tabs.
+    # the only difference should be the 80plus group
+    # which is in Estimates but not in medium variant.
+    assert len(cols_new_1) == len(cols_new_2) + 1
 
     data_est.columns = cols_new_1
     data_var.columns = cols_new_2
@@ -112,15 +114,13 @@ if __name__ == '__main__':
     data_est = pd.read_excel(source, sheetname='ESTIMATES', skiprows=16, na_values='…')
     data_var = pd.read_excel(source, sheetname='MEDIUM VARIANT', skiprows=16, na_values='…')
 
-    # drop some columns.
-    # 2015 version of data: there is a '80+' column in Estimates tab, which is
-    # not needed as we only need single year group.
-    if '80+' in data_est.columns:
-        data_est = data_est.drop(['Index', 'Notes', '80+'], axis=1)
-    else:
-        data_est = data_est.drop(['Index', 'Notes'], axis=1)
-
+    # rename/drop some columns.
+    # for 80+ and 100+ groups, rename to 80plus and 100plus
+    data_est = data_est.drop(['Index', 'Notes'], axis=1)
     data_var = data_var.drop(['Index', 'Notes'], axis=1)
+
+    data_est = data_est.rename(columns={'80+': '80plus', '100+': '100plus'})
+    data_var = data_var.rename(columns={'100+': '100plus'})
 
     print('creating concept files...')
     path = os.path.join(out_dir, 'ddf--concepts.csv')
