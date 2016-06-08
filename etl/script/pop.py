@@ -44,6 +44,8 @@ def extract_concepts(data_est, data_var):
 
     data_est is data from estimates tab.
     data_var is from medium variant tab.
+
+    this function will change the input dataframes in place.
     """
 
     # rename the columns. Because in the source file the column names for data
@@ -79,7 +81,7 @@ def extract_concepts(data_est, data_var):
     concs['concept_type'].iloc[4:] = 'measure'
 
     concs['unit'] = 'thousands'
-    concs.loc[:3, 'unit'] = np.nan
+    concs['unit'].iloc[:4] = np.nan
 
     concs = concs.append(pd.DataFrame([
         ['unit', 'Unit', 'string', np.nan],
