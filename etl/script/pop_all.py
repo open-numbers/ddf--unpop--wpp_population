@@ -21,32 +21,42 @@ def read_cleanup(source, gender):
     data_est = pd.read_excel(source, sheetname='ESTIMATES', skiprows=16, na_values='…')
     data_var = pd.read_excel(source, sheetname='MEDIUM VARIANT', skiprows=16, na_values='…')
 
-    data_est['Gender'] = gender
-    data_var['Gender'] = gender
-
     # rename/drop some columns.
     # for 80+ and 100+ groups, rename to 80plus and 100plus
     data_est = data_est.drop(['Index', 'Notes'], axis=1)
     data_var = data_var.drop(['Index', 'Notes'], axis=1)
 
-    data_est = data_est.rename(columns={'80+': '80plus', '100+': '100plus'})
-    data_var = data_var.rename(columns={'100+': '100plus'})
+    data_est = data_est.rename(columns={'80+': '80plus',
+                                        '100+': '100plus'})
+    data_var = data_var.rename(columns={'100+': '100plus'})  # todo: no use to rename for now.
 
-    return (data_est, data_var)
+    # insert Gender column and rearrange the order
+    col_est_1 = data_est.columns[:4]
+    col_est_2 = data_est.columns[4:]
+
+    col_var_1 = data_var.columns[:4]
+    col_var_2 = data_var.columns[4:]
+
+    cols_est = [*col_est_1, 'Gender', *col_est_2]
+    cols_var = [*col_var_1, 'Gender', *col_var_2]
+
+    data_est['Gender'] = gender
+    data_var['Gender'] = gender
+
+    return (data_est[cols_est], data_var[cols_var])
 
 
 def extract_concepts(data):
-
+    """extract concept from one of the dataframes."""
     data_ = data.rename(columns={
         'Major area, region, country or area *': 'Name',
-        'Reference date (as of 1 July)': 'year'
+        'Reference date (as of 1 July)': 'Year'
     })
-    concept_name = data_.columns[:4]
-    concept_name.append('Unit')
+
+    concept_name = list(data_.columns[:5])
     concept_name.append('Population')
-    concept_name.append('Gender')
     concept_name.append('Age')
-    concepts = map(to_concept_id, concept_name)
+    concepts = list(map(to_concept_id, concept_name))
 
     # now construct the dataframe
     cdf = pd.DataFrame([], columns=['concept', 'concept_type', 'name'])
@@ -54,9 +64,16 @@ def extract_concepts(data):
     cdf['name'] = concept_name
 
     cdf['concept_type'] = 'string'
-    cdf['concept_type'].iloc[6] = 'measure'
 
-    cdf['concept_type'].iloc[7:] = 'entity_domain'
+    # population
+    cdf['concept_type'].iloc[5] = 'measure'
+
+    # entity domains
+    cdf['concept_type'].iloc[[2, 4, 6]] = 'entity_domain'
+
+    # year
+    cdf['concept_type'].iloc[3] = 'time'
+    cdf['name'].iloc[3] = 'Reference date (as of 1 July)'
 
     return cdf
 
@@ -88,6 +105,7 @@ def extract_entities_country(data_est, data_var):
 
     return entity
 
+
 def extract_entities_gender():
     """no more information about gender in source, just create that"""
     df = pd.DataFrame([], columns=['gender', 'name'])
@@ -107,6 +125,64 @@ def extract_entities_age(data_est):
     return df
 
 
-if __name__ == '__main__':
-    data_
+def extract_datapoints(dflist):
+    """make datapoint file with all dataframe in dflist."""
 
+    to_concat = []
+
+    for df in dflist:
+        e = df.drop('Major area, region, country or area *', axis=1)
+        e = e.set_index([
+            'Variant', 'Country code', 'Reference date (as of 1 July)', 'Gender'])
+        e.columns.name = 'Age'
+        df_new = e.stack().reset_index().rename(columns={0: 'Population'})
+        to_concat.append(df_new)
+
+    df_all = pd.concat(to_concat)
+    df_all = df_all.rename(columns={'Reference date (as of 1 July)': 'Year'})
+    df_all.columns = list(map(to_concept_id, df_all.columns))
+
+    # make age column sort correctly by changing to categorial dtype.
+    df_all['age'] = df_all['age'].astype('category', categories=list(df_all['age'].unique()), ordered=True)
+
+    df_all = df_all.sort_values(by=['country_code', 'year', 'age', 'gender'])
+
+    return df_all
+
+
+if __name__ == '__main__':
+
+    print('reading source data...')
+    print('\tboth sexes...')
+    est_t, var_t = read_cleanup(source_t, 'both_sexes')
+    print('\tmale...')
+    est_m, var_m = read_cleanup(source_m, 'male')
+    print('\tfemale...')
+    est_f, var_f = read_cleanup(source_f, 'female')
+
+    print('creating datapoint file...')
+    dflist = [est_t, var_t, est_m, var_m, est_f, var_f]
+    df_all = extract_datapoints(dflist)
+    path = os.path.join(out_dir, 'ddf--datapoints--population--by--country_code--year--gender--age.csv')
+    df_all.to_csv(path, index=False)
+
+    print('creating concepts files...')
+    concepts = extract_concepts(est_t)
+    path = os.path.join(out_dir, 'ddf--concepts.csv')
+    concepts.to_csv(path, index=False)
+
+    print('creating entities files...')
+    country = extract_entities_country(est_t, var_t)
+    path = os.path.join(out_dir, 'ddf--entities--country_code.csv')
+    country.to_csv(path, index=False)
+
+    gender = extract_entities_gender()
+    path = os.path.join(out_dir, 'ddf--entities--gender.csv')
+    gender.to_csv(path, index=False)
+
+    age = extract_entities_age(est_t)
+    path = os.path.join(out_dir, 'ddf--entities--age.csv')
+    age.to_csv(path, index=False)
+
+    print('creating index files...')
+    create_index_file(out_dir)
