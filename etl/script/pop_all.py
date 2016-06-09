@@ -119,7 +119,7 @@ def extract_entities_age(data_est):
     """extract ages from estimates tab of source data."""
 
     df = pd.DataFrame([], columns=['age', 'name'])
-    df['age'] = data_est.columns[4:]
+    df['age'] = data_est.columns[5:]
 
     df['name'] = 'Age ' + df['age']
     return df
