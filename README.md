@@ -1,6 +1,11 @@
 # Population by age group from WPP
 
-source: http://esa.un.org/unpd/wpp/DVD/Files/1_Indicators%20(Standard)/EXCEL_FILES/5_Interpolated/WPP2015_INT_F03_1_POPULATION_BY_AGE_ANNUAL_BOTH_SEXES.XLS
+source: 
+
+- both sex: http://esa.un.org/unpd/wpp/DVD/Files/1_Indicators%20(Standard)/EXCEL_FILES/5_Interpolated/WPP2015_INT_F03_1_POPULATION_BY_AGE_ANNUAL_BOTH_SEXES.XLS
+- male: http://esa.un.org/unpd/wpp/DVD/Files/1_Indicators%20(Standard)/EXCEL_FILES/5_Interpolated/WPP2015_INT_F03_2_POPULATION_BY_AGE_ANNUAL_MALE.XLS
+- female: http://esa.un.org/unpd/wpp/DVD/Files/1_Indicators%20(Standard)/EXCEL_FILES/5_Interpolated/WPP2015_INT_F03_3_POPULATION_BY_AGE_ANNUAL_FEMALE.XLS
+
 
 ## notes:
 
