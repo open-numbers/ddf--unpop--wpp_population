@@ -1,0 +1,14 @@
+# this recipe is to build the following dataset:
+# A. each countries data is in a separate datapoint file.
+# B: The World data should be a separate file and one file for each of the four Gapminder four regions.
+# so the dataset will become ~400 files
+
+info:
+  id: unpop-countries-profiles
+
+# config: 
+
+ingredients:
+  - id: unpop-origin-datapoints-mf
+    dataset: ddf--unpop--wpp_pop
+    key: 

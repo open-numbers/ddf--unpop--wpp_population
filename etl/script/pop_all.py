@@ -109,8 +109,8 @@ def extract_entities_country(data_est, data_var):
 def extract_entities_gender():
     """no more information about gender in source, just create that"""
     df = pd.DataFrame([], columns=['gender', 'name'])
-    df['gender'] = ['both_sexes', 'male', 'female']
-    df['name'] = ['Both sexes', 'Male', 'Female']
+    df['gender'] = ['male', 'female']
+    df['name'] = ['Male', 'Female']
 
     return df
 
@@ -161,10 +161,15 @@ if __name__ == '__main__':
     est_f, var_f = read_cleanup(source_f, 'female')
 
     print('creating datapoint file...')
-    dflist = [est_t, var_t, est_m, var_m, est_f, var_f]
-    df_all = extract_datapoints(dflist)
+    dflist = [est_m, var_m, est_f, var_f]
+    df_mf = extract_datapoints(dflist)
     path = os.path.join(out_dir, 'ddf--datapoints--population--by--country_code--year--gender--age.csv')
-    df_all.to_csv(path, index=False)
+    df_mf.to_csv(path, index=False)
+
+    df_t = extract_datapoints([est_t, var_t])
+    df_t = df_t.drop('gender', axis=1)  # we don't need gender = both sexes in datapoint
+    path = os.path.join(out_dir, 'ddf--datapoints--population--by--country_code--year--age.csv')
+    df_t.to_csv(path, index=False)
 
     print('creating concepts files...')
     concepts = extract_concepts(est_t)

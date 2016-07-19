@@ -1,6 +1,7 @@
 key,value,file
 concept,concept_type,ddf--concepts.csv
 concept,name,ddf--concepts.csv
+"country_code,year,age",population,ddf--datapoints--population--by--country_code--year--age.csv
 "country_code,year,gender,age",population,ddf--datapoints--population--by--country_code--year--gender--age.csv
 age,name,ddf--entities--age.csv
 country_code,name,ddf--entities--country_code.csv
