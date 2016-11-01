@@ -6,7 +6,7 @@ Link: http://esa.un.org/unpd/wpp/Download/Standard/Interpolated/
 import pandas as pd
 import numpy as np
 import os
-from ddf_utils.str import to_concept_id
+from ddf_utils.str import to_concept_id, format_float_digits
 from ddf_utils.index import create_index_file
 
 
@@ -131,14 +131,14 @@ def extract_datapoints(dflist):
     to_concat = []
 
     for df in dflist:
-        e = df.drop('Major area, region, country or area *', axis=1)
+        e = df.drop(['Variant', 'Major area, region, country or area *'], axis=1)
         e = e.set_index([
-            'Variant', 'Country code', 'Reference date (as of 1 July)', 'Gender'])
+            'Country code', 'Reference date (as of 1 July)', 'Gender'])
         e.columns.name = 'Age'
         df_new = e.stack().reset_index().rename(columns={0: 'Population'})
         to_concat.append(df_new)
 
-    df_all = pd.concat(to_concat)
+    df_all = pd.concat(to_concat, ignore_index=True)
     df_all = df_all.rename(columns={'Reference date (as of 1 July)': 'Year'})
     df_all.columns = list(map(to_concept_id, df_all.columns))
 
@@ -146,6 +146,11 @@ def extract_datapoints(dflist):
     df_all['age'] = df_all['age'].astype('category', categories=list(df_all['age'].unique()), ordered=True)
 
     df_all = df_all.sort_values(by=['country_code', 'year', 'age', 'gender'])
+
+    # the only duplicates are in year 2015. There are both esitmated and observed data.
+    # But both are same so we can drop them.
+    df_all = df_all.drop_duplicates()
+    # assert not np.any(df_all.duplicated(['country_code', 'year', 'age', 'gender']))
 
     return df_all
 
@@ -163,13 +168,21 @@ if __name__ == '__main__':
     print('creating datapoint file...')
     dflist = [est_m, var_m, est_f, var_f]
     df_mf = extract_datapoints(dflist)
-    path = os.path.join(out_dir, 'ddf--datapoints--population--by--country_code--year--gender--age.csv')
-    df_mf.to_csv(path, index=False)
+    for geo, idxs in df_mf.groupby(by='country_code').groups.items():
+        path = os.path.join(out_dir, 
+                            'ddf--datapoints--population--by--country_code-{}--year--gender--age.csv'.format(geo))
+        to_save = df_mf.ix[idxs]
+        to_save = to_save.sort_values(by=['country_code', 'year'])
+        to_save.ix[idxs].to_csv(path, index=False, float_format='%.15g')
 
     df_t = extract_datapoints([est_t, var_t])
     df_t = df_t.drop('gender', axis=1)  # we don't need gender = both sexes in datapoint
-    path = os.path.join(out_dir, 'ddf--datapoints--population--by--country_code--year--age.csv')
-    df_t.to_csv(path, index=False)
+    for geo, idxs in df_t.groupby(by='country_code').groups.items():
+        path = os.path.join(out_dir, 
+                            'ddf--datapoints--population--by--country_code-{}--year--age.csv'.format(geo))
+        to_save = df_t.ix[idxs]
+        to_save = to_save.sort_values(by=['country_code', 'year'])
+        to_save.ix[idxs].to_csv(path, index=False, float_format='%.15g')
 
     print('creating concepts files...')
     concepts = extract_concepts(est_t)
