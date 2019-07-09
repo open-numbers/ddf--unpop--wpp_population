@@ -1,0 +1,564 @@
+# -*- coding: utf-8 -*-
+
+"""
+A script to parse UN WPP data files from https://population.un.org/wpp2019/Download/Standard/Population/
+"""
+
+import os
+import logging
+import numpy as np
+import pandas as pd
+
+from functools import partial
+
+from ddf_utils.model.ddf import Entity, EntityDomain, Concept
+from ddf_utils.str import format_float_digits, to_concept_id
+
+
+logger = logging.getLogger("etl")
+
+location_source = '../source/WPP2019_F01_LOCATIONS.XLSX'
+
+output_dir = '../../'
+
+CONCEPTS = dict()
+ENTITYDOMAINS = dict()
+AGE_GROUP_MAPPING = dict()
+
+
+def remove_separators(df):
+    """removing 'Label/Separator' from df"""
+    if "Type" in df.columns:
+        return df[df['Type'] != 'Label/Separator']
+    return df
+
+
+def read_un_xls(fp, **kwargs):
+    df = pd.read_excel(fp, encoding='latin1', **kwargs)
+    return remove_separators(df)
+
+
+def merge_xls_variants(fp, v1, v2, dims, axis=0):
+    df1 = read_un_xls(fp, skiprows=16, sheet_name=v1).set_index(dims)
+    df2 = read_un_xls(fp, skiprows=16, sheet_name=v2).set_index(dims)
+
+    if axis == 0:
+        df = pd.concat([df1, df2], axis=axis, sort=False)
+        return df.reset_index().drop_duplicates(subset=dims)
+    else:
+        df = pd.merge(df1, df2, how='outer', left_index=True, right_index=True)
+        return df.reset_index()
+
+
+def create_output_dir(d, exist_ok=True):
+    p = os.path.join(output_dir, d)
+    os.makedirs(p, exist_ok=exist_ok)
+    return p
+
+
+def location_metadata() -> pd.DataFrame :
+    loc = read_un_xls(location_source, skiprows=16, dtype=str)
+    # print(loc.columns)
+    res = loc.loc[:, :"No income group available\n1518"].copy()
+    # cleanup spaces in strings
+    for c in res.columns:
+        res[c] = res[c].str.strip()
+    return res
+
+
+def create_geo_domain(loc_) -> EntityDomain:
+    """create the geo domain for location list"""
+    loc = loc_[loc_['Code'] != '25']
+
+    # adding Entities
+    entity_map = {'Development group': 'un_development_group',
+                  'Income group': 'wb_income_group',
+                  'Geographic region': 'geographic_region',
+                  'SDG region': 'sdg_region',
+                  'SDG subregion': 'sdg_subregion',
+                  'Subregion': 'subregion',
+                  'Country/Area': 'country'}
+
+    prop_map = {'Code.2': 'subregion',
+                'Code.3': 'sdg_subregion',
+                'Code.4': 'sdg_region',
+                'Code.5': 'geographic_region'}
+
+    un_wb_groups = {'un_development_group':
+                    ['More developed regions\n901',
+                     'Less developed regions\n902',
+                     'Least developed countries\n941',
+                     'Less developed regions, excluding least developed countries\n934',
+                     'Less developed regions, excluding China\n948',
+                     'Land-Locked Developing Countries (LLDC)\n1636',
+                     'Small Island Developing States (SIDS)\n1637'],
+                    'wb_income_group':
+                    ['High-income Countries\n1503',
+                     'Middle-income Countries\n1517',
+                     'Upper-middle-income Countries\n1502',
+                     'Lower-middle-income Countries\n1501',
+                     'Low-income Countries\n1500',
+                     'No income group available\n1518']}
+
+    domain = EntityDomain(id='geo', entities=[])
+    domain_id = 'geo'
+    for _, row in loc.iterrows():
+        props = {'name': row['Region, subregion, country or area*'].strip()}
+        # entity set
+        if not pd.isnull(row['Name']):
+            sets = [entity_map[row['Name']]]
+        else:
+            sets = ['global']  # only global has no location type name in the sheet.
+        # set properties
+        if not pd.isnull(row['ISO3 Alpha-code']):
+            props['iso3'] = row['ISO3 Alpha-code']
+        for k, v in prop_map.items():
+            if not pd.isnull(row[k]):
+                props[v] = row[k]
+        # un groups/wb groups, which could be a list.
+        for g, vs in un_wb_groups.items():
+            res = list()
+            for v in vs:
+                if not pd.isnull(row[v]):
+                    res.append(row[k])
+            if len(res) > 0:
+                props[g] = ', '.join(res)
+
+        ent = Entity(id=row['Location code'],
+                     domain=domain_id, sets=sets, props=props)
+        domain.add_entity(ent)
+
+    return domain
+
+
+def assert_path_not_exist(p):
+    assert not os.path.exists(p), f"{p} already exists!"
+
+
+def serve_dp(df, concept, by, path, split_domain_set=None):
+    df[concept] = df[concept].map(format_float_digits)
+    cols = [*by, concept]
+
+    if split_domain_set:
+        d, s = split_domain_set
+        domain = ENTITYDOMAINS[d]
+        for eset in domain.entity_sets:
+            if eset == s:
+                ents = [e.id for e in domain[eset]]
+                for g in df[df[d].isin(ents)][d].unique():
+                    by_new = by.copy()
+                    by_new[by.index(d)] = f'{s}-{g}'
+                    cols_new = cols.copy()
+                    cols_new[by.index(d)] = eset
+                    by_str = '--'.join(by_new)
+                    fp = os.path.join(path, f'ddf--datapoints--{concept}--by--{by_str}.csv')
+                    assert_path_not_exist(fp)
+                    df_ = df[df[d] == g].copy()
+                    df_ = df_.rename(columns={d: eset})
+                    df_[cols_new].to_csv(fp, index=False)
+            else:
+                ents = [e.id for e in domain[eset]]
+                by_new = by.copy()
+                by_new[by.index(d)] = eset
+                cols_new = cols.copy()
+                cols_new[by.index(d)] = eset
+                by_str = '--'.join(by_new)
+                fp = os.path.join(path, f'ddf--datapoints--{concept}--by--{by_str}.csv')
+                assert_path_not_exist(fp)
+                df_ = df[df[d].isin(ents)].copy()
+                df_ = df_.rename(columns={d: eset})
+                df_[cols_new].to_csv(fp, index=False)
+    else:
+        by_str = '--'.join(by)
+        fp = os.path.join(path, f'ddf--datapoints--{concept}--by--{by_str}.csv')
+        assert_path_not_exist(fp)
+        df[cols].to_csv(fp, index=False)
+
+
+# begin
+def create_measure_concepts():
+    """read metadata and return all measure concepts and names"""
+    # TODO
+    pass
+
+
+def combine_male_female(df_male, df_female):
+    df_male = append_col(df_male, gender=1)
+    df_female = append_col(df_female, gender=2)
+    return pd.concat([df_male, df_female], sort=False, ignore_index=True)
+
+
+def start_year(yearspan):
+    if isinstance(yearspan, str):
+        return yearspan.split("-")[0]
+    return yearspan
+
+
+def standardise_yearincolumn(data, dims, concept, fiveyr=False, drop_columns=None, rename=None):
+    """pre-processing for xls with year in column"""
+    def _rem(s):
+        if s.endswith('_x') or s.endswith('_y'):
+            return s[:-2]
+        else:
+            return s
+
+    df = data.copy()
+    if drop_columns:
+        # also drops pd.merge result, with _x and _y
+        dc = list()
+        for d in drop_columns:
+            if d in df.columns:
+                dc.append(d)
+            if d + '_x' in df.columns:
+                dc.append(d + '_x')
+            if d + '_y' in df.columns:
+                dc.append(d + '_y')
+        if len(dc) > 0:
+            df = df.drop(dc, axis=1)
+    if rename:
+        df = df.rename(columns=rename)
+
+    df = df.set_index(dims).stack()
+    df = df.reset_index()
+    cols = [*dims, 'time', concept]
+    df.columns = cols
+    # handle duplicated columns in time
+    df['time'] = df['time'].map(_rem)
+    if fiveyr:
+        df['time'] = df['time'].map(start_year).map(int)
+    else:
+        df['time'] = df['time'].map(int)
+    df = df.drop_duplicates()
+    return df
+
+
+def append_col(df_, **kwargs):
+    df = df_.copy()
+    for k, v in kwargs.items():
+        df[k] = v
+    return df
+
+
+def age_group_to_entity_id(s):
+    if 'age' in s:
+        return AGE_GROUP_MAPPING[s]
+    else:
+        return s.replace('-', '_').replace('+', 'plus')
+
+
+def standardise_ageincolumn(data, dims, concept, age='age1yearinterval',
+                            fiveyr=False, drop_columns=None, rename=None):
+    df = data.copy()
+    if drop_columns:
+        dc = list()
+        for d in drop_columns:
+            if d in df.columns:
+                dc.append(d)
+        if len(dc) > 0:
+            df = df.drop(dc, axis=1)
+    if rename:
+        df = df.rename(columns=rename)
+
+    df = df.set_index(dims).stack()
+    df = df.reset_index()
+    cols = [*dims, age, concept]
+    df.columns = cols
+    if fiveyr:
+        df['time'] = df['time'].map(start_year).map(int)
+    else:
+        df['time'] = df['time'].map(int)
+    df[age] = df[age].map(age_group_to_entity_id)
+    return df
+
+
+def standardise_multiindicator(data, dims, rename, drop_columns=None):
+    df = data.copy()
+    if drop_columns:
+        dc = list()
+        for d in drop_columns:
+            if d in df.columns:
+                dc.append(d)
+        if len(dc) > 0:
+            df = df.drop(dc, axis=1)
+    df = df.rename(columns=rename)
+    df = df.set_index(dims)
+
+    res = dict()
+    for c in df:
+        res[c] = df[[c]].reset_index()
+    return res
+
+
+# TODO: move this to ddf_utils?
+def serve_entity_domain(domain, out_dir, split_sets=False):
+    name = domain.id
+    if split_sets:
+        for s in domain.entity_sets:
+            ent = domain.get_entity_set(s)
+            ent_df = pd.DataFrame.from_records([e.to_dict() for e in ent])
+            ent_df.to_csv(f'../../ddf--entities--{name}--{s}.csv', index=False)
+    else:
+        ent = domain.entities
+        ent_df = pd.DataFrame.from_records([e.to_dict() for e in ent])
+        ent_df.to_csv(f'../../ddf--entities--{name}.csv', index=False)
+
+
+def select_func(filetype, freq):
+    age = None
+    dims = ['geo', 'time']
+    fiveyr = False
+
+    if filetype == 'age1incolumn':
+        f = standardise_ageincolumn
+        age = 'age1yearinterval'
+    elif filetype == 'age5incolumn':
+        f = standardise_ageincolumn
+        age = 'age5yearinterval'
+    elif filetype == 'agebroadincolumn':
+        f = standardise_ageincolumn
+        age = 'agebroad'
+    elif filetype == 'year1incolumn':
+        f = standardise_yearincolumn
+        dims = ['geo']
+    elif filetype == 'year5incolumn':
+        f = standardise_yearincolumn
+        dims = ['geo']
+    else:
+        raise ValueError(f'{filetype} not recongized')
+
+    if freq == '5yr':
+        fiveyr = True
+
+    if age:
+        return partial(f, age=age, dims=dims, fiveyr=fiveyr)
+    else:
+        return partial(f, dims=dims, fiveyr=fiveyr)
+
+
+def get_by(filetype, freq, gender=False):
+    if 'year' in filetype:
+        by = ['geo', 'time']
+    elif 'age1' in filetype:
+        by = ['geo', 'time', 'age1yearinterval']
+    elif 'age5' in filetype:
+        by = ['geo', 'time', 'age5yearinterval']
+    elif 'agebroad' in filetype:
+        by = ['geo', 'time', 'agebroad']
+    else:
+        raise ValueError(f'{filetype} not recongized')
+    if freq == '5yr':
+        by.append('freq')
+    if gender:
+        by.append('gender')
+
+    return by
+
+
+def process_file(filename, indicator, filetype, freq, rename, drop_cols):
+    func = select_func(filetype, freq)
+    if 'year' in filetype:
+        data = merge_xls_variants(filename, 'ESTIMATES', 'MEDIUM VARIANT',
+                                  dims=['Country code'], axis=1)
+        df = func(data=data, rename=rename, drop_columns=drop_cols, concept=indicator)
+    elif 'age' in filetype:
+        if freq == '1yr':
+            data = merge_xls_variants(filename, 'ESTIMATES', 'MEDIUM VARIANT',
+                                      dims=['Country code', 'Reference date (as of 1 July)'])
+        else:
+            try:
+                data = merge_xls_variants(filename, 'ESTIMATES', 'MEDIUM VARIANT',
+                                          dims=['Country code', 'Period'])
+            except KeyError:
+                data = merge_xls_variants(filename, 'ESTIMATES', 'MEDIUM VARIANT',
+                                          dims=['Country code', 'Reference date (as of 1 July)'])
+        df = func(data=data, rename=rename, drop_columns=drop_cols, concept=indicator)
+    if freq == '5yr':
+        df = append_col(df, freq='5yr')
+
+    return df
+
+
+def process_one_line_metadata(md, indicator, filetype, freq, rename, drop_cols, serve=True, split_domain_set=('geo', None)):
+    filename = os.path.join('../source', md.iloc[0]['file'])
+    print(filename)
+    df = process_file(filename, indicator, filetype, freq, rename, drop_cols)
+    if serve:
+        serve_dp_2(df, indicator, filetype, freq, split_domain_set=split_domain_set)
+    return df
+
+
+def serve_dp_2(df, indicator, filetype, freq, gender=False, split_domain_set=('geo', None)):
+    by = get_by(filetype, freq, gender=gender)
+    by_str = '--'.join(by)
+    path = create_output_dir(f'{indicator}--by--{by_str}')
+    cols = [*by, indicator]
+    df = df[cols]
+    # double checking
+    if freq == '5yr':
+        assert 1951 not in df['time'].values
+    else:
+        assert 1951 in df['time']
+    serve_dp(df, indicator, by, path, split_domain_set=split_domain_set)
+
+
+def process_file_demograph():
+    print('running on demography indicators...')
+    demograph_mappings = pd.read_excel('../source/metadata.xlsx', sheet_name='DemographyFormat')
+
+    drop_cols = ['Index', 'Variant', 'Region, subregion, country or area *',
+                 'Notes', 'Type', 'Parent code', 'Total']
+    rename = {'Country code': 'geo',
+              'Period': 'time',
+              'Reference date (as of 1 July)': 'time',
+              'Reference date (1 January - 31 December)': 'time'}
+
+    # demography indicators
+    demograph_data = merge_xls_variants('../source/WPP2019_INT_F01_ANNUAL_DEMOGRAPHIC_INDICATORS.xlsx',
+                                        'ESTIMATES', 'MEDIUM VARIANT',
+                                        dims=['Country code', 'Reference date (1 January - 31 December)'])
+    df_dict = standardise_multiindicator(demograph_data, ['geo', 'time'], rename, drop_cols)
+    gs = demograph_mappings.groupby(['indicator'])
+    for g, md in gs:
+        print(g)
+        nogender = md[pd.isnull(md['gender'])]
+        assert len(nogender) == 1
+        name = md.iloc[0]['name']
+        by = ['geo', 'time']
+        by_str = '--'.join(by)
+        path = create_output_dir(f'{g}--by--{by_str}')
+        cols = [*by, g]
+        df = df_dict[name].rename(columns={name: g})[cols]
+        df[g] = df[g].map(format_float_digits)
+        serve_dp(df, g, by, path, split_domain_set=('geo', None))
+
+        hasgender = md[~pd.isnull(md['gender'])]
+        if hasgender.empty:
+            continue
+        by = ['geo', 'time', 'gender']
+        by_str = '--'.join(by)
+        path = create_output_dir(f'{g}--by--{by_str}')
+        cols = [*by, g]
+        male_name = md[md['gender'] == 'male'].iloc[0]['name']
+        female_name = md[md['gender'] == 'female'].iloc[0]['name']
+        df_male = df_dict[male_name].rename(columns={male_name: g}).assign(gender=1)[cols]
+        df_female = df_dict[female_name].rename(columns={female_name: g}).assign(gender=2)[cols]
+        df = pd.concat([df_male, df_female], sort=False, ignore_index=True)
+        serve_dp(df, g, by, path, split_domain_set=('geo', None))
+
+
+def process_file_dep_ratio():
+    print("running on dependency ratio indicators..")
+    drop_cols = ['Index', 'Variant', 'Region, subregion, country or area *',
+                 'Notes', 'Type', 'Parent code', 'Total']
+    rename = {'Country code': 'geo',
+              'Period': 'time',
+              'Reference date (as of 1 July)': 'time',
+              'Reference date (1 January - 31 December)': 'time'}
+    # dep ratios
+    dependency_mappings = (pd.read_excel('../source/metadata.xlsx', sheet_name='DependencyFormat')
+                           .set_index('name')['indicator'].to_dict())
+    dependency_total_data = merge_xls_variants(
+        '../source/WPP2019_INT_F02C_1_ANNUAL_POPULATION_INDICATORS_DEPENDENCY_RATIOS_BOTH_SEXES.xlsx',
+        'ESTIMATES', 'MEDIUM VARIANT',
+        dims=['Country code', 'Reference date (as of 1 July)'])
+    dependency_male_data = merge_xls_variants(
+        '../source/WPP2019_INT_F02C_2_ANNUAL_POPULATION_INDICATORS_DEPENDENCY_RATIOS_MALE.xlsx',
+        'ESTIMATES', 'MEDIUM VARIANT',
+        dims=['Country code', 'Reference date (as of 1 July)'])
+    dependency_female_data = merge_xls_variants(
+        '../source/WPP2019_INT_F02C_3_ANNUAL_POPULATION_INDICATORS_DEPENDENCY_RATIOS_FEMALE.xlsx',
+        'ESTIMATES', 'MEDIUM VARIANT',
+        dims=['Country code', 'Reference date (as of 1 July)'])
+
+    by = ['geo', 'time']
+    by_str = '--'.join(by)
+    total_dict = standardise_multiindicator(dependency_total_data, by, rename, drop_cols)
+    for k, df in total_dict.items():
+        indicator = dependency_mappings[k]
+        path = create_output_dir(f'{indicator}--by--{by_str}')
+        cols = [*by, indicator]
+        df_ = df.rename(columns={k: indicator})
+        serve_dp(df_, indicator, by, path, split_domain_set=('geo', None))
+
+    male_dict = standardise_multiindicator(dependency_male_data, by, rename, drop_cols)
+    female_dict = standardise_multiindicator(dependency_female_data, by, rename, drop_cols)
+
+    assert len(male_dict.keys()) == len(female_dict.keys())
+
+    for k, male_df in male_dict.items():
+        indicator = dependency_mappings[k]
+        female_df = female_dict[k]
+
+        by_gender = ['geo', 'time', 'gender']
+        by_str = '--'.join(by_gender)
+        path = create_output_dir(f'{indicator}--by--{by_str}')
+        cols = [*by_gender, indicator]
+
+        mdf = male_df.rename(columns={k: indicator}).assign(gender=1)[cols]
+        fdf = female_df.rename(columns={k: indicator}).assign(gender=2)[cols]
+
+        df = pd.concat([mdf, fdf], sort=False, ignore_index=True)
+
+        serve_dp(df, indicator, by_gender, path, split_domain_set=('geo', None))
+
+
+def process_file_with_one_indicator():
+    print("running on files with one indicator...")
+    meta = pd.read_excel('../source/metadata.xlsx', sheet_name='New')
+    global AGE_GROUP_MAPPING
+    AGE_GROUP_MAPPING = (pd.read_excel('../source/metadata.xlsx', sheet_name='BroadAgeMap')
+                         .set_index('name')['agebroad'].to_dict())
+
+    # processing files with only one indicator
+    gs = meta.groupby(['indicator', 'type', 'freq'])
+
+    drop_cols = ['Index', 'Variant', 'Region, subregion, country or area *',
+                 'Notes', 'Type', 'Parent code', 'Total']
+    rename = {'Country code': 'geo',
+              'Period': 'time',
+              'Reference date (as of 1 July)': 'time',
+              'Reference date (1 January - 31 December)': 'time'}
+    for g, md in gs:
+        indicator, filetype, freq = g
+        print(g)
+        if filetype == 'multipleindicator':  # will process these later
+            continue
+        # handel file without gender dimension
+        nogender = md[pd.isnull(md['gender'])]
+        assert len(nogender) == 1
+        if indicator == 'population' and freq == '1yr':
+            process_one_line_metadata(nogender, indicator, filetype, freq, rename, drop_cols, split_domain_set=('geo', 'country'))
+        else:
+            process_one_line_metadata(nogender, indicator, filetype, freq, rename, drop_cols)
+
+        # then, files with gender dimension
+        hasgender = md[~pd.isnull(md['gender'])]
+        if hasgender.empty:
+            continue
+        male_md = hasgender[hasgender['gender'] == 'male']
+        male_df = process_one_line_metadata(male_md, indicator, filetype, freq, rename,
+                                            drop_cols, serve=False)
+
+        female_md = hasgender[hasgender['gender'] == 'female']
+        female_df = process_one_line_metadata(female_md, indicator, filetype, freq,
+                                              rename, drop_cols, serve=False)
+        combine_df = combine_male_female(male_df, female_df)
+        if indicator == 'population' and freq == '1yr':
+            serve_dp_2(combine_df, indicator, filetype, freq, gender=True, split_domain_set=('geo', 'country'))
+        else:
+            serve_dp_2(combine_df, indicator, filetype, freq, gender=True)
+
+
+def main():
+    loc = location_metadata()
+    domain = create_geo_domain(loc)
+    global ENTITYDOMAINS
+    ENTITYDOMAINS['geo'] = domain
+
+    process_file_demograph()
+    process_file_dep_ratio()
+    process_file_with_one_indicator()
+
+
+if __name__ == '__main__':
+    main()
