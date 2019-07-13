@@ -18,6 +18,7 @@ from ddf_utils.str import format_float_digits, to_concept_id
 logger = logging.getLogger("etl")
 
 location_source = '../source/WPP2019_F01_LOCATIONS.XLSX'
+metadata_file = '../source/metadata.xlsx'
 
 output_dir = '../../'
 
