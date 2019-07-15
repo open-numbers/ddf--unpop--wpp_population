@@ -5,6 +5,7 @@ A script to parse UN WPP data files from https://population.un.org/wpp2019/Downl
 """
 
 import os
+import os.path as osp
 import logging
 import numpy as np
 import pandas as pd
@@ -101,7 +102,7 @@ def create_geo_domain(loc_) -> EntityDomain:
                      'Low-income Countries\n1500',
                      'No income group available\n1518']}
 
-    domain = EntityDomain(id='geo', entities=[])
+    domain = EntityDomain(id='geo', entities=[], props={'name': 'Geo Locations'})
     domain_id = 'geo'
     for _, row in loc.iterrows():
         props = {'name': row['Region, subregion, country or area*'].strip()}
@@ -249,6 +250,17 @@ def age_group_to_entity_id(s):
 
 def standardise_ageincolumn(data, dims, concept, age='age1yearinterval',
                             fiveyr=False, drop_columns=None, rename=None):
+    global ENTITYDOMAINS
+    if age not in ENTITYDOMAINS:
+        ENTITYDOMAINS[age] = EntityDomain(id=age, entities=[])
+
+    all_ages = []
+
+    def age_column_to_entity(s):
+        sid = age_group_to_entity_id(s)
+        all_ages.append((sid, s))
+        return sid
+
     df = data.copy()
     if drop_columns:
         dc = list()
@@ -268,7 +280,15 @@ def standardise_ageincolumn(data, dims, concept, age='age1yearinterval',
         df['time'] = df['time'].map(start_year).map(int)
     else:
         df['time'] = df['time'].map(int)
-    df[age] = df[age].map(age_group_to_entity_id)
+
+    df[age] = df[age].map(age_column_to_entity)
+
+    # update age domain
+    age_df = pd.DataFrame(all_ages, columns=[age, 'name']).drop_duplicates()
+    for _, row in age_df.iterrows():
+        ent = Entity(id=row[age], domain=age, sets=[], props={'name': row['name']})
+        ENTITYDOMAINS[age].add_entity(ent)
+
     return df
 
 
@@ -406,6 +426,13 @@ def process_file_demograph():
     print('running on demography indicators...')
     demograph_mappings = pd.read_excel('../source/metadata.xlsx', sheet_name='DemographyFormat')
 
+    # update concepts
+    global CONCEPTS
+    for _, row in demograph_mappings.iterrows():
+        indicator = row['indicator']
+        if indicator not in CONCEPTS:
+            CONCEPTS[indicator] = Concept(id=indicator, concept_type='measure', props={'name': row['name']})
+
     drop_cols = ['Index', 'Variant', 'Region, subregion, country or area *',
                  'Notes', 'Type', 'Parent code', 'Total']
     rename = {'Country code': 'geo',
@@ -456,8 +483,15 @@ def process_file_dep_ratio():
               'Reference date (as of 1 July)': 'time',
               'Reference date (1 January - 31 December)': 'time'}
     # dep ratios
-    dependency_mappings = (pd.read_excel('../source/metadata.xlsx', sheet_name='DependencyFormat')
-                           .set_index('name')['indicator'].to_dict())
+    dependency_meta = pd.read_excel('../source/metadata.xlsx', sheet_name='DependencyFormat')
+    dependency_mappings = dependency_meta.set_index('name')['indicator'].to_dict()
+    # update concepts
+    global CONCEPTS
+    for _, row in dependency_meta.iterrows():
+        indicator = row['indicator']
+        if indicator not in CONCEPTS:
+            CONCEPTS[indicator] = Concept(id=indicator, concept_type='measure', props={'name': row['name']})
+
     dependency_total_data = merge_xls_variants(
         '../source/WPP2019_INT_F02C_1_ANNUAL_POPULATION_INDICATORS_DEPENDENCY_RATIOS_BOTH_SEXES.xlsx',
         'ESTIMATES', 'MEDIUM VARIANT',
@@ -503,12 +537,24 @@ def process_file_dep_ratio():
         serve_dp(df, indicator, by_gender, path, split_domain_set=('geo', None))
 
 
+def create_agebroad_domain(m: pd.DataFrame):
+    ents = []
+    for _, row in m.iterrows():
+        ents.append(Entity(id=row['agebroad'], props={'name': row['name']}, domain='agebroad', sets=[]))
+
+    return EntityDomain(id='agebroad', entities=ents)
+
+
 def process_file_with_one_indicator():
     print("running on files with one indicator...")
     meta = pd.read_excel('../source/metadata.xlsx', sheet_name='New')
     global AGE_GROUP_MAPPING
-    AGE_GROUP_MAPPING = (pd.read_excel('../source/metadata.xlsx', sheet_name='BroadAgeMap')
-                         .set_index('name')['agebroad'].to_dict())
+    global ENTITYDOMAINS
+    global CONCEPTS
+    age_group_md = pd.read_excel('../source/metadata.xlsx', sheet_name='BroadAgeMap')
+    AGE_GROUP_MAPPING = age_group_md.set_index('name')['agebroad'].to_dict()
+    # generate ageboard entities
+    ENTITYDOMAINS['agebroad'] = create_agebroad_domain(age_group_md)
 
     # processing files with only one indicator
     gs = meta.groupby(['indicator', 'type', 'freq'])
@@ -524,6 +570,8 @@ def process_file_with_one_indicator():
         print(g)
         if filetype == 'multipleindicator':  # will process these later
             continue
+        if indicator not in CONCEPTS:
+            CONCEPTS[indicator] = Concept(id=indicator, concept_type='measure', props={'name': md['table_name'].unique()[0]})
         # handel file without gender dimension
         nogender = md[pd.isnull(md['gender'])]
         assert len(nogender) == 1
@@ -551,14 +599,52 @@ def process_file_with_one_indicator():
 
 
 def main():
+    global ENTITYDOMAINS
+    global CONCEPTS
+    global AGE_GROUP_MAPPING
+
     loc = location_metadata()
     domain = create_geo_domain(loc)
-    global ENTITYDOMAINS
     ENTITYDOMAINS['geo'] = domain
 
+    # add freq/gender domain
+    ENTITYDOMAINS['freq'] = EntityDomain(id='freq',
+                                         entities=[Entity(id='5yr', props={'name': '5yearly'},
+                                                          domain='freq', sets=[])],
+                                         props={'name': 'Freq'})
+    ENTITYDOMAINS['gender'] = EntityDomain(id='gender',
+                                           entities=[Entity(id='1', props={'name': 'male'},
+                                                            domain='gender', sets=[]),
+                                                     Entity(id='2', props={'name': 'female'},
+                                                            domain='freq', sets=[])],
+                                           props={'name': 'Gender'})
+
+    # process datapoints
     process_file_demograph()
     process_file_dep_ratio()
     process_file_with_one_indicator()
+
+    # serving entities
+    for k, domain in ENTITYDOMAINS.items():
+        CONCEPTS[k] = Concept(id=k, concept_type='entity_domain', props=domain.props)
+        if len(domain.entity_sets) > 0:
+            for s in domain.entity_sets:
+                CONCEPTS[s] = Concept(id=s, concept_type='entity_set', props={'name': s.title(), 'domain': k})
+                df = pd.DataFrame.from_dict(domain.to_dict(eset=s))
+                df.to_csv(osp.join(output_dir, f'ddf--entities--{k}--{s}.csv'), index=False)
+        else:
+            df = pd.DataFrame.from_dict(domain.to_dict())
+            df.to_csv(osp.join(output_dir, f'ddf--entities--{k}.csv'), index=False)
+
+    # serving concepts
+    missing_concepts = {'time': ['Time', 'time'],
+                        'name': ['Name', 'string'],
+                        'domain': ['Domain', 'string']}
+    for k, v in missing_concepts.items():
+        CONCEPTS[k] = Concept(id=k, concept_type=v[1], props={'name': v[0]})
+
+    cdf = pd.DataFrame.from_records([c.to_dict() for c in CONCEPTS.values()])
+    cdf.to_csv(osp.join(output_dir, 'ddf--concepts.csv'), index=False)
 
 
 if __name__ == '__main__':
