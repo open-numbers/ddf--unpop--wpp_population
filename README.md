@@ -5,7 +5,7 @@ This dataset contains all indicators from [UN World Population Prospects][1].
 Check [the concepts file][2] for a list of all indicators.
 
 [1]: https://population.un.org/wpp/
-[2]: https://github.com/Gapminder/ddf--unpop--wpp_population2019/blob/master/ddf--concepts--continuous.csv
+[2]: https://github.com/Gapminder/ddf--unpop--wpp_population2019/blob/master/ddf--concepts.csv
 
 ## Data sources summary
 
