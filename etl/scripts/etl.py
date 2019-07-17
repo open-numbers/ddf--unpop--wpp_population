@@ -122,7 +122,7 @@ def create_geo_domain(loc_) -> EntityDomain:
             res = list()
             for v in vs:
                 if not pd.isnull(row[v]):
-                    res.append(row[k])
+                    res.append(row[v])
             if len(res) > 0:
                 props[g] = ', '.join(res)
 
@@ -616,7 +616,7 @@ def main():
                                            entities=[Entity(id='1', props={'name': 'male'},
                                                             domain='gender', sets=[]),
                                                      Entity(id='2', props={'name': 'female'},
-                                                            domain='freq', sets=[])],
+                                                            domain='gender', sets=[])],
                                            props={'name': 'Gender'})
 
     # process datapoints
@@ -639,7 +639,8 @@ def main():
     # serving concepts
     missing_concepts = {'time': ['Time', 'time'],
                         'name': ['Name', 'string'],
-                        'domain': ['Domain', 'string']}
+                        'domain': ['Domain', 'string'],
+                        'iso3': ['ISO3', 'string']}
     for k, v in missing_concepts.items():
         CONCEPTS[k] = Concept(id=k, concept_type=v[1], props={'name': v[0]})
 
