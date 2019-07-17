@@ -1,59 +1,60 @@
 agebroad,name
 0,Alive between birth and age 1
-0_1,Population under age 2
-0_4,Population under age 5
-0_14,Population under age 15
-0_17,Population under age 18
-0_19,Population under age 20
-0_24,Population under age 25
-3_4,Population aged 3-4
-3_5,Population aged 3-5
-3_6,Population aged 3-6
-4_5,Population aged 4-5
-4_6,Population aged 4-6
-5_14,Population aged 5-14
-5_10,Population aged 5-10
-5_11,Population aged 5-11
-6_9,Population aged 6-9
-6_10,Population aged 6-10
-6_11,Population aged 6-11
-6_12,Population aged 6-12
-7_10,Population aged 7-10
-7_12,Population aged 7-12
-11_16,Population aged 11-16
-11_17,Population aged 11-17
-11_18,Population aged 11-18
-12_14,Population aged 12-14
-12_16,Population aged 12-16
-12_17,Population aged 12-17
-12_18,Population aged 12-18
-13_17,Population aged 13-17
-13_18,Population aged 13-18
-13_19,Population aged 13-19
-15_17,Population aged 15-17
-18_23,Population aged 18-23
-15_24,Population aged 15-24
-15_49,Population aged 15-49
-15_59,Population aged 15-59
-15_64,Population aged 15-64
-20_64,Population aged 20-64
-20_69,Population aged 20-69
-25_49,Population aged 25-49
-25_64,Population aged 25-64
-25_69,Population aged 25-69
-15plus,Population aged 15 or over
-16plus,Population aged 16 or over
-17plus,Population aged 17 or over
-18plus,Population aged 18 or over
-20plus,Population aged 20 or over
-21plus,Population aged 21 or over
-25plus,Population aged 25 or over
-40plus,Population aged 40 or over
-50plus,Population aged 50 or over
-60plus,Population aged 60 or over
-65plus,Population aged 65 or over
-70plus,Population aged 70 or over
-75plus,Population aged 75 or over
-80plus,Population aged 80 or over
-85plus,Population aged 85 or over
-90plus,Population aged 90 or over
+0_1,0-1
+0_4,0-4
+0_14,0-14
+0_17,0-17
+0_19,0-19
+0_24,0-24
+3_4,3-4
+3_5,3-5
+3_6,3-6
+4_5,4-5
+4_6,4-6
+5_14,5-14
+5_10,5-10
+5_11,5-11
+6_9,6-9
+6_10,6-10
+6_11,6-11
+6_12,6-12
+7_10,7-10
+7_12,7-12
+11_16,11-16
+11_17,11-17
+11_18,11-18
+12_14,12-14
+12_16,12-16
+12_17,12-17
+12_18,12-18
+13_17,13-17
+13_18,13-18
+13_19,13-19
+15_17,15-17
+18_23,18-23
+15_24,15-24
+15_49,15-49
+15_59,15-59
+15_64,15-64
+20_64,20-64
+20_69,20-69
+25_49,25-49
+25_64,25-64
+25_69,25-69
+15plus,15+
+16plus,16+
+17plus,17+
+18plus,18+
+20plus,20+
+21plus,21+
+25plus,25+
+50plus,50+
+60plus,60+
+65plus,65+
+70plus,70+
+75plus,75+
+80plus,80+
+85plus,85+
+90plus,90+
+total,Total
+40plus,40+

@@ -8,7 +8,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2019-07-05T08:16:14.085270+00:00",
+    "created": "2019-07-16T10:28:17.336971+00:00",
     "translations": [],
     "version": "0.0.1",
     "resources": [
@@ -5053,36 +5053,18 @@
             }
         },
         {
-            "name": "ddf--concepts--continuous",
-            "path": "ddf--concepts--continuous.csv",
+            "name": "ddf--concepts",
+            "path": "ddf--concepts.csv",
             "schema": {
                 "fields": [
                     {
                         "name": "concept"
                     },
                     {
-                        "name": "name"
-                    },
-                    {
                         "name": "concept_type"
-                    }
-                ],
-                "primaryKey": "concept"
-            }
-        },
-        {
-            "name": "ddf--concepts--discrete",
-            "path": "ddf--concepts--discrete.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "concept"
                     },
                     {
                         "name": "name"
-                    },
-                    {
-                        "name": "concept_type"
                     },
                     {
                         "name": "domain"
@@ -78300,8 +78282,7 @@
                 ],
                 "value": "concept_type",
                 "resources": [
-                    "ddf--concepts--continuous",
-                    "ddf--concepts--discrete"
+                    "ddf--concepts"
                 ]
             },
             {
@@ -78310,7 +78291,7 @@
                 ],
                 "value": "domain",
                 "resources": [
-                    "ddf--concepts--discrete"
+                    "ddf--concepts"
                 ]
             },
             {
@@ -78319,8 +78300,7 @@
                 ],
                 "value": "name",
                 "resources": [
-                    "ddf--concepts--continuous",
-                    "ddf--concepts--discrete"
+                    "ddf--concepts"
                 ]
             }
         ],
