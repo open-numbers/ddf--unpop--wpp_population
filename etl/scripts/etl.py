@@ -59,76 +59,92 @@ def create_output_dir(d, exist_ok=True):
 
 
 def location_metadata() -> pd.DataFrame :
-    loc = read_un_xls(location_source, skiprows=16, dtype=str)
+    loc = read_un_xls(location_source, sheet_name='DB', dtype=str)
     # print(loc.columns)
-    res = loc.loc[:, :"No income group available\n1518"].copy()
+    res = loc.loc[:, :"WB_NoIncomeGroup"].copy()
     # cleanup spaces in strings
     for c in res.columns:
         res[c] = res[c].str.strip()
     return res
 
 
-def create_geo_domain(loc_) -> EntityDomain:
+def create_geo_domain(loc_: pd.DataFrame) -> EntityDomain:
     """create the geo domain for location list"""
-    loc = loc_[loc_['Code'] != '25']
+    domain = EntityDomain(id='geo', entities=[], props={'name': 'Geographic Locations'})
+    loc = loc_.copy()
 
-    # adding Entities
-    entity_map = {'Development group': 'un_development_group',
-                  'Income group': 'wb_income_group',
-                  'Geographic region': 'geographic_region',
-                  'SDG region': 'sdg_region',
-                  'SDG subregion': 'sdg_subregion',
-                  'Subregion': 'subregion',
-                  'Country/Area': 'country'}
+    loc = loc.set_index('LocID')
 
-    prop_map = {'Code.2': 'subregion',
-                'Code.3': 'sdg_subregion',
-                'Code.4': 'sdg_region',
-                'Code.5': 'geographic_region'}
+    # speical mapping for un developing groups
+    special_un_group = {
+        '1636': 'un_landlocked_group',
+        '1637': 'un_landlocked_group'
+    }
 
-    un_wb_groups = {'un_development_group':
-                    ['More developed regions\n901',
-                     'Less developed regions\n902',
-                     'Least developed countries\n941',
-                     'Less developed regions, excluding least developed countries\n934',
-                     'Less developed regions, excluding China\n948',
-                     'Land-Locked Developing Countries (LLDC)\n1636',
-                     'Small Island Developing States (SIDS)\n1637'],
-                    'wb_income_group':
-                    ['High-income Countries\n1503',
-                     'Middle-income Countries\n1517',
-                     'Upper-middle-income Countries\n1502',
-                     'Lower-middle-income Countries\n1501',
-                     'Low-income Countries\n1500',
-                     'No income group available\n1518']}
+    # mapping for parent id and its entity set
+    parentid_eset_mapping = {
+        '1803': 'un_development_group',
+        '902': 'un_less_developed_region',
+        '1802': 'wb_income_group',
+        '1517': 'wb_middle_income_country',
+        '1840': 'geographic_region'
+    }
 
-    domain = EntityDomain(id='geo', entities=[], props={'name': 'Geo Locations'})
-    domain_id = 'geo'
-    for _, row in loc.iterrows():
-        props = {'name': row['Region, subregion, country or area*'].strip()}
-        # entity set
-        if not pd.isnull(row['Name']):
-            sets = [entity_map[row['Name']]]
+    # mapping for location type and its entity set
+    loctype_eset_mapping = {
+        '12': 'sdg_region',
+        '3': 'geographic_subregion',
+        '4': 'country',
+        '24': 'sdg_subregion'
+    }
+
+    # property columns and entity set mappings
+    colname_entityset_mapping = {
+        'ISO3_Code': 'iso3',
+        'SubRegID': 'geographic_subregion',
+        'SDGRegID': 'sdg_region',
+        'GeoRegID': 'geographic_region',
+        'MoreDev': 'un_development_group',
+        'LessDev': 'un_development_group',
+        'LeastDev': 'un_less_developed_region',
+        'oLessDev': 'un_less_developed_region',
+        # 'LessDev_ExcludingChina': 'un_development_group',  # NOTE: this overlaps with LessDev so we don't keep it.
+        'LLDC': 'un_landlocked_group',
+        'SIDS': 'un_landlocked_group',
+        'WB_HIC': 'wb_income_group',
+        'WB_MIC': 'wb_income_group',
+        'WB_LIC': 'wb_income_group',
+        'WB_NoIncomeGroup': 'wb_income_group',
+        'WB_UMIC': 'wb_middle_income_country',
+        'WB_LMIC': 'wb_middle_income_country'
+    }
+
+    for l, row in loc.iterrows():
+        if l == '900':  # world
+            ent = Entity(id=l, sets=['global'], props={'name': 'WORLD'}, domain='geo')
         else:
-            sets = ['global']  # only global has no location type name in the sheet.
-        # set properties
-        if not pd.isnull(row['ISO3 Alpha-code']):
-            props['iso3'] = row['ISO3 Alpha-code']
-        for k, v in prop_map.items():
-            if not pd.isnull(row[k]):
-                props[v] = row[k]
-        # un groups/wb groups, which could be a list.
-        for g, vs in un_wb_groups.items():
-            res = list()
-            for v in vs:
-                if not pd.isnull(row[v]):
-                    res.append(row[v])
-            if len(res) > 0:
-                props[g] = ', '.join(res)
+            loctype = row['LocType']
+            if loctype == '25':  # Label/Separator
+                continue
 
-        ent = Entity(id=row['Location code'],
-                     domain=domain_id, sets=sets, props=props)
+            if l in special_un_group:
+                sets = [special_un_group[l]]
+            elif loctype in loctype_eset_mapping:
+                sets = [loctype_eset_mapping[loctype]]
+            else:
+                parentid = row['ParentID']
+                sets = [parentid_eset_mapping[parentid]]
+
+            props = dict()
+            props['name'] = row['Location']
+            for k, v in colname_entityset_mapping.items():
+                if not pd.isnull(row[k]):
+                    assert v not in props.keys(), f"duplicated key {v} for {l}: {row[k]}, {props[v]}"
+                    props[v] = row[k]
+            ent = Entity(id=l, sets=sets, props=props, domain='geo')
+
         domain.add_entity(ent)
+
 
     return domain
 
@@ -619,7 +635,7 @@ def main():
                                                             domain='gender', sets=[])],
                                            props={'name': 'Gender'})
 
-    # process datapoints
+    # # process datapoints
     process_file_demograph()
     process_file_dep_ratio()
     process_file_with_one_indicator()
@@ -629,7 +645,9 @@ def main():
         CONCEPTS[k] = Concept(id=k, concept_type='entity_domain', props=domain.props)
         if len(domain.entity_sets) > 0:
             for s in domain.entity_sets:
-                CONCEPTS[s] = Concept(id=s, concept_type='entity_set', props={'name': s.title(), 'domain': k})
+                concept_name = s.replace('_', ' ').title().replace('Un', 'UN').replace('Wb', 'WB').replace('Sdg', 'SDG')
+                print(concept_name)
+                CONCEPTS[s] = Concept(id=s, concept_type='entity_set', props={'name': concept_name, 'domain': k})
                 df = pd.DataFrame.from_dict(domain.to_dict(eset=s))
                 df.to_csv(osp.join(output_dir, f'ddf--entities--{k}--{s}.csv'), index=False)
         else:
