@@ -52,15 +52,18 @@ sex_ratio,measure,Sex ratio by broad age group (males per 100 females by age gro
 survivors,measure,"Life table survivors, l(x), at exact age (x), both sexes",
 u40mr,measure,"Under-forty mortality, 40q0, for both sexes combined (deaths under age 40 per 1,000 live births)",
 u60mr,measure,"Under-sixty mortality, 60q0, for both sexes combined (deaths under age 60 per 1,000 live births)",
-geo,entity_domain,Geo Locations,
-geographic_region,entity_set,Geographic_Region,geo
-sdg_region,entity_set,Sdg_Region,geo
-subregion,entity_set,Subregion,geo
-global,entity_set,Global,geo
-wb_income_group,entity_set,Wb_Income_Group,geo
-un_development_group,entity_set,Un_Development_Group,geo
+geo,entity_domain,Geographic Locations,
+geographic_subregion,entity_set,Geographic Subregion,geo
+un_less_developed_region,entity_set,UN Less Developed Region,geo
+wb_income_group,entity_set,WB Income Group,geo
 country,entity_set,Country,geo
-sdg_subregion,entity_set,Sdg_Subregion,geo
+global,entity_set,Global,geo
+sdg_region,entity_set,SDG Region,geo
+geographic_region,entity_set,Geographic Region,geo
+wb_middle_income_country,entity_set,WB Middle Income Country,geo
+un_development_group,entity_set,UN Development Group,geo
+un_landlocked_group,entity_set,UN Landlocked Group,geo
+sdg_subregion,entity_set,SDG Subregion,geo
 freq,entity_domain,Freq,
 gender,entity_domain,Gender,
 agebroad,entity_domain,,
