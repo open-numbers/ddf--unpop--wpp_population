@@ -53,17 +53,17 @@ survivors,measure,"Life table survivors, l(x), at exact age (x), both sexes",
 u40mr,measure,"Under-forty mortality, 40q0, for both sexes combined (deaths under age 40 per 1,000 live births)",
 u60mr,measure,"Under-sixty mortality, 60q0, for both sexes combined (deaths under age 60 per 1,000 live births)",
 geo,entity_domain,Geographic Locations,
-wb_income_group,entity_set,WB Income Group,geo
-un_development_group,entity_set,UN Development Group,geo
-geographic_subregion,entity_set,Geographic Subregion,geo
-un_less_developed_region,entity_set,UN Less Developed Region,geo
-sdg_region,entity_set,SDG Region,geo
-country,entity_set,Country,geo
 un_landlocked_group,entity_set,UN Landlocked Group,geo
-geographic_region,entity_set,Geographic Region,geo
-wb_middle_income_country,entity_set,WB Middle Income Country,geo
-sdg_subregion,entity_set,SDG Subregion,geo
 global,entity_set,Global,geo
+wb_income_group,entity_set,WB Income Group,geo
+country,entity_set,Country,geo
+geographic_subregion,entity_set,Geographic Subregion,geo
+geographic_region,entity_set,Geographic Region,geo
+sdg_subregion,entity_set,SDG Subregion,geo
+wb_middle_income_country,entity_set,WB Middle Income Country,geo
+sdg_region,entity_set,SDG Region,geo
+un_development_group,entity_set,UN Development Group,geo
+un_less_developed_region,entity_set,UN Less Developed Region,geo
 freq,entity_domain,Freq,
 gender,entity_domain,Gender,
 agebroad,entity_domain,,
