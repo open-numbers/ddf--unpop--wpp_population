@@ -193,13 +193,6 @@ def serve_dp(df, concept, by, path, split_domain_set=None):
         df[cols].to_csv(fp, index=False)
 
 
-# begin
-def create_measure_concepts():
-    """read metadata and return all measure concepts and names"""
-    # TODO
-    pass
-
-
 def combine_male_female(df_male, df_female):
     df_male = append_col(df_male, gender=1)
     df_female = append_col(df_female, gender=2)
@@ -663,7 +656,7 @@ def main():
         CONCEPTS[k] = Concept(id=k, concept_type=v[1], props={'name': v[0]})
 
     cdf = pd.DataFrame.from_records([c.to_dict() for c in CONCEPTS.values()])
-    cdf.to_csv(osp.join(output_dir, 'ddf--concepts.csv'), index=False)
+    cdf.sort_values(by='concept').to_csv(osp.join(output_dir, 'ddf--concepts.csv'), index=False)
 
 
 if __name__ == '__main__':
