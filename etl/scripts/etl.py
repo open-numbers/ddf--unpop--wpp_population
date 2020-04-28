@@ -578,6 +578,7 @@ def process_file_with_one_indicator():
         indicator, filetype, freq = g
         print(g)
         if filetype == 'multipleindicator':  # will process these later
+            print("skipped for later")
             continue
         if indicator not in CONCEPTS:
             CONCEPTS[indicator] = Concept(id=indicator, concept_type='measure', props={'name': md['table_name'].unique()[0]})
@@ -628,7 +629,7 @@ def main():
                                                             domain='gender', sets=[])],
                                            props={'name': 'Gender'})
 
-    # # process datapoints
+    # process datapoints
     process_file_demograph()
     process_file_dep_ratio()
     process_file_with_one_indicator()
