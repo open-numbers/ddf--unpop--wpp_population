@@ -36,7 +36,7 @@ def remove_separators(df):
 
 
 def read_un_xls(fp, **kwargs):
-    df = pd.read_excel(fp, encoding='latin1', **kwargs)
+    df = pd.read_excel(fp,  **kwargs)
     return remove_separators(df)
 
 
