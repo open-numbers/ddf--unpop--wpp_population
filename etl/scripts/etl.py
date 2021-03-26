@@ -36,7 +36,7 @@ def remove_separators(df):
 
 
 def read_un_xls(fp, **kwargs):
-    df = pd.read_excel(fp, encoding='latin1', **kwargs)
+    df = pd.read_excel(fp,  **kwargs)
     return remove_separators(df)
 
 
@@ -191,13 +191,6 @@ def serve_dp(df, concept, by, path, split_domain_set=None):
         fp = os.path.join(path, f'ddf--datapoints--{concept}--by--{by_str}.csv')
         assert_path_not_exist(fp)
         df[cols].to_csv(fp, index=False)
-
-
-# begin
-def create_measure_concepts():
-    """read metadata and return all measure concepts and names"""
-    # TODO
-    pass
 
 
 def combine_male_female(df_male, df_female):
@@ -585,6 +578,7 @@ def process_file_with_one_indicator():
         indicator, filetype, freq = g
         print(g)
         if filetype == 'multipleindicator':  # will process these later
+            print("skipped for later")
             continue
         if indicator not in CONCEPTS:
             CONCEPTS[indicator] = Concept(id=indicator, concept_type='measure', props={'name': md['table_name'].unique()[0]})
@@ -635,7 +629,7 @@ def main():
                                                             domain='gender', sets=[])],
                                            props={'name': 'Gender'})
 
-    # # process datapoints
+    # process datapoints
     process_file_demograph()
     process_file_dep_ratio()
     process_file_with_one_indicator()
@@ -663,7 +657,7 @@ def main():
         CONCEPTS[k] = Concept(id=k, concept_type=v[1], props={'name': v[0]})
 
     cdf = pd.DataFrame.from_records([c.to_dict() for c in CONCEPTS.values()])
-    cdf.to_csv(osp.join(output_dir, 'ddf--concepts.csv'), index=False)
+    cdf.sort_values(by='concept').to_csv(osp.join(output_dir, 'ddf--concepts.csv'), index=False)
 
 
 if __name__ == '__main__':
